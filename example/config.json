@@ -1,0 +1,7 @@
+{
+    "basePath": "D:\\MyProject\\parser\\example",
+    "excelPath": "\\data\\excel",
+    "middleWare": "\\data\\middleward",
+    "output": "\\data\\resource",
+    "log": "\\data\\log"
+}
