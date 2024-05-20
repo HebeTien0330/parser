@@ -63,6 +63,7 @@ class WriterTemplete(BaseWriter):
 
 ### 自定义
     如果需要对不同项目定义不同的输出路径、导表逻辑，自定义template中的模板即可
+    具体参考example文件夹
 
 ### TODO:
     1、增加导表错误提示，帮助定位问题
