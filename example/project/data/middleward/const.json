@@ -1,0 +1,9300 @@
+{
+    "MAIL_LIFE": {
+        "value": 123456.0
+    },
+    "INVENTORY_MAX_CAPACITY": {
+        "value": 99999.0
+    },
+    "GUIDE_INIT": {
+        "value": 1.0
+    },
+    "ANNOUNCE_REWARD": {
+        "value": [
+            [
+                1,
+                1000000
+            ],
+            [
+                2,
+                50
+            ]
+        ]
+    },
+    "SUGGEST_REPLY": {
+        "value": [
+            1,
+            2,
+            2,
+            4,
+            5
+        ]
+    },
+    "CHANGE_NAME_COST": {
+        "value": [
+            0,
+            0,
+            500
+        ]
+    },
+    "HERO_STAR_BROADCAST": {
+        "value": 7.0
+    },
+    "BOSS_HPSTACK": {
+        "value": 3.0
+    },
+    "DEFAULT_AVATAR_ID": {
+        "value": [
+            200140
+        ]
+    },
+    "RECHARGE_CARD": {
+        "value": [
+            1,
+            2,
+            10
+        ]
+    },
+    "INIT_REWARD": {
+        "value": [
+            [
+                19,
+                100
+            ],
+            [
+                3,
+                5000
+            ],
+            [
+                1,
+                10000
+            ],
+            [
+                1006,
+                10
+            ],
+            [
+                1007,
+                10
+            ],
+            [
+                1008,
+                1
+            ],
+            [
+                1009,
+                5
+            ],
+            [
+                1010,
+                10
+            ],
+            [
+                2001,
+                10
+            ],
+            [
+                151,
+                1
+            ],
+            [
+                1001,
+                20
+            ],
+            [
+                50100,
+                20
+            ],
+            [
+                623,
+                10000
+            ],
+            [
+                54020,
+                20
+            ],
+            [
+                54200,
+                1
+            ],
+            [
+                414,
+                50
+            ],
+            [
+                54300,
+                10
+            ],
+            [
+                60001,
+                1
+            ],
+            [
+                54400,
+                100
+            ]
+        ]
+    },
+    "INIT_DENGLU_REWARD": {
+        "value": [
+            [
+                2,
+                68888
+            ],
+            [
+                1,
+                10000000
+            ],
+            [
+                110,
+                5
+            ],
+            [
+                111,
+                5
+            ],
+            [
+                100090,
+                1
+            ],
+            [
+                800001,
+                1
+            ],
+            [
+                800002,
+                1
+            ],
+            [
+                800003,
+                1
+            ],
+            [
+                800004,
+                1
+            ],
+            [
+                800005,
+                1
+            ],
+            [
+                800006,
+                1
+            ]
+        ]
+    },
+    "INIT_SKILL_POINT": {
+        "value": 30.0
+    },
+    "SERVER_LEVEL": {
+        "value": [
+            11,
+            30
+        ]
+    },
+    "SERVER_LEVEL_MIN": {
+        "value": 30
+    },
+    "SERVER_NEXT_NOTICE_HOURS": {
+        "value": 2
+    },
+    "WORLDMAP_SCALE_ARGS": {
+        "value": [
+            0.5,
+            0.7,
+            1,
+            1.2,
+            1.5
+        ]
+    },
+    "WORLDMAP_SCALE_NORMAL": {
+        "value": 2
+    },
+    "WORLDMAP_SCALE_NORMAL_LANDSCAPE": {
+        "value": 2
+    },
+    "WORLDMAP_DOUBLE_FINGER_CONTROL": {
+        "value": 10
+    },
+    "SkipChannel": {
+        "value": [
+            "37wan",
+            "wanba"
+        ]
+    },
+    "FIRST_FOUR_PAY_REWARD": {},
+    "FIRST_FOUR_PAY_MC": {
+        "value": "charge_char_01"
+    },
+    "FIRST_FOUR_PAY_LEVEL": {
+        "value": 20
+    },
+    "AUTOUP_UNLOCK_LEVEL": {
+        "value": 50
+    },
+    "GLADIATOR_DEFEAT": {
+        "value": "轻轻松松把你打翻在地，问你服不服？"
+    },
+    "QUALITY_MIN": {
+        "value": 2
+    },
+    "STAGE_DIAMOND_NEED_VIP": {
+        "value": 2
+    },
+    "ATK_FACTOR": {
+        "value": 1
+    },
+    "DEF_FACTOR": {
+        "value": 2
+    },
+    "DAMAGE_MINIMUM_FACTOR": {
+        "value": 0.1
+    },
+    "BATTLE_TIMES_TREASURE_RAID": {
+        "value": 10
+    },
+    "BATTLE_TIMES_GLADIATOR": {
+        "value": 20
+    },
+    "BATTLE_TIMES_killGeneral": {
+        "value": 20
+    },
+    "BATTLE_TIMES_armyDungeon": {
+        "value": 10
+    },
+    "BATTLE_TIMES_stage": {
+        "value": 12
+    },
+    "BATTLE_TIMES_historyDungeon": {
+        "value": 20
+    },
+    "BATTLE_TIMES_levyFight": {
+        "value": 5
+    },
+    "BATTLE_TIMES_expeditionFight": {
+        "value": 20
+    },
+    "SPD_FACTOR_m": {
+        "value": 0.3
+    },
+    "SPD_FACTOR_n": {
+        "value": 100
+    },
+    "SPD_FACTOR_t": {
+        "value": 0.05
+    },
+    "ACC_FACTOR_m": {
+        "value": 0.3
+    },
+    "ACC_FACTOR_n": {
+        "value": 100
+    },
+    "ACC_FACTOR_t": {
+        "value": 0.95
+    },
+    "CRT_FACTOR_m": {
+        "value": 0.3
+    },
+    "CRT_FACTOR_n": {
+        "value": 100
+    },
+    "CRT_FACTOR_t": {
+        "value": 0.05
+    },
+    "RCS_FACTOR_m": {
+        "value": 0.3
+    },
+    "RCS_FACTOR_n": {
+        "value": 100
+    },
+    "RCS_FACTOR_t": {
+        "value": 0
+    },
+    "AVI_FACTOR_m": {
+        "value": 0.3
+    },
+    "AVI_FACTOR_n": {
+        "value": 100
+    },
+    "AVI_FACTOR_t": {
+        "value": 0
+    },
+    "INH_FACTOR_m": {
+        "value": 0.3
+    },
+    "INH_FACTOR_n": {
+        "value": 100
+    },
+    "INH_FACTOR_t": {
+        "value": 0
+    },
+    "SKILL_POINT_GET": {
+        "value": [
+            10
+        ]
+    },
+    "SKILL_POINT_COST": {
+        "value": [
+            5,
+            5,
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            15,
+            15,
+            15,
+            15,
+            20,
+            20,
+            20,
+            20,
+            30,
+            30,
+            30,
+            30,
+            30
+        ]
+    },
+    "SKILL_POINT_RECOVER_TIME": {
+        "value": 300.0
+    },
+    "HERO_REBORN_COST": {
+        "value": [
+            [
+                1,
+                50
+            ]
+        ]
+    },
+    "HERO_REBORN_MATERIAL_DISCOUNT": {
+        "value": 1
+    },
+    "HERO_RARITY_TEXT": {
+        "value": [
+            "普通",
+            "稀有",
+            "传说",
+            "无双"
+        ]
+    },
+    "REDOT_HERO_MIN_QUALITY": {
+        "value": 4.0
+    },
+    "REDOT_ARMOR_MIN_QUALITY": {
+        "value": 4.0
+    },
+    "honorShop_TEXT": {
+        "value": [
+            "材料",
+            "奖励"
+        ]
+    },
+    "armyShop_TEXT": {
+        "value": [
+            "道具",
+            "奖励"
+        ]
+    },
+    "ggzjShop_TEXT": {
+        "value": [
+            "道具",
+            "奖励"
+        ]
+    },
+    "ORBBATTLE_COST": {
+        "value": [
+            [
+                2,
+                50000
+            ],
+            [
+                2,
+                50000
+            ],
+            [
+                2,
+                50000
+            ]
+        ]
+    },
+    "ORBBATTLE_COST_ITEM": {
+        "value": 642
+    },
+    "CHARGE_EFFECT": {
+        "value": [
+            20073,
+            20080,
+            20077,
+            20090,
+            20091
+        ]
+    },
+    "ROUTINE_REWARD_AQUESTS": {
+        "value": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "ROUTINE_MAX_TOKEN": {
+        "value": 400.0
+    },
+    "ROUTINE_TIPS": {
+        "value": [
+            180,
+            600000
+        ]
+    },
+    "MAX_BATTLE_TIME": {
+        "value": 360.0
+    },
+    "MAX_RAGE": {
+        "value": 1000.0
+    },
+    "HIT_RAGE": {
+        "value": 500.0
+    },
+    "KILL_RAGE": {
+        "value": 200.0
+    },
+    "GROWTH_RAGE": {
+        "value": 10.0
+    },
+    "RANK_PER_STAR": {
+        "value": 5.0
+    },
+    "DOWER_SKILL_TYPE": {
+        "value": 2.0
+    },
+    "ROW_TARGET_PRIORITY": {
+        "value": 60.0
+    },
+    "FRONT_ROW_TARGET_PRIORITY": {
+        "value": 60.0
+    },
+    "PAWN_ATTACK_PERCENT": {
+        "value": 0.2
+    },
+    "PREVIEW_MECHANIC_SCALE": {
+        "value": 1.0
+    },
+    "CHAT_SHUTUP_TIME": {
+        "value": 10.0
+    },
+    "CHAT_INTERVAL_TIME": {
+        "value": 8.0
+    },
+    "CHAT_SMS_RETAIN_NUM": {
+        "value": 50.0
+    },
+    "CHAT_SHOW_TIME_DURATION": {
+        "value": 300.0
+    },
+    "CHAT_DANMAKU_SPEED": {
+        "value": 100.0
+    },
+    "BROADCOST_SPEED": {
+        "value": 100.0
+    },
+    "RECRUIT_NOTICE_SHOW_TIME": {
+        "value": 5.0
+    },
+    "RECRUIT_NOTICE_SHOW_STAR": {
+        "value": 2.0
+    },
+    "RECRUIT_NOTICE_HISTORY_NUMBER": {
+        "value": 10.0
+    },
+    "RECRUIT_HERO_SHOW_TIME": {
+        "value": 5.0
+    },
+    "RECRUIT_LUCKY_VALUE_LIMIT": {
+        "value": 1000
+    },
+    "RECRUIT_RECOVERY_TIME_3": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_10": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_6": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_11": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_12": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_13": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_14": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_15": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_22": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_71": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_72": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_24": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_28": {
+        "value": 1
+    },
+    "RECRUIT_RECOVERY_TIME_1": {
+        "value": 1
+    },
+    "RECRUIT_LOG_COUNT": {
+        "value": 3.0
+    },
+    "RECRUIT_LOG_INFO": {
+        "value": [
+            200010,
+            200040
+        ]
+    },
+    "RECRUIT_RECOVERY_TIME_4": {
+        "value": 2.0
+    },
+    "RECRUIT_RECOVERY_TIME_32": {
+        "value": 2.0
+    },
+    "PRESTIGE_LOST": {
+        "value": 0.0
+    },
+    "PRESTIGE_LOST_CONFIRM_TIME": {
+        "value": 3.0
+    },
+    "CAMERA_SCALE1": {
+        "value": 1.1
+    },
+    "CAMERA_SCALE2": {
+        "value": 1.0
+    },
+    "CAMERA_SCALE3": {
+        "value": 0.9
+    },
+    "CAMERA_SCALE_WIDE": {
+        "value": 1.1
+    },
+    "FARM_MONSTER_DIST": {
+        "value": 300.0
+    },
+    "FARM_BOSS_DIST": {
+        "value": 300.0
+    },
+    "FARM_SIEGE_DIST": {
+        "value": 580.0
+    },
+    "MOPPING_COST": {
+        "value": [
+            40,
+            40,
+            60,
+            60,
+            80,
+            80,
+            100,
+            100,
+            120,
+            120,
+            140,
+            140,
+            160,
+            160,
+            180,
+            180,
+            200
+        ]
+    },
+    "PAWN_COUNT": {
+        "value": [
+            0.001,
+            0.05,
+            0.1,
+            0.2,
+            0.4,
+            0.6
+        ]
+    },
+    "SUPPLEMENT_TROOP_NOTICE_PERCENT": {
+        "value": 0.4
+    },
+    "IDLE_REWARD_OFFLINE_VIP": {
+        "value": [
+            3,
+            43200
+        ]
+    },
+    "IDLE_REWARD_QUICK": {
+        "value": 21600.0
+    },
+    "NEAR_PLAYER_COUNT": {
+        "value": 5.0
+    },
+    "WALKAROUND_RATE": {
+        "value": 0.5
+    },
+    "STAGE_PRESTIGE_REWARD": {
+        "value": 300000.0
+    },
+    "SURREND_TIMES": {
+        "value": 2.0
+    },
+    "CHEST_INTERVAL": {
+        "value": 21600.0
+    },
+    "WHETHER_SKIP_PRESTIGE_BATTLE": {
+        "value": "是"
+    },
+    "UNLOCK_SKIP_PRESTIGE_BATTLE": {
+        "value": 1.0
+    },
+    "STAGE_DIFFICULTY_ADJUSTMENT_PLAYERLEVEL": {
+        "value": 30.0
+    },
+    "STAGE_DIFFICULTY_ADJUSTMENT_RATIO": {
+        "value": [
+            [
+                5,
+                1
+            ],
+            [
+                10,
+                1
+            ],
+            [
+                15,
+                1
+            ],
+            [
+                20,
+                1
+            ]
+        ]
+    },
+    "BATTLE_RESULT_TIME": {
+        "value": 3.0
+    },
+    "STAGE_DIAMOND_MAX": {
+        "value": 10000.0
+    },
+    "IDLE_REWARD_INTERVAL": {
+        "value": 60.0
+    },
+    "IDLE_REWARD_ORDER": {
+        "value": [
+            0,
+            11,
+            21,
+            31,
+            41,
+            51,
+            66,
+            81,
+            96,
+            111,
+            126,
+            141,
+            166,
+            191,
+            226,
+            271,
+            311,
+            341,
+            371,
+            441,
+            511,
+            591
+        ]
+    },
+    "PAWNEQUIP_COUNT": {
+        "value": 1000.0
+    },
+    "PAWNEQUIP_SCALE1": {
+        "value": [
+            0.95,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "PAWNEQUIP_SCALE2": {
+        "value": [
+            1,
+            1.03,
+            1.05,
+            1.06,
+            1.07
+        ]
+    },
+    "PAWNEQUIP_SCALE3": {
+        "value": [
+            0.9,
+            0.92,
+            0.94,
+            0.96,
+            0.98
+        ]
+    },
+    "PAWNEQUIP_SCALE4": {
+        "value": [
+            0.9,
+            0.92,
+            0.94,
+            0.96,
+            0.98
+        ]
+    },
+    "PAWNEQUIP_SCALE5": {
+        "value": [
+            0.9,
+            0.92,
+            0.94,
+            0.96,
+            0.98
+        ]
+    },
+    "PAWNEQUIP_SCALE6": {
+        "value": [
+            0.9,
+            0.92,
+            0.94,
+            0.96,
+            0.98
+        ]
+    },
+    "PAWNEQUIP_SCALE7": {
+        "value": [
+            0.7,
+            0.72,
+            0.74,
+            0.7,
+            0.72
+        ]
+    },
+    "PAWNEQUIP_SCALE8": {
+        "value": [
+            0.7,
+            0.72,
+            0.74,
+            0.76,
+            0.78
+        ]
+    },
+    "MAX_BUY": {
+        "value": 1000.0
+    },
+    "ARENA_COUNT": {
+        "value": 10.0
+    },
+    "ARENA_TREASURE_TIME": {
+        "value": 24.0
+    },
+    "ARENA_ITEM": {
+        "value": 1.0
+    },
+    "ARENA_TREASURE_CD": {
+        "value": 30.0
+    },
+    "ARENA_REFRESH_TIME": {
+        "value": 1.0
+    },
+    "ARENA_AWARD_TIME": {
+        "value": 21
+    },
+    "ARENA_AWARD_MAIL": {
+        "value": 401
+    },
+    "ARENA_BEGINE_REDUCE": {
+        "value": 1
+    },
+    "ARENA_WINNER_HONER": {
+        "value": 10
+    },
+    "ARENA_DEFEATED_HONER": {
+        "value": 8
+    },
+    "ARENA_WINNER_AWARD": {
+        "value": 0.1
+    },
+    "ARENA_WINNER_HIGHER_HONER": {
+        "value": 20
+    },
+    "ARENA_WINNER_HIGHER_AWARD": {
+        "value": 0.15
+    },
+    "ARENA_WINNER_HIGHER_PRO": {
+        "value": 0
+    },
+    "ARENA_COUNT_COST": {
+        "value": [
+            1000,
+            1000,
+            1000,
+            1000,
+            1000,
+            2000,
+            2000,
+            2000,
+            2000,
+            2000,
+            2000,
+            2000,
+            2000,
+            2000,
+            2000,
+            4000,
+            4000,
+            4000,
+            4000,
+            4000,
+            4000,
+            4000,
+            4000,
+            4000,
+            4000,
+            6000,
+            6000,
+            6000,
+            6000,
+            6000,
+            6000,
+            6000,
+            6000,
+            6000,
+            6000,
+            10000
+        ]
+    },
+    "ARENA_REPORT_MAX": {
+        "value": 20
+    },
+    "ARENA_ROBOT_RPOPERTY": {
+        "value": [
+            [
+                0.3,
+                0.95
+            ],
+            [
+                0.7,
+                1.1
+            ],
+            [
+                1,
+                1.2
+            ]
+        ]
+    },
+    "ARENA_POWER_TRIM": {
+        "value": [
+            0.95,
+            1.05
+        ]
+    },
+    "ARENA_MAINCITY_MAP": {
+        "value": 5.0
+    },
+    "ARENA_MATCH_MAP": {
+        "value": 6.0
+    },
+    "ARENA_BATTLE_MAP": {
+        "value": 21.0
+    },
+    "ARENA_CAR_TIME": {
+        "value": 30.0
+    },
+    "ARENA_SEARCH_COUNT": {
+        "value": 3.0
+    },
+    "ARENA_SEARCH_EXTRA_COUNT": {
+        "value": 5.0
+    },
+    "ARENA_STAGE_UNIT_COUNT": {
+        "value": 5.0
+    },
+    "ARENA_STAGE_SIEGE_COUNT": {
+        "value": 3.0
+    },
+    "ARENA_DEFEATED_WIN_HONER": {
+        "value": 1.0
+    },
+    "ARENA_DEFEATED_WIN_HONER_PLUS": {
+        "value": [
+            3,
+            2
+        ]
+    },
+    "ARENA_DEFEATED_LOST_HONER": {
+        "value": 1.0
+    },
+    "ARENA_DEFEATED_LOST_HONER_PLUS": {
+        "value": [
+            4,
+            5
+        ]
+    },
+    "CHEST_COST": {
+        "value": 1.0
+    },
+    "CHEST_PAYUNLOCK_LIMIT": {
+        "value": -1.0
+    },
+    "CHEST_FREEID": {
+        "value": [
+            700001
+        ]
+    },
+    "CHEST_SPEED_ITEM": {
+        "value": [
+            52,
+            53,
+            54
+        ]
+    },
+    "CHEST_SPEED_TIME": {
+        "value": 60.0
+    },
+    "CORPS_CREATE_COST": {
+        "value": 200.0
+    },
+    "CORPS_APPLY_NUM_LIMIT": {
+        "value": 10.0
+    },
+    "CORPS_NAME_LENGTH": {
+        "value": [
+            2,
+            6
+        ]
+    },
+    "CORPS_DELATE_TIME": {
+        "value": 48.0
+    },
+    "CORPS_OPPOSE_TIME": {
+        "value": 6.0
+    },
+    "CORPS_OPPOSE_SCALE": {
+        "value": 0.3
+    },
+    "CORPS_NEW_OFFOTIME": {
+        "value": 24.0
+    },
+    "CORPS_PACKET_MAX_GET": {
+        "value": {
+            "2": 5,
+            "3": -1
+        }
+    },
+    "CORPS_DONATE_MAX_COUNT": {
+        "value": 1.0
+    },
+    "CORPS_PACKET_WIN": {
+        "value": 2.0
+    },
+    "CORPS_BAG_MAX_COUNT": {
+        "value": 1.2
+    },
+    "CORPS_PACKET_RANGE": {
+        "value": [
+            [
+                1,
+                99
+            ],
+            [
+                1,
+                99
+            ],
+            [
+                1,
+                99
+            ],
+            [
+                1,
+                99
+            ],
+            [
+                1,
+                99
+            ],
+            [
+                1,
+                99
+            ]
+        ]
+    },
+    "CORPS_PACKET_PLUS": {
+        "value": [
+            1,
+            1.2,
+            1.4,
+            1.6,
+            1.8,
+            2
+        ]
+    },
+    "CORPS_APPLY_LEVELS": {
+        "value": [
+            1,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100
+        ]
+    },
+    "CORPS_APPLY_POWER": {
+        "value": [
+            1000,
+            100000,
+            1000000,
+            10000000,
+            100000000
+        ]
+    },
+    "CORPS_DEFAULT_DECLARATION": {
+        "value": "欢迎加入我们军团~"
+    },
+    "CORPS_DEFAULT_NOTICE": {
+        "value": "愉快游戏吧！"
+    },
+    "CORPS_QUIT_TIME": {
+        "value": [
+            0.083,
+            0.083
+        ]
+    },
+    "CORPS_RECORD_MAX": {
+        "value": 5
+    },
+    "CORPS_DONATE_PROGRESS": {
+        "value": 0.9
+    },
+    "CORPS_NOTICE_NUMBER_LIMIT": {
+        "value": 60.0
+    },
+    "CORPS_MANIFESTO_NUMBER_LIMIT": {
+        "value": 25.0
+    },
+    "CORPS_DISMISS_MAX": {
+        "value": 99.0
+    },
+    "CORPS_LOG_RECORD_MAX": {
+        "value": 20.0
+    },
+    "CORP_RECRUIT_COST": {
+        "value": 5.0
+    },
+    "CORPS_MERCENARY_TIME": {
+        "value": 24.0
+    },
+    "CORPS_UPDATE_NAME": {
+        "value": 2000.0
+    },
+    "CORPS_DUNGEON_COUNT": {
+        "value": 10.0
+    },
+    "CORPS_BOSS_MAIL": {
+        "value": 991.0
+    },
+    "CORPS_DUNGEON_5FIGHT": {
+        "value": 90.0
+    },
+    "CORP_SETTING_LIMIT_DAY": {
+        "value": 0
+    },
+    "DUNGEON_OPEN_LEVEL": {
+        "value": 10
+    },
+    "DUNGEON_TIMES_PRICE1": {
+        "value": [
+            2,
+            [
+                50,
+                50,
+                50,
+                50,
+                50,
+                60,
+                60,
+                60,
+                60,
+                60,
+                70,
+                70,
+                70,
+                70,
+                70,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                100
+            ]
+        ]
+    },
+    "DUNGEON_TIMES_PRICE2": {
+        "value": [
+            2,
+            [
+                50,
+                50,
+                50,
+                50,
+                50,
+                60,
+                60,
+                60,
+                60,
+                60,
+                70,
+                70,
+                70,
+                70,
+                70,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                100
+            ]
+        ]
+    },
+    "DUNGEON_TIMES_PRICE3": {
+        "value": [
+            2,
+            [
+                50,
+                50,
+                50,
+                50,
+                50,
+                60,
+                60,
+                60,
+                60,
+                60,
+                70,
+                70,
+                70,
+                70,
+                70,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                100
+            ]
+        ]
+    },
+    "DUNGEON_TIMES_PRICE4": {
+        "value": [
+            2,
+            [
+                50,
+                50,
+                50,
+                50,
+                50,
+                60,
+                60,
+                60,
+                60,
+                60,
+                70,
+                70,
+                70,
+                70,
+                70,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                100
+            ]
+        ]
+    },
+    "DUNGEON_TIMES_PRICE5": {
+        "value": [
+            2,
+            [
+                50,
+                50,
+                50,
+                50,
+                50,
+                60,
+                60,
+                60,
+                60,
+                60,
+                70,
+                70,
+                70,
+                70,
+                70,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                100
+            ]
+        ]
+    },
+    "DUNGEON_TIMES_PRICE6": {
+        "value": [
+            2,
+            [
+                50,
+                50,
+                50,
+                50,
+                50,
+                60,
+                60,
+                60,
+                60,
+                60,
+                70,
+                70,
+                70,
+                70,
+                70,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                100
+            ]
+        ]
+    },
+    "DUNGEON_TIMES_PRICE7": {
+        "value": [
+            2,
+            [
+                50,
+                50,
+                50,
+                50,
+                50,
+                60,
+                60,
+                60,
+                60,
+                60,
+                70,
+                70,
+                70,
+                70,
+                70,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                100
+            ]
+        ]
+    },
+    "TURNTABLE_ADDV_TIME": {
+        "value": 1
+    },
+    "TURNTABLE_LESSV_TIME": {
+        "value": 1.9
+    },
+    "MAX_V": {
+        "value": 1000
+    },
+    "MIN_V": {
+        "value": 200
+    },
+    "announceVersion": {
+        "value": 18
+    },
+    "announceReward": {
+        "value": [
+            [
+                1,
+                10000
+            ],
+            [
+                2,
+                50
+            ]
+        ]
+    },
+    "introMapId": {
+        "value": 10.0
+    },
+    "introStartPos": {
+        "value": [
+            279,
+            1758
+        ]
+    },
+    "introMainArmy": {
+        "value": [
+            302,
+            10001,
+            1,
+            330,
+            1726,
+            1,
+            -1
+        ]
+    },
+    "introCinematic": {
+        "value": [
+            "intro",
+            "main",
+            0,
+            0
+        ]
+    },
+    "introMainAttr": {
+        "value": {
+            "addDmg": 0.5,
+            "atcRat": 0.1,
+            "crtRat": 0.1,
+            "evdRat": 0.1,
+            "hitRat": 0.1,
+            "hpMax": 2.9,
+            "magAtk": 1,
+            "magDef": 0.1,
+            "phyAtk": 0.1,
+            "phyDef": 0.1,
+            "subDmg": 0
+        }
+    },
+    "introWorldMapScale": {
+        "value": 0.42
+    },
+    "introWorldMapScalePortrait": {
+        "value": 0.4
+    },
+    "CORPS_COPY_OPEN_LEVEL": {
+        "value": 1.0
+    },
+    "CORPS_COPY_COUNTRY_PLUS": {
+        "value": 2.0
+    },
+    "CORPS_COPY_BEGIN_TIMES": {
+        "value": 8
+    },
+    "CORPS_COPY_RECOVER_TIME": {
+        "value": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+        ]
+    },
+    "CORPS_COPY_INQUIRY": {
+        "value": [
+            2,
+            10,
+            10
+        ]
+    },
+    "CORPS_COPY_REWARD_MIN": {
+        "value": 0.02
+    },
+    "CORPS_COPY_COMBAT_PLUS": {
+        "value": 2.0
+    },
+    "CORPS_COPY_BOSS_BLOOD": {
+        "value": 5.0
+    },
+    "CORPS_COPY_LEVEL_ADJUST": {
+        "value": 0.0
+    },
+    "CORPS_COPY_OUTPUT_TIME": {
+        "value": 360.0
+    },
+    "PVESPEEDRATE": {
+        "value": 2.5
+    },
+    "PVE_RUNPOINTS": {
+        "value": {
+            "1": [
+                761,
+                1936
+            ],
+            "2": [
+                1234,
+                1624
+            ],
+            "3": [
+                1829,
+                1232
+            ],
+            "4": [
+                1823,
+                1996
+            ],
+            "5": [
+                2390,
+                1622
+            ],
+            "6": [
+                1913,
+                2695
+            ],
+            "7": [
+                2396,
+                2378
+            ],
+            "8": [
+                2998,
+                1986
+            ],
+            "9": [
+                1334,
+                2317
+            ],
+            "10": [
+                183,
+                1559
+            ],
+            "11": [
+                669,
+                1238
+            ]
+        }
+    },
+    "PVE_ROADW": {
+        "value": {
+            "1": [
+                10
+            ],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [
+                9
+            ],
+            "6": [
+                9
+            ]
+        }
+    },
+    "PVE_ROADH": {
+        "value": {
+            "1": [
+                1
+            ],
+            "2": [
+                1
+            ],
+            "3": [],
+            "4": [],
+            "5": [
+                6
+            ],
+            "6": [
+                6
+            ]
+        }
+    },
+    "PVE_FIGHTPOSW": {
+        "value": {
+            "1": [
+                759,
+                1178
+            ],
+            "2": [
+                1334,
+                797
+            ],
+            "3": [
+                1345,
+                1553
+            ],
+            "4": [
+                1915,
+                1175
+            ],
+            "5": [
+                1915,
+                1934
+            ],
+            "6": [
+                2491,
+                1553
+            ]
+        }
+    },
+    "PVE_FIGHTPOSH": {
+        "value": {
+            "1": [
+                1345,
+                1553
+            ],
+            "2": [
+                1915,
+                1175
+            ],
+            "3": [
+                1915,
+                1934
+            ],
+            "4": [
+                2491,
+                1553
+            ],
+            "5": [
+                2499,
+                2315
+            ],
+            "6": [
+                3074,
+                1937
+            ]
+        }
+    },
+    "PVE_ENEMYSPEEDRATE": {
+        "value": 1.5
+    },
+    "CORPS_WALK_MODELS1": {
+        "value": [
+            650111,
+            650112,
+            650211,
+            650212,
+            650311,
+            650312,
+            650411,
+            650412,
+            650511,
+            650512,
+            650611,
+            650602
+        ]
+    },
+    "CORPS_WALK_MODELS2": {
+        "value": [
+            650113,
+            650114,
+            650213,
+            650214,
+            650313,
+            650314,
+            650413,
+            650414,
+            650513,
+            650514,
+            650613,
+            650602
+        ]
+    },
+    "CORPS_WALK_MODELS3": {
+        "value": [
+            650101,
+            650102,
+            650201,
+            650202,
+            650301,
+            650302,
+            650401,
+            650402,
+            650501,
+            650502,
+            650601,
+            650602
+        ]
+    },
+    "CORPS_WALK_MODELS4": {
+        "value": [
+            650109,
+            650110,
+            650209,
+            650210,
+            650309,
+            650310,
+            650409,
+            650410,
+            650509,
+            650510,
+            650609,
+            650602
+        ]
+    },
+    "CORPS_MAX_BATTLE_TIME": {
+        "value": 60.0
+    },
+    "CORP_RESTRICT_LIST": {
+        "value": [
+            3,
+            4,
+            2,
+            1
+        ]
+    },
+    "SUGGEST_COUNTS": {
+        "value": 50.0
+    },
+    "SUGGEST_MAX_DAYS": {
+        "value": 30.0
+    },
+    "SUGGEST_TIMESDAY": {
+        "value": 2.0
+    },
+    "SUGGEST_MAX_WORD": {
+        "value": 100.0
+    },
+    "FISRT_MOPPING_REWARD": {
+        "value": []
+    },
+    "FIRST_ONE_KEY_UP_EQUIPS_LV": {
+        "value": 16.0
+    },
+    "FIRST_GUIDE_WAITFINGER": {
+        "value": 5.0
+    },
+    "FIRST_GUIDE_MOVE_SPEED": {
+        "value": 2000.0
+    },
+    "FIRST_GUIDE_BEGIN_POINT": {
+        "value": [
+            0,
+            -100
+        ]
+    },
+    "FIRST_RECHAGRE_POWER": {
+        "value": 10000.0
+    },
+    "FIRST_RECHAGRE_TIPS": {
+        "value": [
+            4,
+            7200
+        ]
+    },
+    "FIRST_NO_NOTICE_WORLDMAP": {
+        "value": [
+            5
+        ]
+    },
+    "FIRST_TIPS_UP_OFFSET": {
+        "value": 12.0
+    },
+    "FIRST_TIPS_DOWN_OFFSET": {
+        "value": 75.0
+    },
+    "FIRST_TIPS_MAXWIDTH": {
+        "value": 170.0
+    },
+    "FIRST_HERO_REWARD": {
+        "value": [
+            [
+                400100,
+                1
+            ]
+        ]
+    },
+    "FIRST_HERO_TIME": {
+        "value": 1440.0
+    },
+    "FIRST_CHOOSE_AUTOGOTO": {
+        "value": 30.0
+    },
+    "GUIDEWORLD_CLOSETIME": {
+        "value": 1000.0
+    },
+    "FIRST_RECHAGRE_DELAY": {
+        "value": 1000.0
+    },
+    "FISRT_RECHAREGE_PATHS": {
+        "value": "~/baseView/cpHead/gpTopMain/__dic/ord8"
+    },
+    "HISDUN_PORTRAIT_SCALE": {
+        "value": 0.8
+    },
+    "HISDUN_LANDSCAPE_SCALE": {
+        "value": 1.0
+    },
+    "WHETHER_SKIP_HISDUN_BATTLE": {
+        "value": "是"
+    },
+    "UNLOCK_SKIP_HISDUN_BATTLE": {
+        "value": 2.0
+    },
+    "SHOP_HISDUN_BATTLE": {
+        "value": 10.0
+    },
+    "ABATTOIR_COUNT": {
+        "value": 5.0
+    },
+    "ABATTOIR_BEGIN_TIMES": {
+        "value": 5
+    },
+    "ABATTOIR_AWARD_TIME": {
+        "value": 22.0
+    },
+    "ABATTOIR_AWARD_MAIL": {
+        "value": 701.0
+    },
+    "ABATTOIR_COUNT_COST": {
+        "value": [
+            10,
+            10,
+            10,
+            10,
+            20,
+            20,
+            20,
+            20,
+            30,
+            30,
+            30,
+            30,
+            40,
+            40,
+            40,
+            40,
+            50
+        ]
+    },
+    "ABATTOIR_REPORT_MAX": {
+        "value": 20.0
+    },
+    "ABATTOIR_BATTLE_MAP": {
+        "value": 91.0
+    },
+    "ABATTOIR_SEARCH_COUNT": {
+        "value": [
+            3,
+            1
+        ]
+    },
+    "ABATTOIR_P1_POS": {
+        "value": [
+            692,
+            1019
+        ]
+    },
+    "ABATTOIR_P2_POS": {
+        "value": [
+            1265,
+            643
+        ]
+    },
+    "ABATTOIR_WIN_AWARD": {
+        "value": [
+            730001
+        ]
+    },
+    "ABATTOIR_LOSE_AWARD": {
+        "value": [
+            730002
+        ]
+    },
+    "ABATTOIR_PASS_BATTLE": {
+        "value": 2.0
+    },
+    "ABATTOIR_SEASON": {
+        "value": "week"
+    },
+    "ABATTOIR_AWARD_SEASON_TIME": {
+        "value": [
+            1,
+            0,
+            0,
+            0
+        ]
+    },
+    "ACTIVITY_FIRST_CHARGE": {
+        "value": [
+            [
+                10001,
+                11
+            ],
+            [
+                10002,
+                11
+            ],
+            [
+                10003,
+                12
+            ],
+            [
+                10004,
+                13
+            ]
+        ]
+    },
+    "ACTIVITY_TURNTABLE_GIFT": {
+        "value": 600003.0
+    },
+    "ACTIVITY_OFFERREWARDTASK_DISCOUNT": {
+        "value": 0.5
+    },
+    "ACTIVITY_DAILY_NUM": {
+        "value": 1.0
+    },
+    "ACTIVITY_ABATTOIR_DOUBLE": {
+        "value": 2.0
+    },
+    "ACTIVITY_SEVENDAY_HERO": {
+        "value": [
+            300010
+        ]
+    },
+    "GROWTH_PLAN": {
+        "value": [
+            [
+                4,
+                1,
+                1000
+            ],
+            [
+                4,
+                2,
+                500
+            ],
+            [
+                5,
+                3,
+                1000
+            ]
+        ]
+    },
+    "ACTIVITY_GLADIATOR_RANK": {
+        "value": 22.0
+    },
+    "ACTIVITY_XIANSHI_CHARGE": {
+        "value": [
+            5
+        ]
+    },
+    "ACTIVITY_KAIFUJINGXAI": {
+        "value": [
+            71,
+            81,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            82,
+            83,
+            84,
+            99
+        ]
+    },
+    "GROWTH_PLAN_TITLE": {
+        "value": [
+            "十倍返利",
+            "五十倍返利",
+            "六十倍返利",
+            "八十倍返利"
+        ]
+    },
+    "EXERCISE_COST": {
+        "value": 2.0
+    },
+    "EXERCISE_REBATE": {
+        "value": [
+            1,
+            1
+        ]
+    },
+    "EXERCISE_HEROPOS": {
+        "value": [
+            [
+                289,
+                155
+            ],
+            [
+                280,
+                154
+            ],
+            [
+                280,
+                250
+            ],
+            [
+                360,
+                235
+            ],
+            [
+                375,
+                150
+            ],
+            [
+                420,
+                265
+            ]
+        ]
+    },
+    "EXERCISE_HURT": {
+        "value": [
+            1000,
+            2000
+        ]
+    },
+    "MONSTER_INIT_RATE": {
+        "value": 0.1
+    },
+    "MONSTER_PLUS_RATE": {
+        "value": 0.1
+    },
+    "MONSTER_TIME": {
+        "value": 10.0
+    },
+    "MONSTER_ARMY": {
+        "value": 40004.0
+    },
+    "MONSTER_MAP": {
+        "value": 10.0
+    },
+    "MONSTER_ATTR": {
+        "value": {
+            "addDmg": 0.5,
+            "atcRat": 0.1,
+            "crtRat": 0.1,
+            "evdRat": 0.1,
+            "hitRat": 0.1,
+            "hpMax": 2.9,
+            "magAtk": 1,
+            "magDef": 0.1,
+            "phyAtk": 0.1,
+            "phyDef": 0.1,
+            "subDmg": 0
+        }
+    },
+    "MONSTER_RED": {
+        "value": 10401.0
+    },
+    "MONSTER_OPEN_TIME": {
+        "value": [
+            [
+                "14:00",
+                30
+            ],
+            [
+                "21:00",
+                30
+            ]
+        ]
+    },
+    "MONSTER_PID": {
+        "value": 1.0
+    },
+    "MONSTER_LEVEL": {
+        "value": 1.0
+    },
+    "LESS_SALE": {
+        "value": 0.71
+    },
+    "RECRUIT_LESS_SALE": {
+        "value": 0.76
+    },
+    "SPRINGFESTIVAL_REDPACK_TIMES": {
+        "value": 10.0
+    },
+    "SPRINGFESTIVAL_REDPACK_BOARDCAST": {
+        "value": {
+            "2": 666,
+            "111": 1,
+            "122": 5
+        }
+    },
+    "DESKTOP_STAGE": {
+        "value": 6.0
+    },
+    "DESKTOP_SHOW_TIME": {
+        "value": 2000.0
+    },
+    "NOTICE_DAILYDUNGEON_RANK": {
+        "value": 5.0
+    },
+    "NOTICE_CORP_RANK": {
+        "value": 10.0
+    },
+    "NOTICE_REWARDQUEST_RANK": {
+        "value": 4.0
+    },
+    "NOTICE_MAXNUM": {
+        "value": 5.0
+    },
+    "NOTICE_DEF_LEVEL": {
+        "value": 6.0
+    },
+    "NOTICE_MAXCOUNT": {
+        "value": 3.0
+    },
+    "NOTICE_MAXTIME": {
+        "value": 24.0
+    },
+    "NOTICE_OFFLINE_TIME": {
+        "value": 1.0
+    },
+    "RANK_RANKLIST": {
+        "value": [
+            "等级排行",
+            "战力排行",
+            "官衔排行",
+            "竞技场",
+            "关卡排行",
+            "最强武将"
+        ]
+    },
+    "WORSHIP_TEXTC": {
+        "value": [
+            "worshipTextC1",
+            "worshipTextC2",
+            "worshipTextC3",
+            "worshipTextC4",
+            "worshipTextC5",
+            "worshipTextC6",
+            "worshipTextC7",
+            "worshipTextC8",
+            "worshipTextC9",
+            "worshipTextC10"
+        ]
+    },
+    "WORSHIP_REWARD": {
+        "value": 8001.0
+    },
+    "WORSHIP_TEXT": {
+        "value": [
+            "worshipText1",
+            "worshipText2",
+            "worshipText3",
+            "worshipText4"
+        ]
+    },
+    "WORSHIP_POPULARITY": {
+        "value": [
+            80,
+            120
+        ]
+    },
+    "MATERIAL_RATIO": {
+        "value": 2.0
+    },
+    "DECOMPOSE_CANNOT_EMBATTLE": {
+        "value": [
+            "main",
+            "gladiator_def"
+        ]
+    },
+    "TREASURE_UPGRADE_DISCOUNT": {
+        "value": 1.0
+    },
+    "TREASURE_TAB": {
+        "value": [
+            [
+                2,
+                "绿品"
+            ],
+            [
+                3,
+                "蓝品"
+            ],
+            [
+                4,
+                "紫品"
+            ],
+            [
+                5,
+                "橙品"
+            ]
+        ]
+    },
+    "TREASURE_HERO_COUNT": {
+        "value": 4.0
+    },
+    "TREASURE_UPGRADE_COST": {
+        "value": {
+            "1": 20,
+            "2": 50,
+            "3": 100,
+            "4": 150,
+            "5": 200
+        }
+    },
+    "TREASURE_MINIMUM_CONSUMPTION": {
+        "value": 0.1
+    },
+    "TREASURE_TYPE_COUNT": {
+        "value": 1.0
+    },
+    "TREASURE_RETURN_RATE": {
+        "value": 1.0
+    },
+    "TREASURE_REMOVE_MAXQ": {
+        "value": 4.0
+    },
+    "ANTIQUE_SLOT_COUNT": {
+        "value": 8.0
+    },
+    "ANTIQUE_TABLE_NAME": {
+        "value": [
+            [
+                1,
+                1,
+                "宝物升级",
+                "antiqueLv"
+            ],
+            [
+                2,
+                1,
+                "宝物进阶",
+                "antiqueUp"
+            ],
+            [
+                3,
+                1,
+                "宝物升品",
+                "antiqueGrade"
+            ]
+        ]
+    },
+    "TREASURE_QUALITY_RATE": {
+        "value": [
+            0,
+            10,
+            50,
+            240,
+            0,
+            1200,
+            6000,
+            0,
+            0,
+            30000,
+            75000
+        ]
+    },
+    "ANTIQUE_TABLE_ReturnItem": {
+        "value": [
+            664,
+            664,
+            663,
+            662
+        ]
+    },
+    "ANTIQUE_ADVANCED": {
+        "": "第一个元素如果星期的数字为-1则无视星期，如果小时的数字为-1则无视小时",
+        "value": []
+    },
+    "REGROUP_RECONFIRM": {
+        "value": [
+            6,
+            7,
+            11
+        ]
+    },
+    "UP_CRT_PROBABILITY": {
+        "value": 0.3
+    },
+    "UP_CRT_MAGNIFICATION": {
+        "value": 1.2
+    },
+    "ARTIFACT_RANDOM_NUMBER": {
+        "value": 2.0
+    },
+    "ID_VERIF_REWARD": {
+        "value": [
+            [
+                2,
+                200
+            ]
+        ]
+    },
+    "ONLINE_MAX_HOUS": {
+        "value": 5.0
+    },
+    "BT4TREASURE_COUNT_COST": {
+        "value": [
+            20,
+            20,
+            40,
+            40,
+            60,
+            60,
+            80,
+            80,
+            100,
+            100
+        ]
+    },
+    "BT4TREASURE_TIMES": {
+        "value": 20.0
+    },
+    "BT4TREASURE_SEARCH": {
+        "value": [
+            5,
+            10,
+            10
+        ]
+    },
+    "BT4TREASURE_RESET_TIME": {
+        "value": 0.0
+    },
+    "WINTREASURE_BATTLE_MAP": {
+        "value": 308.0
+    },
+    "BT4TREASURE_REWARD": {
+        "value": [
+            [
+                [
+                    1,
+                    100
+                ],
+                [
+                    [
+                        58,
+                        400
+                    ]
+                ]
+            ],
+            [
+                [
+                    101,
+                    150
+                ],
+                [
+                    [
+                        58,
+                        500
+                    ]
+                ]
+            ]
+        ]
+    },
+    "WINTREASURE_AUTO_CLOSE": {
+        "value": 5.0
+    },
+    "BT4TREASURE_TIME": {
+        "value": 3600.0
+    },
+    "BtnSkipLevel_stageSkip": {
+        "value": 1.0
+    },
+    "BtnSkipLevel_dailyDungeonSkip": {
+        "value": 26.0
+    },
+    "BtnSkipLevel_abattoirSkip": {
+        "value": 1.0
+    },
+    "BtnSkipLevel_HisdunSkip": {
+        "value": 26.0
+    },
+    "BtnSkipLevel_GgzjSkip": {
+        "value": {
+            "vip": 0,
+            "level": 10
+        }
+    },
+    "BtnSkipLevel_corpsPveSkip": {
+        "value": 26.0
+    },
+    "BtnSkipLevel_wintreasureSkip": {
+        "value": 26.0
+    },
+    "BtnSkipLevel_skirmishSkip": {
+        "value": 26.0
+    },
+    "BtnSkipLevel_corpsDungeonSkip": {
+        "value": 26.0
+    },
+    "BtnSkipLevel_killGeneralSkip": {
+        "value": 1.0
+    },
+    "BtnSkipLevel_stage": {
+        "value": {
+            "vip": 1,
+            "level": 25
+        }
+    },
+    "BtnSkipLevel_stage1": {
+        "value": 999.0
+    },
+    "CALC_POWER_a": {
+        "value": 0.5
+    },
+    "CALC_POWER_b": {
+        "value": 0.12
+    },
+    "CALC_POWER_c": {
+        "value": 0.5
+    },
+    "CALC_POWER_d": {
+        "value": 1.0
+    },
+    "CALC_POWER_e": {
+        "value": 1.0
+    },
+    "CALC_POWER_f": {
+        "value": 0.8
+    },
+    "CALC_POWER_g": {
+        "value": 1.0
+    },
+    "CALC_POWER_a1": {
+        "value": 0.0
+    },
+    "CALC_POWER_a2": {
+        "value": 0.0
+    },
+    "CALC_POWER_a3": {
+        "value": 0.0
+    },
+    "CALC_POWER_a4": {
+        "value": 0.0
+    },
+    "CALC_POWER_a5": {
+        "value": 0.0
+    },
+    "CALC_POWER_m": {
+        "value": 50.0
+    },
+    "EMBATTLE_LOCK": {
+        "value": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "Assist_Lock_Level": {
+        "value": [
+            40,
+            45,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120
+        ]
+    },
+    "MYSTERIOUS_SHOP_TIME": {
+        "value": 30.0
+    },
+    "MYSTERIOUS_UPPER_LIMIT": {
+        "value": 10.0
+    },
+    "MYSTERIOUS_PROBABILITY": {
+        "value": {
+            "1_30": 0.01,
+            "31_60": 0.008,
+            "61_90": 0.006,
+            "91_120": 0.004,
+            "121_180": 0.002
+        }
+    },
+    "KILL_GENERAL_REFRESH": {
+        "value": [
+            0,
+            300
+        ]
+    },
+    "APART_BACK": {
+        "value": {
+            "1": [
+                [
+                    100,
+                    0.9
+                ],
+                [
+                    100,
+                    0.9
+                ]
+            ],
+            "2": [
+                [
+                    100,
+                    0.3
+                ]
+            ]
+        }
+    },
+    "QUALITY_RECYEED": {
+        "value": [
+            7
+        ]
+    },
+    "EQU_RECYNEED": {
+        "value": [
+            7
+        ]
+    },
+    "ARMOR__ENHANCE_QUICE": {
+        "value": 50.0
+    },
+    "RUNIC_RECYNEED": {
+        "value": [
+            5,
+            6,
+            7
+        ]
+    },
+    "RUNIC_CONSUME_QUALITY": {
+        "value": 4.0
+    },
+    "QUALITY_COMNEED": {
+        "value": 5.0
+    },
+    "EQU_COMNEED": {
+        "value": 5.0
+    },
+    "RUNE_COMNEED": {
+        "value": 5.0
+    },
+    "BATTLECITY_SCORE": {
+        "value": 2.0
+    },
+    "BATTLE_CITY_CORP_RANKING": {
+        "value": 1.0
+    },
+    "BATTLE_CITY_PLAYER_RANKING": {
+        "value": 2.0
+    },
+    "BATTLE_CITY_BREATH": {
+        "value": 3.0
+    },
+    "BATTLE_CITY_BOARD_PLAYER": {
+        "value": "battle_city_player"
+    },
+    "BATTLE_CITY_BOARD_CORPS": {
+        "value": "battle_city_corps"
+    },
+    "BATTLE_CITY_BOARD_CORPS_DAMAGE": {
+        "value": "battle_city_corps_damage"
+    },
+    "BATTLE_CITY_COUNT_COST": {
+        "value": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            60
+        ]
+    },
+    "BATTLE_CITY_COUNT": {
+        "value": 10.0
+    },
+    "SIMPLE_KILLGENERAL": {
+        "value": 100.0
+    },
+    "REGRESS_COST": {
+        "value": [
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "NUM_WORD": {
+        "value": [
+            "零",
+            "一",
+            "二",
+            "三",
+            "四",
+            "五",
+            "六",
+            "七",
+            "八",
+            "九",
+            "十"
+        ]
+    },
+    "RUNIC_MAX_COST_QUALITY": {
+        "value": 4.0
+    },
+    "RUNIC_MAX_COST_NUM": {
+        "value": 10.0
+    },
+    "RUNIC_RETURN_QUALITY": {
+        "value": 6.0
+    },
+    "LEVY_MAX_DOUBLE_VIP": {
+        "value": 4.0
+    },
+    "LEVY_ALL_VIP": {
+        "value": 2.0
+    },
+    "LEVY_COUNT": {
+        "value": 90.0
+    },
+    "LEVY_REFRESH": {
+        "value": 300.0
+    },
+    "LEVY_REWARD": {
+        "value": 20108.0
+    },
+    "LEVY_REWARD1": {
+        "value": 21108.0
+    },
+    "LEVY_BUY_COST": {
+        "value": [
+            10,
+            10,
+            20,
+            20,
+            30,
+            30,
+            40,
+            40,
+            50,
+            50,
+            50,
+            50,
+            60,
+            60,
+            60,
+            80,
+            80,
+            80,
+            80,
+            100,
+            100,
+            100,
+            100,
+            120,
+            120,
+            120,
+            120,
+            140,
+            140,
+            140,
+            140,
+            160,
+            160
+        ]
+    },
+    "FEAT_LEVY_FEAT_REWARD": {
+        "value": [
+            [
+                50,
+                301902
+            ],
+            [
+                100,
+                301903
+            ],
+            [
+                150
+            ]
+        ]
+    },
+    "FEAT_LEVY_GET_FEAT": {
+        "value": 1.0
+    },
+    "FEAT_LEVY_LV_TURN": {
+        "value": [
+            [
+                1,
+                [
+                    1
+                ]
+            ],
+            [
+                31,
+                [
+                    2
+                ]
+            ],
+            [
+                51,
+                [
+                    3
+                ]
+            ],
+            [
+                71,
+                [
+                    4
+                ]
+            ],
+            [
+                91,
+                [
+                    5
+                ]
+            ],
+            [
+                111,
+                [
+                    6
+                ]
+            ]
+        ]
+    },
+    "FEAT_LEVY_ITEM_ID": {
+        "value": 49999.0
+    },
+    "SPECIAL_SHOP_BUY": {
+        "value": []
+    },
+    "FEAT_TREASURE_FEAT_REWARD": {
+        "value": [
+            [
+                30,
+                312001
+            ],
+            [
+                60,
+                312002
+            ],
+            [
+                100,
+                312003
+            ]
+        ]
+    },
+    "FEAT_TREASURE_LV_TURN": {
+        "value": [
+            [
+                1,
+                [
+                    1
+                ]
+            ],
+            [
+                31,
+                [
+                    2
+                ]
+            ],
+            [
+                61,
+                [
+                    3
+                ]
+            ],
+            [
+                91,
+                [
+                    4
+                ]
+            ],
+            [
+                121,
+                [
+                    5
+                ]
+            ],
+            [
+                151,
+                [
+                    6
+                ]
+            ]
+        ]
+    },
+    "FEAT_TREASURE_ITEM_ID": {
+        "value": 50000.0
+    },
+    "FEAT_TREASURE_IIMIT_COUNT": {
+        "value": 4.0
+    },
+    "FEAT_TREASURE_IIMIT_WEEK": {
+        "value": 150.0
+    },
+    "LUCKY_ROULETTE_COST_1": {
+        "value": [
+            [
+                138,
+                1
+            ]
+        ]
+    },
+    "LUCKY_ROULETTE_COST_2": {
+        "value": [
+            [
+                139,
+                1
+            ]
+        ]
+    },
+    "TURN_SCORE_1": {
+        "value": [
+            [
+                103,
+                100
+            ],
+            [
+                104,
+                100
+            ]
+        ]
+    },
+    "TURN_SCORE_2": {
+        "value": [
+            [
+                103,
+                500
+            ],
+            [
+                104,
+                500
+            ]
+        ]
+    },
+    "TURN_SCORE_REWARD": {
+        "value": {
+            "600": [
+                [
+                    20004,
+                    10
+                ]
+            ],
+            "1200": [
+                [
+                    20066,
+                    50
+                ]
+            ],
+            "2000": [
+                [
+                    20014,
+                    20
+                ]
+            ],
+            "4000": [
+                [
+                    474,
+                    500
+                ]
+            ],
+            "7000": [
+                [
+                    20254,
+                    1
+                ]
+            ],
+            "12000": [
+                [
+                    20077,
+                    1
+                ]
+            ],
+            "20000": [
+                [
+                    20254,
+                    2
+                ]
+            ],
+            "35000": [
+                [
+                    20068,
+                    80
+                ]
+            ],
+            "60000": [
+                [
+                    20090,
+                    1
+                ]
+            ],
+            "120000": [
+                [
+                    20070,
+                    20
+                ]
+            ],
+            "200000": [
+                [
+                    20081,
+                    1
+                ]
+            ],
+            "300000": [
+                [
+                    20082,
+                    1
+                ]
+            ]
+        }
+    },
+    "LUCKY_ROULETTE_FREE_TIME_1": {
+        "value": 172800.0
+    },
+    "LUCKY_ROULETTE_FREE_TIME_2": {
+        "value": 432000.0
+    },
+    "GEM_WEAR_TYPE_MAX": {
+        "value": 2.0
+    },
+    "MIN_QUALITY_BRO_ARMOR": {
+        "value": 5.0
+    },
+    "MIN_QUALITY_BRO_HERO": {
+        "value": 5.0
+    },
+    "MIN_QUALITY_BRO_GEM": {
+        "value": 6.0
+    },
+    "LUCKY_AWARD_NEEDRATE": {
+        "value": 1.5
+    },
+    "countyCharTex": {
+        "value": "diaochan70"
+    },
+    "passportVip": {
+        "value": 2.0
+    },
+    "ARMOR_ENHANCE_UP": {
+        "value": 5.0
+    },
+    "ENTRY_HOVER_CHEST": {
+        "value": [
+            20,
+            50,
+            600
+        ]
+    },
+    "ENTRY_HOVER_ARMOR": {
+        "value": [
+            40,
+            60,
+            600
+        ]
+    },
+    "ENTRY_HOVER_HERO": {
+        "value": [
+            40,
+            60,
+            600
+        ]
+    },
+    "ENTRY_HOVER_LEVEL": {
+        "value": [
+            0,
+            30,
+            700
+        ]
+    },
+    "SHOW_FIRST_LEVEL": {
+        "value": [
+            20,
+            40
+        ]
+    },
+    "DAILYRECHARGE_LEVEL": {
+        "value": 10.0
+    },
+    "MONEYGIFT": {
+        "value": [
+            1,
+            2
+        ]
+    },
+    "POACH_HERO_RATE": {
+        "value": 0.0004
+    },
+    "POACH_HERO_MAXNUM": {
+        "value": 20.0
+    },
+    "POACH_HISTORY_MAX": {
+        "value": 30.0
+    },
+    "HEROSTAGE_REWARDTIME": {
+        "value": 8.0
+    },
+    "HEROSTAGE_HELPTIME": {
+        "value": 30.0
+    },
+    "FIVE_HERO_REWARD": {
+        "value": {
+            "1": [
+                [
+                    110,
+                    3
+                ],
+                [
+                    111,
+                    3
+                ],
+                [
+                    2,
+                    20
+                ]
+            ],
+            "100": [
+                [
+                    110,
+                    5
+                ],
+                [
+                    111,
+                    5
+                ],
+                [
+                    2,
+                    30
+                ]
+            ],
+            "125": [
+                [
+                    20201,
+                    5
+                ],
+                [
+                    2,
+                    50
+                ]
+            ],
+            "150": [
+                [
+                    20202,
+                    3
+                ],
+                [
+                    2,
+                    50
+                ]
+            ]
+        }
+    },
+    "FIVE_HERO_TEMPLATE": {
+        "value": 1010.0
+    },
+    "FIVE_HERO_HELP": {
+        "value": "lbFiveHeroHelp"
+    },
+    "FAME_MAX": {
+        "value": 200.0
+    },
+    "FAME_INTERVAL": {
+        "value": 300.0
+    },
+    "SD_CD_POACH_TIME": {
+        "value": 1125.0
+    },
+    "HISTORY_DUNGEON_DF_LOCK": {
+        "value": [
+            0,
+            48,
+            95
+        ]
+    },
+    "ARMORMASTER_SP_LEVEL": {
+        "value": 10.0
+    },
+    "secretDiamondCost": {
+        "value": [
+            500,
+            500,
+            500,
+            500
+        ]
+    },
+    "secretCost": {
+        "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            12,
+            16,
+            20,
+            24,
+            28,
+            30,
+            30
+        ]
+    },
+    "COME_BACK_REWARD": {
+        "value": 240.0
+    },
+    "VALENTINE_ITEMS": {
+        "value": [
+            220001,
+            220002,
+            220003,
+            220004
+        ]
+    },
+    "VALENTINE_REWARD": {
+        "value": 220009.0
+    },
+    "VALENTINE_REWARD2": {
+        "value": 220010.0
+    },
+    "SECRET_ANIMITION_DELAY": {
+        "value": 3.0
+    },
+    "SIXMARK_ROLLTIME": {
+        "value": 2.0
+    },
+    "silkbagCost": {
+        "value": [
+            1
+        ]
+    },
+    "INIT_SILK_COUNT": {
+        "value": 5.0
+    },
+    "SILK_SCORE_REWARD_1": {
+        "value": {
+            "12": [
+                [
+                    20094,
+                    10
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "20": [
+                [
+                    20094,
+                    20
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "30": [
+                [
+                    20095,
+                    10
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "40": [
+                [
+                    20095,
+                    20
+                ],
+                [
+                    125,
+                    300
+                ]
+            ],
+            "50": [
+                [
+                    20096,
+                    10
+                ],
+                [
+                    125,
+                    500
+                ]
+            ],
+            "60": [
+                [
+                    20097,
+                    5
+                ],
+                [
+                    125,
+                    800
+                ]
+            ],
+            "70": [
+                [
+                    20116,
+                    2
+                ],
+                [
+                    125,
+                    1200
+                ]
+            ]
+        }
+    },
+    "SILK_SCORE_REWARD_2": {
+        "value": {
+            "12": [
+                [
+                    20094,
+                    10
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "20": [
+                [
+                    20094,
+                    20
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "30": [
+                [
+                    20095,
+                    10
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "40": [
+                [
+                    20095,
+                    20
+                ],
+                [
+                    125,
+                    300
+                ]
+            ],
+            "50": [
+                [
+                    20096,
+                    10
+                ],
+                [
+                    125,
+                    500
+                ]
+            ],
+            "60": [
+                [
+                    20097,
+                    5
+                ],
+                [
+                    125,
+                    800
+                ]
+            ],
+            "70": [
+                [
+                    20116,
+                    2
+                ],
+                [
+                    125,
+                    1200
+                ]
+            ]
+        }
+    },
+    "SILK_SCORE_REWARD_3": {
+        "value": {
+            "12": [
+                [
+                    20094,
+                    10
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "20": [
+                [
+                    20094,
+                    20
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "30": [
+                [
+                    20095,
+                    10
+                ],
+                [
+                    125,
+                    200
+                ]
+            ],
+            "40": [
+                [
+                    20095,
+                    20
+                ],
+                [
+                    125,
+                    300
+                ]
+            ],
+            "50": [
+                [
+                    20096,
+                    10
+                ],
+                [
+                    125,
+                    500
+                ]
+            ],
+            "60": [
+                [
+                    20097,
+                    5
+                ],
+                [
+                    125,
+                    800
+                ]
+            ],
+            "70": [
+                [
+                    20116,
+                    2
+                ],
+                [
+                    125,
+                    1200
+                ]
+            ]
+        }
+    },
+    "LOOKFOR_HELPTIME": {
+        "value": 10.0
+    },
+    "lookforCount": {
+        "value": 5.0
+    },
+    "lookforHelpCount": {
+        "value": 5.0
+    },
+    "lookforTime": {
+        "value": 7200.0
+    },
+    "clearforTime": {
+        "value": 900.0
+    },
+    "visitLevel": {
+        "value": 30.0
+    },
+    "HAMMER_PRICE": {
+        "value": 999999.0
+    },
+    "HAMMER_DAILY_LIMIT": {
+        "value": 5000.0
+    },
+    "BATTLE_CITY_POWER": {
+        "value": 50000000.0
+    },
+    "GEM_ROULETTE_PRICE": {
+        "value": 999999.0
+    },
+    "GEM_ROULETTE_ANIMITION_DELAY": {
+        "value": 5.0
+    },
+    "WINTREASURE_JUMP": {
+        "value": 2.0
+    },
+    "WINTREASURE_JUMPVIP": {
+        "value": 18.0
+    },
+    "CHAT_LIMIT": {
+        "value": {
+            "awy": {
+                "lv": {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1
+                },
+                "rexp": {
+                    "1": 60,
+                    "2": 60,
+                    "3": 60,
+                    "4": 60
+                }
+            },
+            "fkylc": {
+                "lv": {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1
+                },
+                "rexp": {
+                    "1": 48
+                }
+            },
+            "*": {
+                "lv": {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 1
+                },
+                "rexp": {
+                    "1": 60,
+                    "2": 60,
+                    "3": 60,
+                    "4": 60
+                }
+            }
+        }
+    },
+    "VISIT_HERO_COUNT": {
+        "value": 2.0
+    },
+    "WANBA_PET": {
+        "value": 180.0
+    },
+    "STAGE_FINGER_OUT_TIME": {
+        "value": 3.0
+    },
+    "seriesPro": {
+        "value": [
+            [
+                2,
+                0.2
+            ],
+            [
+                3,
+                0.3
+            ],
+            [
+                4,
+                0.4
+            ]
+        ]
+    },
+    "DanmakuOutTime": {
+        "value": 10.0
+    },
+    "DANMAKU_OPEN_LEVEL": {
+        "value": 35.0
+    },
+    "cardCost": {
+        "value": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32
+        ]
+    },
+    "lbSevenStarsLevel": {
+        "value": [
+            "",
+            "一级七星坛",
+            "二级七星坛",
+            "三级七星坛",
+            "四级七星坛",
+            "五级七星坛",
+            "六级七星坛",
+            "七级七星坛",
+            "八级七星坛",
+            "九级七星坛",
+            "十级七星坛"
+        ]
+    },
+    "lbHeroInterfaceFunction": {
+        "value": [
+            "总览",
+            "升级",
+            "进阶",
+            "宝石",
+            "符文"
+        ]
+    },
+    "lbStarPrefix": {
+        "value": [
+            "",
+            "真·",
+            "神·"
+        ]
+    },
+    "lbActivityName": {
+        "value": {
+            "11": "神将召唤",
+            "12": "神装召唤",
+            "13": "宝物召唤",
+            "14": "宝石召唤"
+        }
+    },
+    "lbChangeName": {
+        "value": [
+            "一转",
+            "二转",
+            "三转"
+        ]
+    },
+    "M": {
+        "value": 100000000.0
+    },
+    "THREE_COUNTRY": {
+        "value": 10.0
+    },
+    "TREASURE_RETURN_EXP_ID": {
+        "value": [
+            1010003,
+            1010002,
+            1010001
+        ]
+    },
+    "BATTLE_CITYCROSS_COUNT_COST": {
+        "value": [
+            20,
+            20,
+            20,
+            30,
+            30,
+            30,
+            30,
+            40,
+            40,
+            40
+        ]
+    },
+    "BATTLE_CITYCROSS_COUNT": {
+        "value": 10.0
+    },
+    "PARK_INIT_ROLL": {
+        "value": [
+            3
+        ]
+    },
+    "PARK_ROLL_WEIGHT": {
+        "value": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ]
+    },
+    "CRANE_COST": {
+        "value": 1.0
+    },
+    "CRANE_LOGIN_REWARD": {
+        "value": [
+            [
+                20109,
+                5
+            ]
+        ]
+    },
+    "LOGIN_DICE_COUNT": {
+        "value": 3.0
+    },
+    "RECRUIT_COUNT_HERO": {
+        "value": 99999.0
+    },
+    "RECRUIT_COUNT_EQUIP": {
+        "value": 99999.0
+    },
+    "BATTLE_CITYCROSS_M": {
+        "value": 4000000000.0
+    },
+    "INVEST_OPENDAY": {
+        "value": 8.0
+    },
+    "INVEST_PLAN": {
+        "value": [
+            [
+                1,
+                60,
+                2,
+                10000,
+                4130005001,
+                "financialBroadcast"
+            ],
+            [
+                2,
+                100,
+                2,
+                50000,
+                4130019801,
+                "financialBroadcast"
+            ],
+            [
+                3,
+                100,
+                3,
+                50000,
+                4130019802,
+                "financialBroadcast",
+                15
+            ],
+            [
+                4,
+                100,
+                4,
+                30000,
+                4130012801,
+                "financialBroadcast"
+            ]
+        ]
+    },
+    "INVEST_FIRSTDAY_PER": {
+        "value": 80.0
+    },
+    "INVEST_TBNAME": {
+        "value": [
+            "小投资",
+            "大理财",
+            "军火理财",
+            "环球理财"
+        ]
+    },
+    "INVEST_PLAN_ITEM": {
+        "value": 2.0
+    },
+    "CURRENCY_ITEM_ID": {
+        "value": 4197.0
+    },
+    "REALM_PASS": {
+        "value": [
+            120,
+            4
+        ]
+    },
+    "REALM_ARENA_ZONE_AUTO_SIZE": {
+        "value": 4.0
+    },
+    "READTIME": {
+        "value": 4000000.0
+    },
+    "WANTEDTIME": {
+        "value": [
+            {
+                "hour": 0,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 2,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 10,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 12,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 14,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 16,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 18,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 20,
+                "minute": 0,
+                "second": 0
+            },
+            {
+                "hour": 22,
+                "minute": 0,
+                "second": 0
+            }
+        ]
+    },
+    "VIP_RECHARGE_SHOW_LEVEL": {
+        "value": 6.0
+    },
+    "ITEM_ICON_20601": {
+        "value": [
+            "txtq_box_fx3_png",
+            "txtq_box4_light_png"
+        ]
+    },
+    "ITEM_ICON_20602": {
+        "value": [
+            "txtq_box_fx2_png",
+            "txtq_box4_light_png"
+        ]
+    },
+    "ITEM_ICON_20603": {
+        "value": [
+            "txtq_box_fx1_png",
+            "txtq_box2_light_png"
+        ]
+    },
+    "ITEM_ICON_20604": {
+        "value": [
+            "txtq_box_fx3_png",
+            "txtq_box4_light_png"
+        ]
+    },
+    "ITEM_ICON_20605": {
+        "value": [
+            "txtq_box_fx2_png",
+            "txtq_box4_light_png"
+        ]
+    },
+    "ITEM_ICON_20606": {
+        "value": [
+            "txtq_box_fx1_png",
+            "txtq_box2_light_png"
+        ]
+    },
+    "ITEM_ICON_20607": {
+        "value": [
+            "txtq_box_fx3_png",
+            "txtq_box4_light_png"
+        ]
+    },
+    "ITEM_ICON_20608": {
+        "value": [
+            "txtq_box_fx2_png",
+            "txtq_box4_light_png"
+        ]
+    },
+    "ITEM_ICON_20609": {
+        "value": [
+            "txtq_box_fx1_png",
+            "txtq_box2_light_png"
+        ]
+    },
+    "ITEM_ICON_20651": {
+        "value": [
+            "txtq_box7_png",
+            "txtq_box7_light_png"
+        ]
+    },
+    "ITEM_ICON_20652": {
+        "value": [
+            "txtq_box9_png",
+            "txtq_box9_light_png"
+        ]
+    },
+    "ITEM_ICON_20653": {
+        "value": [
+            "txtq_box6_png",
+            "txtq_box6_light_png"
+        ]
+    },
+    "ITEM_ICON_20654": {
+        "value": [
+            "txtq_box7_png",
+            "txtq_box7_light_png"
+        ]
+    },
+    "ITEM_ICON_20655": {
+        "value": [
+            "txtq_box6_png",
+            "txtq_box6_light_png"
+        ]
+    },
+    "ITEM_ICON_20656": {
+        "value": [
+            "txtq_box8_png",
+            "txtq_box8_light_png"
+        ]
+    },
+    "ITEM_ICON_20657": {
+        "value": [
+            "txtq_box7_png",
+            "txtq_box7_light_png"
+        ]
+    },
+    "ITEM_ICON_20658": {
+        "value": [
+            "txtq_box9_png",
+            "txtq_box9_light_png"
+        ]
+    },
+    "ITEM_ICON_20659": {
+        "value": [
+            "txtq_box8_png",
+            "txtq_box8_light_png"
+        ]
+    },
+    "AUTO_DISSOLVE_TIME": {
+        "value": 7.0
+    },
+    "AUTO_CHANGE_LEADER_TIME": {
+        "value": 3.0
+    },
+    "AUTO_CANDIDATE_TIME": {
+        "value": 1.0
+    },
+    "INVITEE_REWARD": {
+        "value": [
+            [
+                20153,
+                1
+            ]
+        ]
+    },
+    "LEVEL_REWARD_WANTED": {
+        "value": 58.0
+    },
+    "COVER_FIRST_REWARD": {
+        "value": [
+            [
+                2,
+                288
+            ],
+            [
+                1,
+                1000000
+            ]
+        ]
+    },
+    "COVER_DAILY_REWARD": {
+        "value": [
+            [
+                2,
+                188
+            ]
+        ]
+    },
+    "boatArrowCost": {
+        "value": [
+            1,
+            1,
+            2,
+            4,
+            8,
+            12,
+            16,
+            20
+        ]
+    },
+    "boatDiamondCost": {
+        "value": [
+            500,
+            500,
+            500,
+            500
+        ]
+    },
+    "RUNIC_SELECT_QUICK": {
+        "value": 10.0
+    },
+    "POWER_ATK": {
+        "value": 5.0
+    },
+    "POWER_DEF": {
+        "value": 5.0
+    },
+    "POWER_MATK": {
+        "value": 5.0
+    },
+    "POWER_MDEF": {
+        "value": 5.0
+    },
+    "POWER_HPMAX": {
+        "value": 0.6
+    },
+    "POWER_SPD1": {
+        "value": 5.0
+    },
+    "POWER_SPD2": {
+        "value": 10.0
+    },
+    "POWER_SPD3": {
+        "value": 160.0
+    },
+    "POWER_a": {
+        "value": 0.001
+    },
+    "POWER_b": {
+        "value": 0.0006
+    },
+    "POWER_c": {
+        "value": 0.0015
+    },
+    "POWER_d": {
+        "value": 0.001
+    },
+    "POWER_e": {
+        "value": 0.9
+    },
+    "POWER_f": {
+        "value": 1500.0
+    },
+    "POWER_HITRAT": {
+        "value": 0.5
+    },
+    "POWER_EVDRAT": {
+        "value": 0.5
+    },
+    "POWER_CRTRAT": {
+        "value": 0.4
+    },
+    "POWER_ATCRAT": {
+        "value": 0.4
+    },
+    "POWER_ADDDMG": {
+        "value": 0.6
+    },
+    "POWER_SUBDMG": {
+        "value": 0.6
+    },
+    "POWER_LEECH": {
+        "value": 1.0
+    },
+    "POWER_BOUNCE": {
+        "value": 1.0
+    },
+    "POWER_BASE": {
+        "value": 1.0
+    },
+    "FRAGMENT_RATE_10": {
+        "value": 5.0
+    },
+    "AWAKEN_RATIO": {
+        "value": 1.1
+    },
+    "ITEM_NAME_QUALITY_1": {
+        "value": [
+            "",
+            "lbHeroQualityName1",
+            "lbHeroQualityName2",
+            "lbHeroQualityName3",
+            "lbHeroQualityName4",
+            "lbHeroQualityName5",
+            "lbHeroQualityName6",
+            "lbHeroQualityName7"
+        ]
+    },
+    "ITEM_NAME_QUALITY_3": {
+        "value": [
+            "",
+            "lbHeroQualityName1",
+            "lbHeroQualityName2",
+            "lbHeroQualityName3",
+            "lbHeroQualityName4",
+            "lbHeroQualityName5",
+            "lbHeroQualityName6",
+            "lbHeroQualityName7"
+        ]
+    },
+    "ITEM_NAME_QUALITY_4": {
+        "value": [
+            "",
+            "lbHeroQualityName1",
+            "lbHeroQualityName2",
+            "lbHeroQualityName3",
+            "lbHeroQualityName4",
+            "lbHeroQualityName5",
+            "lbHeroQualityName6",
+            "lbHeroQualityName7"
+        ]
+    },
+    "ITEM_NAME_QUALITY_9": {
+        "value": [
+            "",
+            "白品装备",
+            "绿品装备",
+            "蓝品装备",
+            "紫品装备",
+            "橙品装备",
+            "红品装备",
+            "金品装备"
+        ]
+    },
+    "ITEM_NAME_QUALITY_10": {
+        "value": [
+            "",
+            "白品装备",
+            "绿品装备",
+            "蓝品装备",
+            "紫品装备",
+            "橙品装备",
+            "红品装备",
+            "金品装备"
+        ]
+    },
+    "ITEM_NAME_QUALITY_24": {
+        "value": [
+            "",
+            "白品武将",
+            "绿品武将",
+            "蓝品武将",
+            "紫品武将",
+            "橙品武将",
+            "红品武将",
+            "金品武将"
+        ]
+    },
+    "RECHARGE_JADE_CARD": {
+        "value": [
+            3,
+            4
+        ]
+    },
+    "ARMOR_SLOT_COUNT": {
+        "value": 4.0
+    },
+    "GEM_SLOT_COUNT": {
+        "value": 8.0
+    },
+    "RUNE_SLOT_COUNT": {
+        "value": 6.0
+    },
+    "MAX_FORMATION_COUNT": {
+        "value": 5.0
+    },
+    "MOUNTS_MAX_LEVEL": {
+        "value": 77.0
+    },
+    "GEM_CHANCE": {
+        "value": {
+            "11": {
+                "min": 1,
+                "add": 1,
+                "max": 1,
+                "costcount": 0
+            }
+        }
+    },
+    "BATTLE_CITYCROSS_BUFF_COUNT_COST": {
+        "value": 100.0
+    },
+    "BATTLE_CITYCROSS_BUFF_COUNT_MAX_COST": {
+        "value": 300.0
+    },
+    "BATTLE_CITYCROSS_BUFF_COUNT": {
+        "value": 5.0
+    },
+    "BATTLE_CITYCROSS_BUFF": {
+        "value": 0.1
+    },
+    "BATTLE_CITYCROSS2_BUFF": {
+        "value": 0.26
+    },
+    "BATTLE_CITY_BUFF_COUNT": {
+        "value": 5.0
+    },
+    "BATTLE_CITY_BUFF_COUNT_COST": {
+        "value": 400.0
+    },
+    "BATTLE_CITY_BUFF_COUNT_MAX_COST": {
+        "value": 1000.0
+    },
+    "COMPOUND_SIX_LOCKLEVEL": {
+        "value": 70.0
+    },
+    "COMPOUND_SIX_LOCKVIP": {
+        "value": 5.0
+    },
+    "RECRUIT_RELATE_LBEVENT": {
+        "value": {
+            "15": "recruitTreasureLeaderboard",
+            "16": "recruitAcerLeaderboard",
+            "17": "recruitEquipLeaderboard",
+            "20": "recruitArtifactLeaderboard",
+            "21": "recruitGemLeaderboard"
+        }
+    },
+    "BATCHCOMPOUND_MAX_LEVEL": {
+        "value": 120.0
+    },
+    "USE_LEVERLIMIT": {
+        "value": 40.0
+    },
+    "POWER_UP_DIFF": {
+        "value": 10000000000.0
+    },
+    "POWER_UP_RATIO": {
+        "value": 1.3
+    },
+    "POWER_UP_ATK": {
+        "value": 0.2
+    },
+    "POWER_UP_DEF": {
+        "value": 0.2
+    },
+    "REALM_BATTLE_CITY_HALT": {
+        "value": [
+            "00:00:00",
+            "00:00:00"
+        ]
+    },
+    "BATTLE_CITY_HALT": {
+        "value": [
+            "00:00:00",
+            "00:00:00"
+        ]
+    },
+    "MONEYGIFT_IOS": {
+        "value": [
+            4,
+            5,
+            6
+        ]
+    },
+    "ALONEWELFARE_LEVEL_LIMIT": {
+        "value": 30.0
+    },
+    "MergeConsumeType": {
+        "value": [
+            "hero",
+            "equip",
+            "gem",
+            "symbol"
+        ]
+    },
+    "XINCHUN_LUCKYDRAW_THRESHOLD": {
+        "value": [
+            198
+        ]
+    },
+    "XINCHUN_LUCKYDRAW_PRICE": {
+        "value": 213.0
+    },
+    "NEWYEARTURNTOTALCNT": {
+        "value": 10.0
+    },
+    "GEM_COMPOUND_LEVEL": {
+        "value": 110.0
+    },
+    "CITY_BATTLE_QUICK_COUNT": {
+        "value": 3.0
+    },
+    "CITY_BATTLE_QUICK_LEVEL": {
+        "value": 1.0
+    },
+    "CITY_BATTLE_QUICK_VIP": {
+        "value": 2.0
+    },
+    "CLEAN_DAILY_DUNGEON_DEADS": {
+        "value": [
+            4,
+            1
+        ]
+    },
+    "RANDOM_CHAT": {
+        "value": 0.0
+    },
+    "RANDOM_CHAT_TIME": {
+        "value": 300.0
+    },
+    "AUTO_TALK_RECOVERY_MAX": {
+        "value": 5.0
+    },
+    "AUTO_TALK_RECOVERY_TIME": {
+        "value": 60.0
+    },
+    "HB_BATTLE_THREE_LEVEL": {
+        "value": 95.0
+    },
+    "INIT_REWARD_iosmj": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_37wan": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_dhf": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_wanba": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_awy": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_ios": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_uc": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_oppo": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_xml": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_jjworld": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "INIT_REWARD_snml": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "GEM_FREE_CD": {
+        "value": [
+            180,
+            300,
+            900,
+            1800,
+            3600,
+            7200
+        ]
+    },
+    "INIT_REWARD_*": {
+        "value": [
+            [
+                404,
+                1
+            ]
+        ]
+    },
+    "OFFINE_REWARD_OUT_TIME": {
+        "value": 600.0
+    },
+    "TREASURE_ORDER_RATE": {
+        "value": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            12,
+            20
+        ]
+    },
+    "TREASURE_LEVEL_RATE": {
+        "value": 0.05
+    },
+    "DAY_EXP_TABNAMES": {
+        "value": [
+            "日常收益",
+            "快速战斗"
+        ]
+    },
+    "POPULAR_HOP_RECOVERY_MAX": {
+        "value": 1.0
+    },
+    "POPULAR_HOP_RECOVERY_TIME": {
+        "value": 8.0
+    },
+    "CONSUMETURNTOTALCNT": {
+        "value": 100.0
+    },
+    "CONSUMETURN_PER_SCORE": {
+        "value": 10.0
+    },
+    "CONSUMETUEN_CONSUMELIST": {
+        "value": 3000.0
+    },
+    "CHANGE_NAME_ITEM": {
+        "value": 77.0
+    },
+    "OFFLINEREWARD_MAX_TIME": {
+        "value": 0.7
+    },
+    "SUPERRECHARGE_OPENVIP": {
+        "value": 7.0
+    },
+    "RICHRECHARGE_OPENVIP": {
+        "value": 8.0
+    },
+    "OPENRECOMMEND_LEVEL_LIMIT": {
+        "value": [
+            20,
+            90
+        ]
+    },
+    "EXPBUFF_OPENTIME": {
+        "value": 5.0
+    },
+    "SLOT_BASE_REWARD_4021": {
+        "value": [
+            [
+                210002,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4025": {
+        "value": [
+            [
+                210002,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4029": {
+        "value": [
+            [
+                420,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4032": {
+        "value": [
+            [
+                422,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4055": {
+        "value": [
+            [
+                419,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4056": {
+        "value": [
+            [
+                474,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4058": {
+        "value": [
+            [
+                210002,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4059": {
+        "value": [
+            [
+                210002,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4060": {
+        "value": [
+            [
+                420,
+                25
+            ]
+        ]
+    },
+    "SLOT_BASE_REWARD_4061": {
+        "value": [
+            [
+                420,
+                25
+            ]
+        ]
+    },
+    "CITY_CLAIM_LEVEL_LIMIT": {
+        "value": 80.0
+    },
+    "SHOW_MSEC_IN_SEC": {
+        "value": 14400.0
+    },
+    "TIGER_ALLHEROICON1": {
+        "value": [
+            650000,
+            630000,
+            200080,
+            100030,
+            300120
+        ]
+    },
+    "TIGER_ALLHEROICON2": {
+        "value": [
+            650000,
+            630000,
+            100130,
+            100150,
+            400150
+        ]
+    },
+    "TIGER_ALLHEROICON3": {
+        "value": [
+            650000,
+            630000,
+            100110,
+            100100,
+            200100
+        ]
+    },
+    "FIX_OPEN_ACT_LB_AIDS": {
+        "value": [
+            27,
+            45,
+            46,
+            47
+        ]
+    },
+    "HoleCost": {
+        "value": [
+            1,
+            1,
+            2,
+            4,
+            8,
+            12,
+            16,
+            20
+        ]
+    },
+    "secretDiamondCost_4026": {
+        "value": [
+            500,
+            500,
+            500,
+            500
+        ]
+    },
+    "CHAT_CROSS_MUTE": {
+        "value": 168.0
+    },
+    "MINOPENHOURS": {
+        "value": 4.0
+    },
+    "XP_OPEN_DAY_LIMIT": {
+        "value": [
+            [
+                1,
+                180
+            ]
+        ]
+    },
+    "WORLD_LEVEL_PUL_RANGE": {
+        "value": [
+            [
+                1,
+                [
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            [
+                2,
+                [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        5,
+                        1.3
+                    ],
+                    [
+                        10,
+                        2
+                    ],
+                    [
+                        20,
+                        3
+                    ]
+                ]
+            ]
+        ]
+    },
+    "WORLD_LEVEL_DEC": {
+        "value": 5.0
+    },
+    "WORLD_LEVEL_DAY": {
+        "value": 9999.0
+    },
+    "PRECIOUS_TIEM_IDS": {
+        "value": [
+            20073,
+            20085,
+            20080,
+            20152,
+            20090,
+            20052,
+            20099,
+            640028,
+            640027,
+            640029,
+            20189,
+            20111,
+            70011,
+            20071,
+            20206,
+            20188,
+            20151
+        ]
+    },
+    "GEM_MASTER_MAX_LEVEL": {
+        "value": 41.0
+    },
+    "SHOWHERO_ITEMLIST": {
+        "value": [
+            20322,
+            20323,
+            20324,
+            20325
+        ]
+    },
+    "EQUIP_RESET_RATE": {
+        "value": 1.0
+    },
+    "HERO_RESET_RATE": {
+        "value": 1.0
+    },
+    "TREASURE_RESET_RATE": {
+        "value": 1.0
+    },
+    "HERO_REGRESS_COST": {
+        "value": [
+            [
+                2,
+                100
+            ]
+        ]
+    },
+    "EQUIP_REGRESS_COST": {
+        "value": [
+            [
+                2,
+                100
+            ]
+        ]
+    },
+    "TREASURE_REGRESS_COST": {
+        "value": [
+            [
+                2,
+                100
+            ]
+        ]
+    },
+    "RESET_TREASURE_LEVEL_STUAFF": {
+        "value": [
+            1010003
+        ]
+    },
+    "CONSUMETURN_PER_SCORE_4034": {
+        "value": 10.0
+    },
+    "CONSUME_TURNTABLE_BROAD_4034": {
+        "value": 5.0
+    },
+    "POACHHERO10_OPENLEVEL": {
+        "value": 100.0
+    },
+    "HERORECRUIT_NORMAL_LEVEL": {
+        "value": 30.0
+    },
+    "EQUIPRECRUIT_NORMAL_LEVEL": {
+        "value": 30.0
+    },
+    "GEMRECRUIT_NORMAL_LEVEL": {
+        "value": 30.0
+    },
+    "lbTotalRegressType": {
+        "value": [
+            "武将",
+            "装备",
+            "符文",
+            "宝物"
+        ]
+    },
+    "lbTotalComposeType": {
+        "value": [
+            "武将合成",
+            "装备合成",
+            "符文合成"
+        ]
+    },
+    "lbTotalResolveType": {
+        "value": [
+            "武将分解",
+            "装备分解",
+            "宝物分解"
+        ]
+    },
+    "rankShowBefore": {
+        "value": 2.0
+    },
+    "rankShowEnd": {
+        "value": 2.0
+    },
+    "MERIDIAN_A": {
+        "value": {
+            "1": 100,
+            "2": 100,
+            "3": 100,
+            "4": 100
+        }
+    },
+    "MERIDIAN_B": {
+        "value": {
+            "1": 37000,
+            "2": 50000,
+            "3": 30000,
+            "4": 20000
+        }
+    },
+    "CHAT_FALSE_OPEN_TIME": {
+        "value": 15.0
+    },
+    "DOMINATE_DAMAGE_PERCENT_G": {
+        "value": 0.2
+    },
+    "drugMaxLv": {
+        "value": 800.0
+    },
+    "drugOpenQuality": {
+        "value": 2.0
+    },
+    "drugReset": {
+        "value": 50.0
+    },
+    "ASSIST_MASTER_QUALITY_BASE": {
+        "value": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                10
+            ],
+            [
+                5,
+                30
+            ],
+            [
+                6,
+                100
+            ],
+            [
+                7,
+                300
+            ]
+        ]
+    },
+    "ASSIST_MASTER_STAR_BASE": {
+        "value": 0.5
+    },
+    "FIRSTCITY": {
+        "value": 1.0
+    },
+    "ENERGYCOST": {
+        "value": 2.0
+    },
+    "ENERGYREPLY": {
+        "value": [
+            1,
+            1800,
+            10
+        ]
+    },
+    "ENERGYMAXIMUM": {
+        "value": 30.0
+    },
+    "ASSISTABS": {
+        "value": [
+            "羁绊效果",
+            "助战大师"
+        ]
+    },
+    "FEAST": {
+        "value": 3.0
+    },
+    "BATTLE_SHOW_REWARD_STAGE": {
+        "value": [
+            "铜币        元宝",
+            "装备        经验"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_GGZJ": {
+        "value": [
+            "武将        装备"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_MRXB": {
+        "value": [
+            "各种基础资源"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_DBQB": {
+        "value": [
+            "战魂"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_CQFB": {
+        "value": [
+            "各种高价值道具"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_JJC": {
+        "value": [
+            "大量竞技币"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_KFZB": {
+        "value": [
+            "大量稀缺资源"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_QXZL": {
+        "value": [
+            "丰厚元宝"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_JTZ": {
+        "value": [
+            "国威大奖"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_DDZY": {
+        "value": [
+            "大量珍稀奖励"
+        ]
+    },
+    "BATTLE_SHOW_REWARD_KFGZ": {
+        "value": [
+            "大量军功"
+        ]
+    },
+    "HEROFUSE_STARICON": {
+        "value": {
+            "2": [
+                2,
+                2
+            ],
+            "3": [
+                3,
+                2
+            ],
+            "4": [
+                4,
+                2
+            ],
+            "5": [
+                5,
+                1
+            ],
+            "6": [
+                6,
+                1
+            ],
+            "7": [
+                7,
+                1
+            ],
+            "8": [
+                7,
+                1
+            ],
+            "9": [
+                7,
+                1
+            ],
+            "10": [
+                7,
+                1
+            ]
+        }
+    },
+    "BattleJumpNum": {
+        "value": 1.0
+    },
+    "CarriageShowPhase": {
+        "value": [
+            0.1,
+            0.4,
+            0.8
+        ]
+    },
+    "HEIGHTLEVY": {
+        "value": 6632.0
+    },
+    "INITIAL": {
+        "value": 10.0
+    },
+    "RECRUIT_COUNT_GENERAL": {
+        "value": 100.0
+    },
+    "STAGE_FAKE_TEAM": {
+        "value": {
+            "id": 1050,
+            "pid": 50,
+            "level": 1,
+            "creepProp": {
+                "atk": 1,
+                "def": 1,
+                "spd": 1,
+                "hpMax": 1,
+                "hitRat": 1,
+                "evdRat": 1,
+                "crtRat": 1,
+                "atcRat": 1,
+                "addDmg": 1,
+                "subDmg": 1
+            }
+        }
+    },
+    "STAGE_FAKE_ENEMY": {
+        "value": {
+            "id": 1051,
+            "pid": 1,
+            "level": 1,
+            "creepProp": {
+                "atk": 1,
+                "def": 1,
+                "spd": 1,
+                "hpMax": 1,
+                "hitRat": 1,
+                "evdRat": 1,
+                "crtRat": 1,
+                "atcRat": 1,
+                "addDmg": 1,
+                "subDmg": 1
+            }
+        }
+    },
+    "GUIDE_REWARD": {
+        "value": [
+            [
+                2,
+                50
+            ],
+            [
+                1,
+                500000
+            ],
+            [
+                20002,
+                1
+            ]
+        ]
+    },
+    "NEWWORDTIMES": {
+        "value": 3.0
+    },
+    "NEWWORDLIMIT": {
+        "value": 3.0
+    },
+    "NEWWORDRESUME": {
+        "value": 720.0
+    },
+    "CROSSBATTLE_FIRST_INTEGRAL": {
+        "value": 100.0
+    },
+    "ATTACKELIXIR": {
+        "value": {
+            "atk": 120
+        }
+    },
+    "DEFENSEELIXIR": {
+        "value": {
+            "def": 72
+        }
+    },
+    "LIFEELIXIR": {
+        "value": {
+            "hpMax": 720
+        }
+    },
+    "MDEFENSEELIXIR": {
+        "value": {
+            "mdef": 72
+        }
+    },
+    "ELIXIRFACTOR": {
+        "value": 0.5
+    },
+    "ELIXIRFMAXCOUNT": {
+        "value": 1000.0
+    },
+    "ELIXIRSPREAD": {},
+    "LIXIRCONSUME": {
+        "value": [
+            [
+                0,
+                100,
+                1
+            ],
+            [
+                101,
+                200,
+                1
+            ],
+            [
+                201,
+                300,
+                1
+            ],
+            [
+                301,
+                400,
+                1
+            ],
+            [
+                401,
+                500,
+                1
+            ]
+        ]
+    },
+    "MEDICINALPOWDER": {
+        "value": [
+            200,
+            400,
+            600,
+            800
+        ]
+    },
+    "MEDICINALPOWDERCOST": {
+        "value": [
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "BREACH_QUALITY": {
+        "value": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    },
+    "BREACH_QUALITY_SCORE": {
+        "value": [
+            10,
+            20,
+            40,
+            80,
+            160,
+            320
+        ]
+    },
+    "BREACH_SCORE": {
+        "value": 0.2
+    },
+    "ARMOR_QUALITY": {
+        "value": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    },
+    "ARMOR_QUALITY_SCORE": {
+        "value": [
+            8,
+            40,
+            200,
+            1000,
+            5000,
+            25000
+        ]
+    },
+    "TALK1001": {
+        "value": [
+            "想抢我，来呀！",
+            "互相伤害吧！",
+            "我可是无敌的。",
+            "打吧，打吧，我给你松松筋。",
+            "战力五渣，滚一边去。"
+        ]
+    },
+    "COLLECTFULLENERGY": {
+        "value": 25.0
+    },
+    "POWERUP": {
+        "value": [
+            [
+                100000,
+                500000,
+                1000000,
+                2000000,
+                5000000,
+                10000000,
+                20000000,
+                50000000,
+                100000000,
+                300000000
+            ],
+            "powerup"
+        ]
+    },
+    "MOUNTSTARGET": {
+        "value": [
+            6003,
+            6001
+        ]
+    },
+    "WINGSTARGET": {
+        "value": [
+            6004,
+            6002
+        ]
+    },
+    "RECRUITMENTCEILING": {
+        "value": 20000.0
+    },
+    "RECRUIT_BROADCAT_QUALITY": {
+        "value": 6.0
+    },
+    "LEVY_TOKEN": {
+        "value": 20089.0
+    },
+    "REINCARNATION": {
+        "value": "wj_st_mingzhong_png"
+    },
+    "REINCARNATION02": {
+        "value": {
+            "sp": 500
+        }
+    },
+    "compoundOpenLevel": {
+        "value": 30.0
+    },
+    "compoundOpenDay": {
+        "value": 10.0
+    },
+    "GEM_COMPOUND_LIMIT": {
+        "value": 11.0
+    },
+    "GEM_COMPOUND_LIMIT1": {
+        "value": [
+            11
+        ]
+    },
+    "treasure_limit": {
+        "value": "5,6,7"
+    },
+    "JLDS10": {
+        "value": 10.0
+    },
+    "OTHER_HERO_POS_TYPE_1": {
+        "value": [
+            100120,
+            200140,
+            200100,
+            300050,
+            400100
+        ]
+    },
+    "OTHER_HERO_POS_TYPE_2": {
+        "value": [
+            400290,
+            300080,
+            100040
+        ]
+    },
+    "CityWay2Damon": {
+        "value": 0.0
+    },
+    "herosp": {
+        "value": [
+            200020,
+            400030,
+            300060,
+            300070,
+            200080,
+            100130,
+            300120,
+            400150
+        ]
+    },
+    "STRONG_LEVELS": {
+        "value": [
+            60,
+            80,
+            100,
+            120
+        ]
+    },
+    "TREASURE_REFRESH_COST": {
+        "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            200
+        ]
+    },
+    "TREASURE_REFRESH_ITEM": {
+        "value": 1.0
+    },
+    "KILL_MOPPING_COST": {
+        "value": 300.0
+    },
+    "KILL_LAYERS_COUNT": {
+        "value": [
+            100,
+            100,
+            100
+        ]
+    },
+    "cityCrossRewardLimt": {
+        "value": [
+            75,
+            180
+        ]
+    },
+    "cityCrossTimeReborn": {
+        "value": 7200.0
+    },
+    "cityCrossMainCity": {
+        "value": [
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ]
+    },
+    "cityCrossWorldLv": {
+        "value": 30.0
+    },
+    "BIRTH_IMSOURCE_8092": {
+        "value": [
+            "act_ydqd_puzzle_1_png",
+            "act_ydqd_puzzle_2_png",
+            "act_ydqd_puzzle_3_png",
+            "act_ydqd_puzzle_4_png",
+            "act_ydqd_puzzle_5_png",
+            "act_ydqd_puzzle_6_png",
+            "act_ydqd_puzzle_7_png",
+            "act_ydqd_puzzle_8_png",
+            "act_ydqd_puzzle_9_png"
+        ]
+    },
+    "surpriseCount": {
+        "value": [
+            10,
+            5,
+            3,
+            2,
+            1
+        ]
+    },
+    "LUCKY_SCRATCH_NUM_COUNT": {
+        "value": 5.0
+    },
+    "LUCKY_SCRATCH_NUMBER_POOL": {
+        "value": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    },
+    "LUCKY_SCRATCH_VIP": {
+        "value": 2.0
+    },
+    "surpriseRecharge": {
+        "value": 20.0
+    },
+    "surpriseLimit": {
+        "value": 200.0
+    },
+    "surpriseReward": {
+        "value": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "INVEST_LIMIT_TIME": {
+        "value": 72.0
+    },
+    "NUMBERS_POOL_SIZE": {
+        "value": 2000.0
+    },
+    "EXPEDITION_MIN_QUALITY": {
+        "value": 5.0
+    },
+    "EXPEDITION_SELECTION_COUNT": {
+        "value": 3.0
+    },
+    "EXPEDITION_CONFIG": {
+        "value": [
+            [
+                "idEasy",
+                220
+            ],
+            [
+                "idHard",
+                221
+            ]
+        ]
+    },
+    "EXPEDITION_WIPE": {
+        "value": 110.0
+    },
+    "POWER_UP_STUN": {
+        "value": 1.0
+    },
+    "EXPEDITION_OPEN_LEVEL": {
+        "value": [
+            70,
+            100
+        ]
+    },
+    "WEEKINTEGRATION": {
+        "value": [
+            10,
+            50
+        ]
+    },
+    "WEEKLUCK": {
+        "value": [
+            1,
+            5
+        ]
+    },
+    "WEEKVIP": {
+        "value": 2.0
+    },
+    "WEEKFREE": {
+        "value": [
+            1,
+            1
+        ]
+    },
+    "WEEKFREE_VIP": {
+        "value": [
+            0,
+            4
+        ]
+    },
+    "LINKCOST1": {
+        "value": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            4,
+            8,
+            8,
+            16,
+            16,
+            32,
+            32
+        ]
+    },
+    "LINKCOST2": {
+        "value": [
+            3,
+            3,
+            6,
+            6,
+            12,
+            12,
+            24,
+            24,
+            48,
+            48,
+            96,
+            96
+        ]
+    },
+    "BIRTH_IMSOURCE_8087": {
+        "value": [
+            "X-xcpt-pt1-2_png",
+            "X-xcpt-pt2-2_png",
+            "X-xcpt-pt3-2_png",
+            "X-xcpt-pt4-2_png",
+            "X-xcpt-pt5-2_png",
+            "X-xcpt-pt6-2_png",
+            "X-xcpt-pt7-2_png",
+            "X-xcpt-pt8-2_png",
+            "X-xcpt-pt9-2_png"
+        ]
+    },
+    "BIRTH_IMSOURCE_8406": {
+        "value": [
+            "act_jsnc_puzzle_1_png",
+            "act_jsnc_puzzle_2_png",
+            "act_jsnc_puzzle_3_png",
+            "act_jsnc_puzzle_4_png",
+            "act_jsnc_puzzle_5_png",
+            "act_jsnc_puzzle_6_png",
+            "act_jsnc_puzzle_7_png",
+            "act_jsnc_puzzle_8_png",
+            "act_jsnc_puzzle_9_png"
+        ]
+    },
+    "MeridianRebornCost": {
+        "value": [
+            2,
+            50
+        ]
+    },
+    "EMPIRE_COUNT_PRICE": {
+        "value": [
+            20,
+            20,
+            30,
+            30,
+            40,
+            40,
+            50,
+            50,
+            60,
+            60
+        ]
+    },
+    "EMPIRE_5BATTLE_LEVEL": {
+        "value": 100.0
+    },
+    "EMPIRE_GROUP_SIZE": {
+        "value": [
+            1,
+            4
+        ]
+    },
+    "EMPIRE_OPEN_TIME": {
+        "value": [
+            1,
+            0,
+            0
+        ]
+    },
+    "EMPIRE_CLOSE_TIME": {
+        "value": [
+            7,
+            22,
+            0
+        ]
+    },
+    "EMPIRE_BOSS_RATE_COUNT": {
+        "value": 80.0
+    },
+    "EMPIRE_BOSS_RATE_M": {
+        "value": 2000000000.0
+    },
+    "EMPIRE_GROUP_OPEN_DAY": {
+        "value": 1.0
+    },
+    "BIG_BATTLE_EVENT_POS_LIMIT": {
+        "value": 15.0
+    },
+    "empireEventWeight": {
+        "value": 0.99
+    },
+    "empireEventTime": {
+        "value": 20.0
+    },
+    "empireEventCount": {
+        "value": 3.0
+    },
+    "CORPS_QQUN_NUMBER_LIMIT": {
+        "value": 15.0
+    },
+    "CORPS_WX_NUMBER_LIMIT": {
+        "value": 20.0
+    },
+    "CORPS_QUN_VIP": {
+        "value": 6.0
+    },
+    "LUXURY_GROUP_1": {
+        "value": [
+            10001,
+            10002,
+            10003,
+            10004
+        ]
+    },
+    "REALM_ARENA_GROUP_SIZE": {
+        "value": [
+            4,
+            4
+        ]
+    },
+    "REALM_ARENA_GROUP_OPEN_DAY": {
+        "value": 6.0
+    },
+    "REALM_ARENA_CLOSE_TIME": {
+        "": "关闭时间",
+        "value": [
+            7,
+            23,
+            30
+        ]
+    },
+    "REALM_ARENA_OPEN_TIME": {
+        "": "开启时间",
+        "value": [
+            1,
+            0,
+            0
+        ]
+    },
+    "BEAUTY_GROUP_SIZE": {
+        "value": [
+            1,
+            50
+        ]
+    },
+    "BEAUTY_GROUP_OPEN_DAY": {
+        "value": 1.0
+    },
+    "BEAUTY_OPEN_TIME": {
+        "value": [
+            1,
+            0,
+            0
+        ]
+    },
+    "BEAUTY_CLOSE_TIME": {
+        "value": [
+            7,
+            23,
+            59
+        ]
+    },
+    "REALM_BATTLECITY_GROUP_SIZE": {
+        "value": [
+            4,
+            4
+        ]
+    },
+    "REALM_BATTLECITY_GROUP_OPEN_DAY": {
+        "value": 8.0
+    },
+    "REALM_BATTLECITY_CLOSE_TIME": {
+        "": "关闭时间",
+        "value": [
+            7,
+            22,
+            0
+        ]
+    },
+    "REALM_BATTLECITY_OPEN_TIME": {
+        "": "开启时间",
+        "value": [
+            1,
+            0,
+            0
+        ]
+    },
+    "REALM_BATTLECITY_START": {
+        "value": [
+            3,
+            10,
+            0
+        ]
+    },
+    "REALM_BATTLECITY_FINISH": {
+        "value": [
+            7,
+            22,
+            0
+        ]
+    },
+    "REALM_BATTLECITY_PREPARE": {
+        "": "关闭时间",
+        "value": [
+            2,
+            8,
+            0
+        ]
+    },
+    "ZHIZUN_ARENA_GROUP_SIZE": {
+        "value": [
+            5,
+            50
+        ]
+    },
+    "ZHIZUN_GROUP_OPEN_DAY": {
+        "value": 3.0
+    },
+    "ZHIZUN_CLOSE_TIME": {
+        "": "关闭时间",
+        "value": [
+            7,
+            22,
+            0
+        ]
+    },
+    "ZHIZUN_OPEN_TIME": {
+        "": "开启时间",
+        "value": [
+            1,
+            0,
+            0
+        ]
+    },
+    "ZHIZUN_TIAOZHAN_TIME": {
+        "": "开启时间",
+        "value": [
+            [
+                1,
+                8,
+                0
+            ],
+            [
+                6,
+                23,
+                0
+            ]
+        ]
+    },
+    "ZHIZUN_ZHUNBEI": {
+        "value": [
+            1,
+            1,
+            0
+        ]
+    },
+    "ZHIZUN_XUANREN": {
+        "": "关闭时间",
+        "value": [
+            1,
+            2,
+            0
+        ]
+    },
+    "ZHIZUN_FINISH": {
+        "value": [
+            6,
+            23,
+            30
+        ]
+    },
+    "ZHIZUN_ZHANCHANG": {
+        "value": [
+            1,
+            50
+        ]
+    },
+    "ZHIZUN_QIANGZHE": {
+        "value": [
+            50,
+            100
+        ]
+    },
+    "ZHIZUN_ZIDONGTIAOZHAN": {
+        "value": 1.0
+    },
+    "ZHIZUN_JINGJIANGJI": {
+        "value": [
+            3,
+            8
+        ]
+    },
+    "ZHIZUN_TIAOZHAN_BEGIN": {
+        "value": [
+            8,
+            0,
+            0
+        ]
+    },
+    "ZHIZUN_TIAOZHAN_END": {
+        "value": [
+            21,
+            59,
+            59
+        ]
+    },
+    "ZHIZUN_JIESUAN": {
+        "value": [
+            23,
+            0,
+            0
+        ]
+    },
+    "ZHIZUN_ZIDONGZHANDOU": {
+        "value": [
+            22,
+            10,
+            23
+        ]
+    },
+    "ZHIZUN_COUNT_TIME": {
+        "value": [
+            50,
+            50
+        ]
+    },
+    "ZHIZUN_SHULIANG": {
+        "value": 10.0
+    },
+    "LOTTERY_GROUP_SIZE": {
+        "value": [
+            1,
+            9999
+        ]
+    },
+    "LOTTERY_GROUP_OPEN_DAY": {
+        "value": 6.0
+    },
+    "LOTTERY_CLOSE_TIME": {
+        "value": [
+            5,
+            0,
+            0
+        ]
+    },
+    "LOTTERY_OPEN_TIME": {
+        "value": [
+            7,
+            23,
+            59
+        ]
+    },
+    "UPPERLIMIT01": {
+        "value": 9999.0
+    },
+    "UPPERLIMIT02": {
+        "value": 9999.0
+    },
+    "RECHARGE_01": {
+        "value": 0.0
+    },
+    "RECHARGE_02": {
+        "value": 0.0
+    },
+    "freeGiftcount": {
+        "value": 57.0
+    },
+    "VOYAGE_MAX_QUEST_COUNT": {
+        "value": 8.0
+    },
+    "voyageRefreshTime": {
+        "value": 2.0
+    },
+    "voyageRefreshTimeAdd": {
+        "value": 3.0
+    },
+    "VOYAGE_REFRESH_TICKET_COST": {
+        "value": 1.0
+    },
+    "VOYAGE_REFRESH_DIAMOND_COST": {
+        "value": 30.0
+    },
+    "VOYAGE_SPEEDUP_INTERVAL": {
+        "value": 600.0
+    },
+    "VOYAGE_SPEEDUP_COST": {
+        "value": 5.0
+    },
+    "GEM_ROULETTE_LIMIT": {
+        "value": 1000.0
+    },
+    "VOYAGE_MOP_TIME_LIMIT": {
+        "value": 4.0
+    },
+    "EXCHANGESHOP_REFRESH_COST": {
+        "value": [
+            [
+                2,
+                50
+            ],
+            [
+                2,
+                50
+            ],
+            [
+                2,
+                50
+            ],
+            [
+                2,
+                50
+            ]
+        ]
+    },
+    "EXCHANGESHOPFREE": {
+        "value": 1.0
+    },
+    "battleCityClose": {
+        "value": 15.0
+    },
+    "arenaDay": {
+        "value": 999.0
+    },
+    "corpsTurnHero": {
+        "value": [
+            100020,
+            100030,
+            100050,
+            100070,
+            100090,
+            100110,
+            100120,
+            200020,
+            200040,
+            200060,
+            200070,
+            300040,
+            300050,
+            300060,
+            300070,
+            300090,
+            400020,
+            400030,
+            400050,
+            400060,
+            400070,
+            900050
+        ]
+    },
+    "corpsTurnCost": {
+        "value": [
+            2,
+            100
+        ]
+    },
+    "EXCHANGESHOP_NUM": {
+        "value": 4.0
+    },
+    "corpsTurnFreeChange": {
+        "value": 80.0
+    },
+    "": {},
+    "VoyageRefreshAlertQuality": {
+        "value": 5.0
+    },
+    "poachHeroPaoLv": {
+        "value": 40.0
+    },
+    "poachHeroPaoday": {
+        "value": 3.0
+    },
+    "GUIJIDENGJI": {
+        "value": 12.0
+    },
+    "palaceJadeCost": {
+        "value": [
+            100
+        ]
+    },
+    "palaceDiamondCost": {
+        "value": [
+            500,
+            1000,
+            1500,
+            2000
+        ]
+    },
+    "LIMIT_ACTIVITY": {
+        "value": {
+            "levy": 9100,
+            "wintreasure": 9101,
+            "recruit": 9105,
+            "rod": 9103,
+            "tiger": 9104
+        }
+    },
+    "jadeShowLv": {
+        "value": 90.0
+    },
+    "KINGOFYESETERDAY": {
+        "value": [
+            21,
+            23
+        ]
+    },
+    "KINGOFYESETERDAYTMES": {
+        "value": 3.0
+    },
+    "vipGiftRed": {
+        "value": 15.0
+    },
+    "KING_TIME": {
+        "value": 5.0
+    },
+    "trainingRate": {
+        "value": [
+            1,
+            2,
+            4,
+            6
+        ]
+    },
+    "trainingTime": {
+        "value": [
+            2,
+            4,
+            8,
+            12
+        ]
+    },
+    "trainingCost": {
+        "value": [
+            [
+                2,
+                100
+            ],
+            [
+                2,
+                200
+            ],
+            [
+                2,
+                300
+            ],
+            [
+                208,
+                100
+            ]
+        ]
+    },
+    "majinStageLimit": {
+        "value": 40.0
+    },
+    "majinLevelLimit": {
+        "value": [
+            150,
+            200,
+            250,
+            300,
+            350
+        ]
+    },
+    "HAPPY_TASKNAME": {
+        "value": [
+            "每日任务",
+            "活动任务"
+        ]
+    },
+    "MAJIN_NAMES": {
+        "value": [
+            "入魔",
+            "成魔",
+            "大魔",
+            "魔尊"
+        ]
+    },
+    "HAPPYSCORE": {
+        "value": 1.0
+    },
+    "HAPPYFREE": {
+        "value": 1.0
+    },
+    "HAPPYWEEKLUCKY": {
+        "value": 1.0
+    },
+    "bestBuyKindMax": {
+        "value": 3.0
+    },
+    "bestBuyAllMax": {
+        "value": 20.0
+    },
+    "VOYAGE_MAX_QUEST_COUNT2": {
+        "value": 5.0
+    },
+    "EXPEDITION_SWEEP_ADJUST": {
+        "value": 5.0
+    },
+    "stageLeaderboard": {
+        "value": [
+            [
+                3,
+                "挥金如土"
+            ],
+            [
+                10,
+                "商界开拓者"
+            ],
+            [
+                20,
+                "定制爱好者"
+            ],
+            [
+                50,
+                "座驾专家"
+            ],
+            [
+                200,
+                "衣食无忧"
+            ],
+            [
+                20011,
+                "未上榜"
+            ]
+        ]
+    },
+    "bt4Treasure30Reward": {
+        "value": [
+            20068,
+            1
+        ]
+    },
+    "giftDayData-4019-1": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-2": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-3": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-4": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-8": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-9": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-10": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-11": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "giftDayData-4019-13": {
+        "value": {
+            "imTitle": "C-baoxiangsucai_png",
+            "lbTitle": "资源",
+            "imDesc": "C-xianshitehuiwenzi_png"
+        }
+    },
+    "corpThereBattleQucik": {
+        "value": 100.0
+    },
+    "growthTypeName": {
+        "value": [
+            [
+                1,
+                "等级基金"
+            ],
+            [
+                2,
+                "登录基金"
+            ],
+            [
+                3,
+                "关卡基金"
+            ],
+            [
+                4,
+                "英雄基金"
+            ],
+            [
+                5,
+                "爬塔基金"
+            ]
+        ]
+    },
+    "growthBeiShu": {
+        "value": {
+            "等级基金": "mj_act_title_fx1_02_png",
+            "登录基金": "mj_act_title_fx1_59_png",
+            "关卡基金": "mj_act_title_fx1_60_png",
+            "武将基金": "mj_act_title_fx1_61_png"
+        }
+    },
+    "growthGetCnt": {
+        "value": {
+            "等级基金": "270",
+            "登录基金": "240",
+            "关卡基金": "980",
+            "英雄基金": "1980",
+            "绝色基金": "3280",
+            "爬塔基金": "1980"
+        }
+    },
+    "lbRedPacketType": {
+        "value": [
+            "登陆红包",
+            "七天返利"
+        ]
+    },
+    "sevenVipLimit": {
+        "value": 40.0
+    },
+    "NICKNAME_CHANGE": {
+        "value": [
+            [
+                2,
+                50
+            ]
+        ]
+    },
+    "NICKNAME_CHANGE2": {
+        "value": [
+            [
+                2,
+                2000
+            ]
+        ]
+    },
+    "BOTTOM_INJURY1": {
+        "value": 4.0
+    },
+    "BOTTOM_INJURY2": {
+        "value": 2.0
+    },
+    "MAIL_PASSPORT_EXP": {
+        "value": 5074.0
+    },
+    "CHECKPOINT_RESET_BUY_COST": {
+        "value": [
+            3000,
+            3000,
+            6000,
+            6000,
+            6000,
+            6000,
+            9000,
+            9000,
+            9000,
+            9000,
+            12000
+        ]
+    },
+    "TD_BATTLE_STARS": {
+        "value": [
+            [
+                [
+                    10,
+                    10
+                ],
+                3
+            ],
+            [
+                [
+                    5,
+                    9
+                ],
+                2
+            ],
+            [
+                [
+                    1,
+                    4
+                ],
+                1
+            ]
+        ]
+    },
+    "TD_BLOOD_STARS": {
+        "value": [
+            "通关关卡",
+            "主公血量不低于5",
+            "主公血量未受到伤害"
+        ]
+    },
+    "STRENGTH_ITEM_ID": {
+        "value": 50100.0
+    },
+    "STRENGTH_LIMIT": {
+        "value": 20.0
+    },
+    "STRENGTH_BEGIN_TIME": {
+        "value": 20.0
+    },
+    "STRENGTH_RECOVERY_TIME": {
+        "value": 3600.0
+    },
+    "STRENGTH_FULL_RECOVERY_TIME": {
+        "value": 72000.0
+    },
+    "STRENGTH_LEVEL_CONSUME": {
+        "value": 1.0
+    },
+    "STRENGTH_BUY_COST": {
+        "value": [
+            20,
+            20,
+            40,
+            40,
+            60,
+            60,
+            80,
+            80,
+            100
+        ]
+    },
+    "STRENGTH_ITEM_ID_DAN": {
+        "value": 50101.0
+    },
+    "TOURN_RESET": {
+        "value": 10.0
+    },
+    "TOURN_MOP_OPEN": {
+        "value": 11.0
+    },
+    "TOURN_MOP_BATTLE_OPEN": {
+        "value": 5.0
+    },
+    "TOURN_MOP_BATTLE_LIMIT": {
+        "value": 3.0
+    },
+    "TOURN_MOP_BATTLE_LIMIT_OPEN": {
+        "value": 5.0
+    },
+    "stageLevelLimit": {
+        "value": [
+            150,
+            200,
+            250,
+            300,
+            350
+        ]
+    },
+    "TREASURE_RATE": {
+        "value": 7.0
+    },
+    "tabNameHandBook": {
+        "value": [
+            "大汉部落",
+            "大唐部落",
+            "大周部落",
+            "大宋部落"
+        ]
+    },
+    "GEMPLAY_LOWSTAR": {
+        "value": 5.0
+    },
+    "GEMPLAY_LOWSTAR_REFRESH": {
+        "value": [
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                4,
+                5
+            ]
+        ]
+    },
+    "KILL_MONSTERS": {
+        "value": {
+            "1": 3,
+            "2": 5,
+            "3": 7
+        }
+    },
+    "TOWER_DEFENCE": {
+        "value": {
+            "1": 500,
+            "2": 1000,
+            "3": 1500,
+            "4": 2000
+        }
+    },
+    "QUEENTREASURECONST": {
+        "value": [
+            [
+                2,
+                5000
+            ]
+        ]
+    },
+    "COEFFICIENT": {
+        "value": {
+            "TOWERRATE": 1,
+            "ARATE": 1,
+            "BRATE": 1,
+            "CRATE": 1,
+            "DRATE": 1
+        }
+    },
+    "ACTIVE_SKILL_INCREASE": {
+        "value": 150.0
+    },
+    "CAPTURE_KING_COUNT": {
+        "value": [
+            20000
+        ]
+    },
+    "ACTIVE_SKILL2_INCREASE": {
+        "value": 250.0
+    },
+    "BUFF_PERCENTAGE": {
+        "value": {
+            "1": 0.3,
+            "2": 0.1,
+            "3": 0,
+            "4": 2,
+            "5": 0.7,
+            "6": 0.2,
+            "7": 25,
+            "8": 25,
+            "9": 25,
+            "10": 0,
+            "11": 1,
+            "12": 1,
+            "13": 1
+        }
+    },
+    "BUFF11_13_PER": {
+        "value": 8.0
+    },
+    "FUNCTION_PRE_LEVEL": {
+        "value": 1.0
+    },
+    "NEW_MAP_ID": {
+        "value": 1000.0
+    },
+    "NEW_GATE_ID": {
+        "value": 0.0
+    },
+    "NEW_TF_AWARD_LIMIT": {
+        "value": [
+            40,
+            80
+        ]
+    },
+    "NEW_TF_BLOOD": {
+        "value": 10.0
+    },
+    "NEW_TF_HERO": {
+        "value": [
+            200010,
+            100020,
+            300300,
+            400010
+        ]
+    },
+    "NEW_TF_HERO_ATK": {
+        "value": [
+            [
+                50000,
+                300000
+            ],
+            [
+                20000,
+                300000
+            ],
+            [
+                35000,
+                350000
+            ],
+            [
+                50000,
+                300000
+            ]
+        ]
+    },
+    "STAR_MOON_COUNT": {
+        "value": [
+            30000
+        ]
+    },
+    "secretDiamondCost_7920": {
+        "value": [
+            1000,
+            1000,
+            1000,
+            1000
+        ]
+    },
+    "secretDiamondCost_7921": {
+        "value": [
+            1000,
+            1000
+        ]
+    },
+    "secretDiamondCost_7922": {
+        "value": [
+            1000,
+            1000,
+            1000,
+            1000
+        ]
+    },
+    "secretDiamondCost_7923": {
+        "value": [
+            1000,
+            1000,
+            1000,
+            1000
+        ]
+    },
+    "secretDiamondCost_12030": {
+        "value": [
+            1000,
+            1000
+        ]
+    },
+    "secretDiamondCost_12031": {
+        "value": [
+            1000,
+            1000,
+            1000,
+            1000
+        ]
+    },
+    "QueenCost_7920": {
+        "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            12,
+            15,
+            20
+        ]
+    },
+    "QueenCost_7921": {
+        "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            12,
+            15,
+            20
+        ]
+    },
+    "QueenCost": {
+        "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            12,
+            15,
+            20
+        ]
+    },
+    "QueenCost_12030": {
+        "value": [
+            1,
+            2,
+            2,
+            4,
+            6,
+            8,
+            12,
+            16,
+            20,
+            24
+        ]
+    },
+    "QueenCost_12031": {
+        "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            12,
+            15,
+            20
+        ]
+    },
+    "QUEEN_TURN_REWARD": {
+        "value": {}
+    },
+    "CHECKPOINT_LEVEL": {
+        "value": 20.0
+    },
+    "DAILY_RED_PACK": {
+        "value": 30.0
+    },
+    "RED_ENVELOPE_STAY": {
+        "value": 10.0
+    },
+    "SUPREME_RECRUIT_IDS": {
+        "value": [
+            [
+                200010,
+                300010,
+                400010
+            ],
+            [
+                100020,
+                400020,
+                300010
+            ],
+            [
+                200010,
+                200040,
+                100010
+            ],
+            [
+                100020,
+                400020,
+                300300
+            ]
+        ]
+    },
+    "SUPREME_RECRUIT_IDS2": {
+        "value": [
+            [
+                800067,
+                800069,
+                800071
+            ],
+            [
+                800073,
+                800075,
+                800077
+            ],
+            [
+                800068,
+                800070,
+                800072
+            ],
+            [
+                800074,
+                800076,
+                800078
+            ]
+        ]
+    },
+    "WEEKCOST": {
+        "value": [
+            [
+                53003,
+                1
+            ]
+        ]
+    },
+    "HAPPYWEEKCOST": {
+        "value": [
+            [
+                53003,
+                1
+            ]
+        ]
+    },
+    "WEEKTENCOST": {
+        "value": [
+            [
+                53003,
+                10
+            ]
+        ]
+    },
+    "SUPERTENWEEKCOST": {
+        "value": [
+            [
+                53003,
+                10
+            ]
+        ]
+    },
+    "HAPPYTENWEEKCOST": {
+        "value": [
+            [
+                53003,
+                10
+            ]
+        ]
+    },
+    "WEEKRECHARGE": {
+        "value": 1.0
+    },
+    "SUPERWEEKCOST": {
+        "value": [
+            [
+                53003,
+                1
+            ]
+        ]
+    },
+    "HEQUCOST": {
+        "value": [
+            [
+                520,
+                1
+            ]
+        ]
+    },
+    "SUPERTENHEQUCOST": {
+        "value": [
+            [
+                520,
+                10
+            ]
+        ]
+    },
+    "HEQURECHARGE": {
+        "value": 100.0
+    },
+    "BEAUTIFULGIRLTIMES": {
+        "value": 10.0
+    },
+    "BEAUTIFULGIRLCOST": {
+        "value": [
+            10,
+            10,
+            10,
+            20,
+            20,
+            20,
+            40,
+            40,
+            40,
+            40
+        ]
+    },
+    "RED_ENVELOPE_CD": {
+        "value": 5000.0
+    },
+    "TREASUREHOUSE_TIME": {
+        "value": 7200.0
+    },
+    "TREASUREHOUSES_TIME": {
+        "value": 20.0
+    },
+    "TRE_ENTER_COST": {
+        "value": [
+            [
+                1,
+                500000
+            ]
+        ]
+    },
+    "TRE_REFRESH_COSNST": {
+        "value": [
+            [
+                2,
+                25
+            ]
+        ]
+    },
+    "TRE_DRAW_TIME": {
+        "value": 90.0
+    },
+    "TRE_LO_COST": {
+        "value": [
+            [
+                53005,
+                1
+            ]
+        ]
+    },
+    "TRE_HI_COST": {
+        "value": [
+            [
+                53006,
+                1
+            ]
+        ]
+    },
+    "STARTIME": {
+        "value": [
+            1,
+            3,
+            5,
+            8,
+            12,
+            14,
+            16,
+            18,
+            22,
+            26,
+            30,
+            34,
+            38,
+            42,
+            46,
+            50,
+            53,
+            56,
+            59,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            88,
+            90
+        ]
+    },
+    "REFRESH_AWRD": {
+        "value": 10.0
+    },
+    "VIP_GIFT_CIRLIGHT": {
+        "value": [
+            100137,
+            200108,
+            200087,
+            20075,
+            300068,
+            20077,
+            100037,
+            100017,
+            20099,
+            200017,
+            100028,
+            20081,
+            20082,
+            300018,
+            400018,
+            20080
+        ]
+    },
+    "SYSTEMOPEN_BG": {
+        "value": {
+            "1": "X_120lianchou_beijingtu1_png",
+            "2": "X_120lianchou_beijingtu2_png",
+            "3": "X_120lianchou_beijingtu3_png",
+            "4": "X_120lianchou_beijingtu4_png",
+            "5": "X_120lianchou_beijingtu5_png",
+            "6": "X_120lianchou_beijingtu6_png",
+            "7": "X_120lianchou_beijingtu7_png",
+            "8": "X_120lianchou_beijingtu8_png",
+            "9": "X_120lianchou_beijingtu9_png",
+            "10": "X_120lianchou_beijingtu10_png",
+            "11": "X_120lianchou_beijingtu10_png",
+            "12": "X_120lianchou_beijingtu10_png"
+        }
+    },
+    "CORPSWARS_COST": {
+        "value": [
+            20,
+            20,
+            20,
+            30,
+            40
+        ]
+    },
+    "LESS_REWARD": {
+        "value": 10.0
+    },
+    "SPECIAL_WEIGHT": {
+        "value": 0.08
+    },
+    "EVENT_WEIGHT": {
+        "value": [
+            70,
+            30
+        ]
+    },
+    "CORPSWARS_MAIL": {
+        "value": 5097.0
+    },
+    "HOVER_TIME1": {
+        "value": 30000.0
+    },
+    "HOVER_TIME2": {
+        "value": 1000.0
+    },
+    "INVITE_MAX": {
+        "value": 9.0
+    },
+    "INVITE_NEW_MAX": {
+        "value": 6.0
+    },
+    "INVITE_30_MAX": {
+        "value": 9.0
+    },
+    "INVITE_60_MAX": {
+        "value": 9.0
+    },
+    "RECHARGEREBATE": {
+        "value": 500.0
+    },
+    "SHARE_TITLE": {
+        "value": [
+            10,
+            [
+                [
+                    2,
+                    5
+                ]
+            ]
+        ]
+    },
+    "CHAPTER_MOP_LEVEL": {
+        "value": 16.0
+    },
+    "CHAPTER_MOP_VIP": {
+        "value": 1.0
+    },
+    "LEVEL_MOST": {
+        "value": 60.0
+    },
+    "LEVEL_MOSTGAP": {
+        "value": 10.0
+    },
+    "COMPOSE_NEED_COUNT": {
+        "value": {
+            "2": 5,
+            "3": 5,
+            "4": 5,
+            "6": 5,
+            "7": 5,
+            "10": 4,
+            "11": 3
+        }
+    },
+    "POWER_OF_LOOTING": {
+        "value": [
+            10,
+            20
+        ]
+    },
+    "TREASURE_SNTAHC_TARGETER_COUNT": {
+        "value": 6.0
+    },
+    "TREASURE_SNTAHC_COST": {
+        "value": [
+            [
+                54020,
+                2
+            ]
+        ]
+    },
+    "TREASURE_SNTAHC_TIME": {
+        "value": 1800.0
+    },
+    "TREASURE_SNTAHC_LIMIT": {
+        "value": 20.0
+    },
+    "TREASURE_SNTAHC_BUY_COST": {
+        "value": [
+            20,
+            20,
+            40,
+            40,
+            60,
+            60,
+            80,
+            80,
+            100
+        ]
+    },
+    "TREASURE_SNTAHC_ID": {
+        "value": 54020.0
+    },
+    "TREASURE_SNTAHC_ID_DAN": {
+        "value": 54021.0
+    },
+    "TREASURE_SNTAHC_BEGIN_TIME": {
+        "value": 20.0
+    },
+    "ANTIQUEROB_ONEKRY_LEVEL": {
+        "value": 65.0
+    },
+    "ANTIQUEROB_ONEKRY_VIP": {
+        "value": 3.0
+    },
+    "TFSPEED": {
+        "value": [
+            1,
+            1.6,
+            2.5
+        ]
+    },
+    "TFSPEED_LEVEL": {
+        "value": 30.0
+    },
+    "CHAPTER_SKIP": {
+        "value": 2.0
+    },
+    "QIANQI_SKIP": {
+        "value": 180.0
+    },
+    "FIRST_VOYAGE_QUEST": {
+        "value": [
+            20001,
+            20002,
+            20003,
+            20004,
+            20005,
+            20006,
+            20007,
+            20008
+        ]
+    },
+    "SEVEN_GIFT_NAME": {
+        "value": "Q-wuzetian_png"
+    },
+    "BATTLE_TIMES_groupFight": {
+        "value": 20.0
+    },
+    "TIANXIADIYITIME": {
+        "value": 360.0
+    },
+    "VOYAGE_PRIVILEGE": {
+        "value": [
+            1,
+            2,
+            3
+        ]
+    },
+    "POACH_PRIVILEGE": {
+        "value": [
+            4,
+            5,
+            6
+        ]
+    },
+    "poachmax": {
+        "value": 3.0
+    },
+    "poachspeed": {
+        "value": 1.0
+    },
+    "poachrate": {
+        "value": 1.0
+    },
+    "TARGET_DISPLACE_LIMIT": {
+        "value": {
+            "vip": 10
+        }
+    },
+    "HEAVEN_ENTER": {
+        "value": 10001.0
+    },
+    "KFBLZLEVEL": {
+        "value": 3.0
+    },
+    "KFBLZD": {
+        "value": 1000.0
+    },
+    "KFBLZRANGE01": {
+        "value": [
+            0,
+            9999999,
+            1
+        ]
+    },
+    "KFBLZRANGE02": {
+        "value": [
+            10000000,
+            99999999,
+            0.04
+        ]
+    },
+    "KFBLZRANGE03": {
+        "value": [
+            100000000,
+            999999999,
+            0.004
+        ]
+    },
+    "KFBLZRANGE04": {
+        "value": [
+            1000000000,
+            9999999999999999999,
+            0.0016
+        ]
+    },
+    "RECRUIT_LIMIT": {
+        "value": 3.0
+    },
+    "RECRUIT_LIMIT2": {
+        "value": 3.0
+    },
+    "RECRUIT_LIMIT3": {
+        "value": 8.0
+    },
+    "HEQUSHENGDIAN01": {
+        "value": 521.0
+    },
+    "HEQUSHENGDIAN02": {
+        "value": 522.0
+    },
+    "LEVEL_MOSTNOBATTEL": {
+        "value": 1.0
+    },
+    "PEAR_SLOT_COUNT": {
+        "value": 8.0
+    },
+    "TREASURE_DOUBLE_REWARD": {
+        "value": 2.0
+    },
+    "TREASURE_ITEM_LIMIT": {
+        "value": 49.0
+    },
+    "CHIVALROUS_DOUBLE_REWARD": {
+        "value": 2.0
+    },
+    "CHIVALROUS_ITEM_LIMIT": {
+        "value": 119.0
+    },
+    "CHIVALROUS": {
+        "value": 5421.0
+    },
+    "PEAR_TABLE_RETURNITEM": {
+        "value": [
+            762,
+            761,
+            763
+        ]
+    },
+    "PEAR_HandBook": {
+        "value": [
+            92001,
+            92002,
+            92003,
+            92004,
+            92005,
+            92006,
+            92007,
+            92008,
+            93001,
+            93002,
+            93003,
+            93004,
+            93005,
+            93006,
+            93007,
+            93008,
+            94001,
+            94002,
+            94003,
+            94004,
+            94005,
+            94006,
+            94007,
+            94008,
+            95001,
+            95002,
+            95003,
+            95004,
+            95005,
+            95006,
+            95007,
+            95008,
+            96001,
+            96002,
+            96003,
+            96004,
+            96005,
+            96006,
+            96007,
+            96008,
+            96009,
+            96010,
+            97001,
+            97002,
+            97003,
+            97004,
+            97005,
+            97006,
+            97007,
+            97008,
+            97009,
+            97010
+        ]
+    },
+    "PRARL_SIGN_ID": {
+        "value": 110.0
+    },
+    "PEAR_MAKE": {
+        "value": 6.0
+    },
+    "PEAR_OPEN_LEVEL": {
+        "value": 1.0
+    },
+    "PEAR_LEVEL": {
+        "value": 5.0
+    },
+    "WEEKEND_TURN_BUY_COST": {
+        "value": [
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400
+        ]
+    },
+    "GROUP_LEADERBOARD_LIMIT_centerConsume": {
+        "value": {
+            "level": 40,
+            "vip": 2
+        }
+    },
+    "GROUP_LEADERBOARD_LIMIT_superTiger4028": {
+        "value": {
+            "level": 40,
+            "vip": 2
+        }
+    },
+    "LOTTERY_PRICE": {
+        "value": [
+            10,
+            10
+        ]
+    },
+    "LOTTERY_INITIAL_POOL": {
+        "value": 128888.0
+    },
+    "LOTTERY_POOL_GROWTH": {
+        "value": 288.0
+    },
+    "LOTTERY_DRAW_COUNT": {
+        "value": 10.0
+    },
+    "TEEASURE_SCORE": {
+        "value": 1.0
+    },
+    "RETURN_CAMP_MAX": {
+        "value": 3.0
+    },
+    "RETURN_CAMP_QUALITY": {
+        "value": [
+            7,
+            10
+        ]
+    },
+    "CRUISE_TIME_LIMIT": {
+        "value": 12.0
+    },
+    "CRUISE_REWARD_TIME": {
+        "value": 120.0
+    },
+    "CRUISE_HERO_FRAGMENT_OUTPUT_TIME": {
+        "value": [
+            0,
+            8,
+            16
+        ]
+    },
+    "CRUISE_HERO_FRAGMENT_OUTPUT_REWARD": {
+        "value": [
+            [
+                2,
+                [
+                    [
+                        3,
+                        3000
+                    ],
+                    [
+                        4,
+                        7000
+                    ]
+                ]
+            ],
+            [
+                3,
+                [
+                    [
+                        2,
+                        2000
+                    ],
+                    [
+                        3,
+                        7000
+                    ],
+                    [
+                        4,
+                        1000
+                    ]
+                ]
+            ],
+            [
+                4,
+                [
+                    [
+                        2,
+                        4000
+                    ],
+                    [
+                        3,
+                        6000
+                    ]
+                ]
+            ],
+            [
+                5,
+                [
+                    [
+                        1,
+                        3000
+                    ],
+                    [
+                        2,
+                        7000
+                    ]
+                ]
+            ],
+            [
+                6,
+                [
+                    [
+                        1,
+                        3000
+                    ],
+                    [
+                        2,
+                        7000
+                    ]
+                ]
+            ],
+            [
+                7,
+                [
+                    [
+                        1,
+                        3000
+                    ],
+                    [
+                        2,
+                        7000
+                    ]
+                ]
+            ]
+        ]
+    },
+    "CRUISE_QUICK_ADVENTURE_COST": {
+        "value": [
+            20,
+            40,
+            60
+        ]
+    },
+    "CRUISE_QUICK_ADVENTURE_REWARD": {
+        "value": {
+            "2": 5,
+            "3": 5,
+            "4": 4,
+            "5": 3,
+            "6": 3,
+            "7": 3
+        }
+    },
+    "CRUISE_QUICK_ADVENTURE_LEVEL_LIMIT": {
+        "value": 50.0
+    },
+    "CRUISE_QUICK_ADVENTURE_LIMIT": {
+        "value": 3.0
+    },
+    "RECHARGE_VIP_LIMIT": {
+        "value": 0.0
+    },
+    "OUT_WAR_TIPS": {
+        "value": 5.0
+    },
+    "ITEM_NAME_QUALITY_LIMIT": {
+        "value": [
+            200240,
+            400230,
+            400300,
+            100200,
+            200150,
+            200200,
+            100150,
+            200130,
+            300130,
+            400040,
+            100130,
+            200080,
+            200100,
+            400150,
+            100090,
+            100110,
+            100100,
+            200120,
+            200160,
+            300080,
+            300110,
+            300120,
+            300160,
+            400100,
+            100070,
+            100120,
+            200060,
+            200070,
+            300030,
+            300060,
+            300070,
+            300090,
+            400060,
+            400120,
+            400290,
+            300040,
+            100020,
+            100030,
+            100050,
+            200020,
+            200040,
+            300050,
+            400020,
+            400030,
+            400050,
+            400070,
+            900050,
+            100010,
+            200010,
+            300400,
+            630000,
+            650000,
+            730000,
+            300010,
+            300300,
+            400010,
+            690000,
+            700000,
+            720000
+        ]
+    },
+    "RECRUIT_LIMIT_TIME": {
+        "value": 10.0
+    },
+    "RECRUIT_TIME_SCORE": {
+        "value": [
+            [
+                1,
+                20
+            ],
+            [
+                2,
+                30
+            ],
+            [
+                3,
+                300
+            ]
+        ]
+    },
+    "GOLDEQUIPCOST": {
+        "value": [
+            11,
+            800067
+        ]
+    },
+    "FAKE_WAR_PILOT3": {
+        "value": 8000.0
+    },
+    "FAKE_WAR_PILOT4": {
+        "value": 15500.0
+    },
+    "FAKE_WAR_GUIDE3": {
+        "value": 3003.0
+    },
+    "FAKE_WAR_GUIDE4": {
+        "value": 3004.0
+    },
+    "BUBBLE_SC_CD": {
+        "value": 60000.0
+    },
+    "BUBBLE_SC_SCALE_TIME": {
+        "value": 500.0
+    },
+    "BUBBLE_SC_SHOW": {
+        "value": 3000.0
+    },
+    "BUBBLE_SC_WAIT": {
+        "value": 1500.0
+    },
+    "FRIEND_MAX": {
+        "value": 40.0
+    },
+    "BLACKLIST_MAX": {
+        "value": 99.0
+    },
+    "RECOMMEND_FRIEND_LEVEL": {
+        "value": 10.0
+    },
+    "CHAT_TEXT": {
+        "value": [
+            "我的好友",
+            "申请列表",
+            "黑名单"
+        ]
+    },
+    "FRIEND_RECEIVE_HEART_MAX": {
+        "value": 40.0
+    },
+    "RECRUIT_FREE_REWARD": {
+        "value": [
+            100040,
+            100070
+        ]
+    },
+    "FRIEND_RECEIVE_HEART": {
+        "value": [
+            [
+                627,
+                2
+            ]
+        ]
+    },
+    "FRIEND_GIVE_HEART_MAX": {
+        "value": 40.0
+    },
+    "FRIEND_ACCEPT_HEART_MAX": {
+        "value": 20.0
+    },
+    "FRIEND_RECRUIT_LEVEL_MIN": {
+        "value": 25.0
+    },
+    "FRIEND_RECRUIT_TIME": {
+        "value": 10.0
+    },
+    "FRIEND_RECRUIT_COST": {
+        "value": 2.0
+    },
+    "FRIEND_SHOW_COUNT": {
+        "value": 10.0
+    },
+    "ANTIQUE_ALLPROP_SIDE": {
+        "value": 2.0
+    },
+    "SIGNING_PRIVILEGE": {
+        "value": 1.0
+    },
+    "SIGNING_PRIVILEGE2": {
+        "value": 2.0
+    },
+    "SIGNING_PRIVILEGE3": {
+        "value": [
+            250,
+            250
+        ]
+    },
+    "WISHING_TREE": {
+        "value": [
+            [
+                1,
+                51
+            ],
+            [
+                2,
+                52
+            ],
+            [
+                3,
+                53
+            ],
+            [
+                4,
+                54
+            ]
+        ]
+    },
+    "WISHING_TREE_SCORE": {
+        "value": [
+            [
+                1,
+                500
+            ],
+            [
+                2,
+                500
+            ],
+            [
+                3,
+                500
+            ],
+            [
+                4,
+                500
+            ]
+        ]
+    },
+    "WISHING_TREE_REWARD": {
+        "value": [
+            [
+                1,
+                410064
+            ],
+            [
+                2,
+                410063
+            ],
+            [
+                3,
+                410062
+            ],
+            [
+                4,
+                410061
+            ]
+        ]
+    },
+    "WISHING_TREE_VIP": {
+        "value": 5.0
+    },
+    "WISHTREE_RECRUIT_TYPES": {
+        "value": [
+            51,
+            52,
+            53,
+            54
+        ]
+    },
+    "WISHTREE_CHANCE": {
+        "value": [
+            [
+                7,
+                0.03
+            ]
+        ]
+    },
+    "WISHTREE_HERO_RATE": {
+        "value": [
+            [
+                4650000,
+                0.005
+            ],
+            [
+                1200010,
+                0.015
+            ],
+            [
+                200020,
+                0.03
+            ],
+            [
+                200040,
+                0.03
+            ],
+            [
+                2400010,
+                0.01
+            ],
+            [
+                1400020,
+                0.02
+            ],
+            [
+                400030,
+                0.03
+            ],
+            [
+                400050,
+                0.03
+            ],
+            [
+                400070,
+                0.03
+            ],
+            [
+                4630000,
+                0.005
+            ],
+            [
+                2300010,
+                0.015
+            ],
+            [
+                2300300,
+                0.02
+            ],
+            [
+                1100020,
+                0.03
+            ],
+            [
+                300040,
+                0.03
+            ],
+            [
+                300050,
+                0.03
+            ],
+            [
+                2100010,
+                0.015
+            ],
+            [
+                100030,
+                0.03
+            ],
+            [
+                100050,
+                0.03
+            ]
+        ]
+    },
+    "RECRUIT_HERO_REWARD": {
+        "value": 600201.0
+    },
+    "RECRUIT_ARMOR_REWARD": {
+        "value": 600202.0
+    },
+    "RECRUIT_ARTIFACT_REWARD": {
+        "value": 600203.0
+    },
+    "RECRUIT_HERO_SCORE": {
+        "value": 2000.0
+    },
+    "RECRUIT_ARMOR_SCORE": {
+        "value": 2000.0
+    },
+    "RECRUIT_ARTIFACT_SCORE": {
+        "value": 2000.0
+    },
+    "RECRUIT_HERO_LIMIT": {
+        "value": 3.0
+    },
+    "HERO_QUALITY_NAME": {
+        "value": {
+            "7": "五星",
+            "8": "六星",
+            "9": "七星",
+            "10": "八星",
+            "11": "九星",
+            "12": "十星",
+            "13": "十一星",
+            "14": "十二星",
+            "15": "十三星",
+            "16": "十四星",
+            "17": "十五星"
+        }
+    },
+    "MAX_HEROUP": {
+        "value": 17.0
+    },
+    "BRAVEMANBOSS_BUY_COST": {
+        "value": [
+            200,
+            200,
+            200
+        ]
+    },
+    "BRAVEMANBOSS_BUY_TIME": {
+        "value": 3.0
+    },
+    "BRAVEMANBOSS_TIME": {
+        "value": 3.0
+    },
+    "BRAVEMAN_RATE1": {
+        "value": [
+            [
+                1,
+                0.1,
+                20000000
+            ],
+            [
+                20298,
+                0.1,
+                200
+            ],
+            [
+                110,
+                0.1,
+                25
+            ],
+            [
+                111,
+                0.1,
+                25
+            ],
+            [
+                114,
+                0.1,
+                10
+            ],
+            [
+                663,
+                0.1,
+                25
+            ],
+            [
+                765,
+                0.1,
+                25
+            ],
+            [
+                449,
+                0.1,
+                10
+            ],
+            [
+                56070,
+                0.1,
+                5
+            ],
+            [
+                2,
+                0.1,
+                5000
+            ]
+        ]
+    },
+    "BRAVEMAN_RATE2": {
+        "value": [
+            [
+                624,
+                0.1,
+                40
+            ],
+            [
+                157,
+                0.1,
+                1
+            ],
+            [
+                20006,
+                0.1,
+                1
+            ],
+            [
+                20016,
+                0.1,
+                1
+            ],
+            [
+                449,
+                0.1,
+                20
+            ],
+            [
+                2,
+                0.1,
+                4000
+            ],
+            [
+                900007,
+                0.1,
+                400
+            ],
+            [
+                647,
+                0.1,
+                2000
+            ],
+            [
+                20070,
+                0.1,
+                2
+            ],
+            [
+                20085,
+                0.1,
+                1
+            ]
+        ]
+    },
+    "BRAVEMAN_RATE3": {
+        "value": [
+            [
+                20049,
+                0.1,
+                200
+            ],
+            [
+                20050,
+                0.1,
+                80
+            ],
+            [
+                449,
+                0.1,
+                20
+            ],
+            [
+                20016,
+                0.1,
+                5
+            ],
+            [
+                448,
+                0.1,
+                60
+            ],
+            [
+                56070,
+                0.1,
+                25
+            ],
+            [
+                157,
+                0.1,
+                10
+            ],
+            [
+                125,
+                0.1,
+                400
+            ],
+            [
+                20080,
+                0.1,
+                1
+            ],
+            [
+                56244,
+                0.1,
+                20
+            ]
+        ]
+    },
+    "BRAVEMAN_RATE4": {
+        "value": [
+            [
+                20073,
+                0.1,
+                1
+            ],
+            [
+                20085,
+                0.1,
+                1
+            ],
+            [
+                20070,
+                0.1,
+                2
+            ],
+            [
+                647,
+                0.1,
+                5000
+            ],
+            [
+                157,
+                0.1,
+                20
+            ],
+            [
+                448,
+                0.1,
+                120
+            ],
+            [
+                449,
+                0.1,
+                120
+            ],
+            [
+                20071,
+                0.1,
+                1
+            ],
+            [
+                20080,
+                0.1,
+                2
+            ],
+            [
+                56244,
+                0.1,
+                50
+            ]
+        ]
+    },
+    "BRAVEMAN_RATE5": {
+        "value": [
+            [
+                55314,
+                0.1,
+                600
+            ],
+            [
+                20068,
+                0.1,
+                30
+            ],
+            [
+                765,
+                0.1,
+                600
+            ],
+            [
+                449,
+                0.1,
+                75
+            ],
+            [
+                448,
+                0.1,
+                250
+            ],
+            [
+                647,
+                0.1,
+                20000
+            ],
+            [
+                20085,
+                0.1,
+                1
+            ],
+            [
+                1455,
+                0.1,
+                50
+            ],
+            [
+                56044,
+                0.1,
+                1
+            ],
+            [
+                20072,
+                0.1,
+                1
+            ]
+        ]
+    },
+    "HERO_BUY_REFRESH1": {
+        "value": 500.0
+    },
+    "HERO_BUY_REFRESH2": {
+        "value": 20000.0
+    },
+    "HERO_BUY_REFRESH3": {
+        "value": 43200.0
+    },
+    "HERO_BUY_REFRESH_MAX": {
+        "value": 3.0
+    },
+    "TreasurePavilionVersion": {
+        "value": 2.0
+    },
+    "RECHARGE_CARD_WEEK": {
+        "value": [
+            5,
+            6
+        ]
+    },
+    "WAKE_SKILL1": {
+        "value": [
+            [
+                8
+            ],
+            [
+                9
+            ],
+            [
+                10
+            ]
+        ]
+    },
+    "RECHARGE_SOULSIGN_CARD": {
+        "value": [
+            7,
+            8
+        ]
+    },
+    "HERO_AWAKEN_ITEM": {
+        "value": 56056.0
+    },
+    "HERO_AWAKEN_COST": {
+        "value": [
+            [
+                2,
+                100
+            ]
+        ]
+    },
+    "BACK_OFF_COST": {
+        "value": "[null,[[56057,100]],[[56057,500]]]"
+    },
+    "BACK_OFF_TYPE": {
+        "value": "[null,[7,14],[11,14]]"
+    },
+    "ALCHEMYADDLEVEL": {
+        "value": [
+            6,
+            1
+        ]
+    },
+    "ALCHEMYADDLEVEL2": {
+        "value": [
+            40,
+            4
+        ]
+    },
+    "SUMMER_COST": {
+        "value": [
+            [
+                643,
+                1
+            ]
+        ]
+    },
+    "SUMMER_FREETIMES": {
+        "value": 1.0
+    },
+    "SUMMER_GOODTIMES": {
+        "value": 100.0
+    },
+    "SUMMER_LUNSHUMAX": {
+        "value": 1.0
+    },
+    "SUMMER_SANDANGMAX": {
+        "value": 3.0
+    },
+    "HERO_LEVEL_LIMIT": {
+        "value": [
+            [
+                2,
+                180
+            ],
+            [
+                3,
+                180
+            ],
+            [
+                4,
+                180
+            ],
+            [
+                5,
+                180
+            ],
+            [
+                6,
+                180
+            ],
+            [
+                7,
+                180
+            ],
+            [
+                8,
+                180
+            ],
+            [
+                9,
+                180
+            ],
+            [
+                10,
+                180
+            ],
+            [
+                11,
+                180
+            ],
+            [
+                12,
+                180
+            ],
+            [
+                13,
+                180
+            ],
+            [
+                14,
+                180
+            ],
+            [
+                15,
+                180
+            ],
+            [
+                16,
+                180
+            ],
+            [
+                17,
+                180
+            ]
+        ]
+    },
+    "SUMMER_JIFENID": {
+        "value": 644.0
+    },
+    "SOULSYM_QUALITY": {
+        "value": 6.0
+    },
+    "VIPSERVICE_VIP": {
+        "value": 12.0
+    },
+    "FENJIE_PINZHITISI": {
+        "value": 4.0
+    },
+    "JUESHI_COST": {
+        "value": 99800.0
+    },
+    "JUESHI_MAX": {
+        "value": 20.0
+    },
+    "ExAntique_QUALITY": {
+        "value": 2.0
+    },
+    "pruneformation": {
+        "value": 1.0
+    },
+    "ARTIFACT_RECRUIT_LIMIT": {
+        "value": 8.0
+    },
+    "FIRST_PAY_HERO_SKILL": {
+        "value": {
+            "heroId": 300050,
+            "armyId": 200140,
+            "armyPower": 88888,
+            "myPower": 66666
+        }
+    },
+    "STAGE_DIAMOND_INIT_NUM": {
+        "value": 1000.0
+    },
+    "GuardCityCount": {
+        "value": 60.0
+    },
+    "GuardCityTime": {
+        "value": 25.0
+    },
+    "GuardCityModify": {
+        "value": [
+            [
+                400,
+                0.001,
+                0.05
+            ],
+            [
+                300,
+                0.001,
+                0.05
+            ],
+            [
+                200,
+                0.001,
+                0.05
+            ]
+        ]
+    },
+    "GuardCityWinRate": {
+        "value": [
+            1,
+            1
+        ]
+    },
+    "GuardCityDamage": {
+        "value": "guard_city_damage"
+    },
+    "GuardCityCost": {
+        "value": [
+            2500
+        ]
+    },
+    "GuardCitySkill": {
+        "value": [
+            [
+                120,
+                0,
+                300
+            ],
+            [
+                0,
+                0,
+                600
+            ],
+            [
+                0,
+                0,
+                600
+            ]
+        ]
+    },
+    "GuardCitySkillCountTime": {
+        "value": 60.0
+    },
+    "GUARDCITY_ATK_BUF_CD": {
+        "value": 300.0
+    },
+    "GUARDCITY_SKILL_3_MAX": {
+        "value": 5.0
+    },
+    "GuardCityBroadcast": {
+        "value": [
+            50,
+            100,
+            200,
+            500
+        ]
+    },
+    "GuardCitySkillEff": {
+        "value": [
+            0.3,
+            -0.2,
+            0.02,
+            [
+                0.02,
+                2
+            ]
+        ]
+    },
+    "GuardFiveFight": {
+        "value": 100.0
+    },
+    "PALACE_DETAILS_TIME": {
+        "value": 10.0
+    },
+    "PALACE_ENTRY_TIME": {
+        "value": 120.0
+    },
+    "HCSW-01": {
+        "value": 501.0
+    },
+    "HCSW-02": {
+        "value": 502.0
+    },
+    "HCSW-03": {
+        "value": 503.0
+    },
+    "ROB_TIMES": {
+        "value": 10.0
+    },
+    "ROB_TIME": {
+        "value": 3600.0
+    },
+    "ROB_SEARCH": {
+        "value": [
+            10,
+            30,
+            5
+        ]
+    },
+    "ROB_REWARD": {
+        "value": [
+            5001
+        ]
+    },
+    "ROB_REWARD_VIP": {
+        "value": [
+            5002,
+            5002,
+            5002
+        ]
+    },
+    "ROB_VIP_LOW": {
+        "value": 6.0
+    },
+    "ROB_VIP": {
+        "value": 10.0
+    },
+    "ROB_COUNT_COST": {
+        "value": [
+            20,
+            20,
+            40,
+            40,
+            60,
+            60,
+            80,
+            80,
+            100,
+            100,
+            100,
+            100
+        ]
+    },
+    "ROB_REWARD_NORMAL": {
+        "value": [
+            5004
+        ]
+    },
+    "ROB_SHOW": {
+        "value": [
+            5003,
+            5003
+        ]
+    },
+    "ROB_AUTO_GET_TIME": {
+        "value": 5000.0
+    },
+    "ROB_RIFFLE_TIME": {
+        "value": 800.0
+    },
+    "ROB_BATTLE_MAPID": {
+        "value": 141.0
+    },
+    "BATTLE_SHOW_REWARD_PDPL": {
+        "value": [
+            "大量功勋"
+        ]
+    },
+    "REVOLT_COUNT_COST": {
+        "value": [
+            10,
+            10,
+            20,
+            20,
+            30,
+            30,
+            40,
+            40,
+            50,
+            50,
+            50,
+            50,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            80,
+            80,
+            80,
+            80,
+            80,
+            80,
+            100
+        ]
+    },
+    "REVOLT_COUNT": {
+        "value": 10.0
+    },
+    "REVOLT_PLAYER_RANKING": {
+        "value": "revolt_player_ranking"
+    },
+    "REVOLT_TIME": {
+        "value": 3600.0
+    },
+    "REVOLT_QUICK_LEVEL": {
+        "value": 70.0
+    },
+    "REVOLT_QUICK_VIP": {
+        "value": 6.0
+    },
+    "REVOLE_BATTLES_MAX_COUNT": {
+        "value": 5.0
+    },
+    "REVOLE_BATTLES_LEVEL": {
+        "value": 80.0
+    },
+    "REVOLE_BATTLES_VIP": {
+        "value": 6.0
+    },
+    "WORLD_BOSS_TIME": {
+        "value": [
+            10,
+            1
+        ]
+    },
+    "WBOSS_COUNT_COST": {
+        "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+        ]
+    },
+    "WBOSS_INSPIRE": {
+        "value": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            120,
+            140,
+            160,
+            180,
+            200
+        ]
+    },
+    "WBOSS_INSPIRE_RATE": {
+        "value": 0.05
+    },
+    "WBOSS_KILL_TIME": {
+        "value": 10.0
+    },
+    "WBOSS_ACTIVITY_ID": {
+        "value": [
+            703,
+            704
+        ]
+    },
+    "WBOSS_TIME": {
+        "value": 30.0
+    },
+    "WORLDBOSS_PLAYER_RANKING": {
+        "value": "worldboss_player_ranking"
+    },
+    "talentBroadcast": {
+        "value": [
+            400,
+            800
+        ]
+    },
+    "SHENQUANDUIHUAN": {
+        "value": "[[90007,1],[\"shenquan\"：1]]"
+    },
+    "DAY_RECHARGE_TABLIST": {
+        "value": [
+            [
+                "100元返利",
+                400030
+            ],
+            [
+                "500元返利",
+                100020
+            ],
+            [
+                "1000元返利",
+                300300
+            ],
+            [
+                "2000元返利",
+                630000
+            ]
+        ]
+    },
+    "HUANLECHOUJIANLEIJI": {
+        "value": [
+            [
+                2,
+                100
+            ]
+        ]
+    },
+    "HUANLECHOUDAJIANG": {
+        "value": 0.1
+    },
+    "HUANLECHOUJIANCOST": {
+        "value": [
+            [
+                990000,
+                1
+            ]
+        ]
+    },
+    "HUANLECHOUJIANCOSTSHI": {
+        "value": [
+            [
+                990000,
+                8
+            ]
+        ]
+    },
+    "DIAMONDPOOL_MAX_DRAW_COUNT": {
+        "value": 24000000.0
+    },
+    "FEAT_LEVY_ITEM_ID_MAX": {
+        "value": 150.0
+    },
+    "SHENGLIREWARD": {
+        "value": [
+            [
+                2,
+                5000
+            ]
+        ]
+    },
+    "QUWEINUQI": {
+        "value": 10.0
+    },
+    "WORLD_BOSS_AUTO_CHALLENGE_FEE": {
+        "value": 200.0
+    },
+    "MUSTMOHUNSUIPIAN": {
+        "value": [
+            50,
+            157,
+            1
+        ]
+    },
+    "CPLastFourDelayTs": {
+        "value": 2.0
+    },
+    "SHENSHOUSHENGJIZHANSHI": {
+        "value": 780.0
+    },
+    "ENABLE_CASTER": {
+        "value": 1.0
+    },
+    "WANYUANZHENCHONG": {
+        "value": [
+            [
+                55,
+                0
+            ],
+            [
+                80,
+                6
+            ],
+            [
+                100,
+                6
+            ],
+            [
+                116,
+                12
+            ],
+            [
+                132,
+                30
+            ],
+            [
+                148,
+                30
+            ],
+            [
+                163,
+                30
+            ],
+            [
+                171,
+                30
+            ],
+            [
+                180,
+                30
+            ]
+        ]
+    },
+    "QQACTIVITY_URL": {
+        "value": "https://act.qzone.qq.com/v2/vip/tx/p/42606_ca47fe19"
+    },
+    "QQGROUP": {
+        "value": 809536599.0
+    },
+    "TIXIANJINE": {
+        "value": [
+            [
+                4198,
+                200
+            ]
+        ]
+    },
+    "CSQQ_REDPACK_MAX_COUNT": {
+        "value": 200.0
+    },
+    "CSQQ_ROUTINE": {
+        "value": [
+            999
+        ]
+    },
+    "CHANGE_CAMP_HERO": {
+        "value": 6.0
+    },
+    "QQGROUP_LIMIT": {
+        "value": 4.0
+    },
+    "WORLD_BOSS_LEVEL_CHANLLGE": {
+        "value": 3.0
+    },
+    "CHAT_SHOW_LIMIT": {
+        "value": 25.0
+    },
+    "showFirstPayLv": {
+        "value": [
+            10,
+            28
+        ]
+    },
+    "powerGiftLv": {
+        "value": [
+            40,
+            80
+        ]
+    },
+    "CHECK_ITEM_BCSELECT": {
+        "value": [
+            8,
+            9
+        ]
+    },
+    "ENABLE_SHEN": {
+        "value": 1.0
+    },
+    "BATTLE_LIMIT": {
+        "value": 3.0
+    },
+    "MYLORD_HERO": {
+        "value": [
+            200140,
+            100040
+        ]
+    },
+    "MYLORD_OCCU_DESC": {
+        "value": [
+            [
+                "输出强攻型",
+                "拥有物理强攻技能",
+                "极致输出的C位"
+            ],
+            [
+                "输出辅助型",
+                "拥有魔法攻击技能",
+                "能打能奶的核心"
+            ]
+        ]
+    },
+    "MYLORD_LOOK_LIMIT": {
+        "value": 7.0
+    },
+    "MYLORD_COST_CHANGE": {
+        "value": [
+            [
+                2,
+                500
+            ]
+        ]
+    },
+    "MYLORD_QUALITY_ARR": {
+        "value": [
+            4,
+            6,
+            7,
+            10,
+            11,
+            12
+        ]
+    },
+    "MYLORD_HERO_SHOW": {
+        "value": [
+            [
+                200140,
+                100040
+            ],
+            [
+                200148,
+                100048
+            ],
+            [
+                200141,
+                100041
+            ]
+        ]
+    },
+    "ARMORMASTER_LIMIT": {
+        "value": 2.0
+    },
+    "ALWAYS_FIGHT": {
+        "value": 10.0
+    },
+    "TRUSTEESHIP_TIMES": {
+        "value": 3.0
+    },
+    "TRUSTEESHIP_POWERA": {
+        "value": 0.8
+    },
+    "TRUSTEESHIP_STR_LIMIT": {
+        "value": 20.0
+    },
+    "GEM_OPEN_LIMIT": {
+        "value": [
+            15,
+            30,
+            50
+        ]
+    },
+    "GEM_QUALITY_TYPE": {
+        "value": 6.0
+    },
+    "GEM_HERO_SKILL": {
+        "value": 3.0
+    },
+    "BOX_SCORE": {
+        "value": {
+            "891": 10,
+            "892": 20,
+            "893": 30,
+            "894": 50,
+            "895": 100,
+            "896": 200
+        }
+    },
+    "RECRUIT_SCORE_ITEM": {
+        "value": 2.0
+    },
+    "RECRUIT_SCORE_COUNT": {
+        "value": [
+            1000,
+            1000
+        ]
+    },
+    "RECRUIT_SCORE_COUNT2": {
+        "value": [
+            100,
+            120,
+            140,
+            160,
+            200,
+            250,
+            300,
+            350,
+            400,
+            450,
+            500,
+            550,
+            600
+        ]
+    },
+    "BOX_LIMIT": {
+        "value": 80.0
+    },
+    "BATTLE_CONST_A": {
+        "value": 1.0
+    },
+    "BATTLE_CONST_M": {
+        "value": 0.2
+    },
+    "BATTLE_CONST_K": {
+        "value": 0.6
+    },
+    "BATTLE_CONST_T": {
+        "value": 0.8
+    },
+    "BATTLE_CONST_B": {
+        "value": 1.0
+    },
+    "ITEM_NAME_QUALITY_HERO": {
+        "value": {
+            "12": "至尊"
+        }
+    },
+    "ITEM_NAME_QUALITY_ARMOR": {
+        "value": {
+            "12": "至尊"
+        }
+    },
+    "ITEM_NAME_QUALITY_TREASURE": {
+        "value": {
+            "11": "极品",
+            "12": "至尊"
+        }
+    },
+    "ITEM_NAME_QUALITY_ENABLE_SHEN": {
+        "value": {
+            "8": "极品",
+            "9": "至尊"
+        }
+    },
+    "CITY_BATTLE_COUNT_LIMIT": {
+        "value": [
+            10,
+            10,
+            20,
+            20
+        ]
+    },
+    "CITY_BATTLE_COUNT_FREE_LIMIT": {
+        "value": 10.0
+    },
+    "SYNTHESIS_COUNT": {
+        "value": {
+            "6": [
+                2,
+                3,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12
+            ],
+            "11": [
+                2,
+                3,
+                4,
+                6,
+                7,
+                10
+            ]
+        }
+    },
+    "MONTH_CARDS_COUNT": {
+        "value": [
+            30,
+            100
+        ]
+    },
+    "RECRUIT_CHANCE_STR": {
+        "value": "[\"6\",null,\"N英雄\",\"B英雄\",\"A英雄\",\"S英雄\",\"SR英雄\",\"SSR英雄\",\"SSR+英雄\",\"SSR++英雄\",\"UR英雄\",\"HUR英雄\"]"
+    },
+    "RECRUIT_CHANCE_STR_2": {
+        "value": "[\"16\",null,null,\"三星宝物\",\"四星宝物\",null,\"五星宝物\",\"六星宝物\",null,null,\"七星宝物\",\"八星宝物\"]"
+    },
+    "RECRUIT_CHANCE_STR_3": {
+        "value": [
+            "12",
+            "一级宝石",
+            "二级宝石",
+            "三级宝石",
+            "四级宝石",
+            "五级宝石",
+            "六级宝石",
+            "七级宝石",
+            "八级宝石",
+            "九级宝石",
+            "十级宝石"
+        ]
+    },
+    "RECRUIT_CHANCE_STR_4": {
+        "value": "[\"11\",null,\"绿色装备\",\"蓝色装备\",\"紫色装备\",\"黄色装备\",\"橙色装备\",\"红色装备\",null, null,\"金色装备\",\"神装\"]"
+    },
+    "RECRUIT_CHANCE_STR_5": {
+        "value": "[\"13\",null,\"绿色军火\",\"蓝色军火\",\"紫色军火\",\"黄色军火\",\"橙色军火\",\"红色军火\",null,null,\"金色军火\",\"暗金军火\"]"
+    },
+    "RECRUIT_CHANCE": {
+        "value": [
+            [
+                11,
+                0.003
+            ],
+            [
+                10,
+                0.036
+            ],
+            [
+                7,
+                0.361
+            ]
+        ]
+    },
+    "RECRUIT_CHANCE_2": {
+        "value": [
+            [
+                10,
+                0.01
+            ],
+            [
+                7,
+                0.04
+            ],
+            [
+                6,
+                0.25
+            ]
+        ]
+    },
+    "RECRUIT_CHANCE_3": {
+        "value": [
+            [
+                10,
+                0.002
+            ],
+            [
+                9,
+                0.008
+            ],
+            [
+                8,
+                0.02
+            ],
+            [
+                7,
+                0.12
+            ],
+            [
+                6,
+                0.25
+            ],
+            [
+                5,
+                0.6
+            ]
+        ]
+    },
+    "RECRUIT_CHANCE_4": {
+        "value": [
+            [
+                11,
+                0.01
+            ],
+            [
+                10,
+                0.04
+            ],
+            [
+                7,
+                0.35
+            ],
+            [
+                6,
+                0.6
+            ]
+        ]
+    },
+    "RECRUIT_CHANCE_5": {
+        "value": [
+            [
+                9,
+                0.01
+            ],
+            [
+                8,
+                0.02
+            ],
+            [
+                7,
+                0.03
+            ],
+            [
+                6,
+                0.75
+            ]
+        ]
+    },
+    "RECRUIT_CHANCE_6": {
+        "value": [
+            [
+                10,
+                0.01
+            ],
+            [
+                7,
+                0.04
+            ],
+            [
+                6,
+                0.15
+            ]
+        ]
+    },
+    "MONTH_CARDS_TIME": {
+        "value": 1.0
+    },
+    "ROULETTE_ID": {
+        "value": 9401.0
+    },
+    "VIP_GIFT_CLOSE": {
+        "value": 7.0
+    },
+    "HERO_DESTINY": {
+        "value": 1046.0
+    },
+    "WISH_RECRUIT": {
+        "value": {
+            "12": 105
+        }
+    },
+    "WISH_RECRUIT_FUC": {
+        "value": 10000.0
+    },
+    "RECRUIT_WISH_LIMIT_HEROS": {
+        "value": [
+            700000,
+            300300,
+            300010
+        ]
+    },
+    "HERO_DESTINY_TEXT": {
+        "value": [
+            "一阶段",
+            "二阶段",
+            "三阶段",
+            "四阶段",
+            "五阶段",
+            "六阶段",
+            "七阶段",
+            "八阶段",
+            "九阶段",
+            "十阶段"
+        ]
+    },
+    "HERO_DESTINY_OPEN": {
+        "value": 20.0
+    },
+    "NOVICE_SKIP": {
+        "value": 10.0
+    },
+    "WANT_STRONG_ID": {
+        "value": [
+            1,
+            2,
+            414,
+            474,
+            765
+        ]
+    },
+    "WANT_STRONG_QUES": {
+        "value": [
+            [
+                "武将培养指南",
+                "1.具体英雄培养搭配可参考英雄阵容推荐，当然也能自己按照想法进行阵营组合\n2.哪些英雄比较厉害：SSR→SR→A，打开图鉴可以查看新手与前期阵容推荐哦，再也不怕养错英雄\n3.福利党前期可以游戏练岳云，小氪前期推荐可以从SSR中选择张飞，孙尚香等核心英雄进行培养，大佬可直接开局进行满配阵容，更多搭配和推荐可以在世界频道聊天中跟大家多多交流，召唤殿活动中优先招募最划算出高级极品至尊等相关英雄\n4.英雄培养也需要注意阵营搭配，同阵营的上阵英雄数越多可额外有更多上阵战力加成哦\n5.还有更多英雄养成功能：宝石，宝物，徽章，基因，芯片，军火库等功能，能让后期的战斗力大幅度提升！"
+            ],
+            [
+                "如何进行英雄升星",
+                "1.升星的好处：英雄升星能大幅提升英雄的属性，同时英雄升级也是提升英雄技能的唯一途径\n2.如何升星：打开英雄主界面中的升星界面，选择你想升星的英雄，根据消耗提示放入指定的武将碎片就可以升星啦\n3.友情提示：品质越高的英雄进行转生后期提升的战力就越大哦，大大们要提前规划好养成路线。日常商店与活动多去逛逛，里边有合适的进阶转生材料售卖呢"
+            ],
+            [
+                "如何进行装备培养",
+                "1.装备共分为不同品质，品质越高的装备后期属性加成越多且能激活神兵\n2.装备共分为强化、精炼、突破三种养成途径，缺一不可，神装装备才可进行装备突破哦\n3.装备搭配时需要注意其各自的套装效果，能凑齐2,4,6件套能触发大幅度的属性涨幅哦"
+            ],
+            [
+                "买什么资源不亏",
+                "1.日常商店，主要花费钻石货币进行购买，资源多多，想要的商品基本都有\n2.每周商店，每周钻石商店，周刷新一次，有超多特价商品，每周必看哦\n3.活动商店：乾元商店，新区商店，英雄直购，都是打骨折的商品，更有白嫖商品，只有想不到，没有优惠做不到，看到超值的英雄与养成资源统统买就对了\n4.玩法商店，每个功能玩法都有对应的商品内容，玩家每天的次数打满可获得超多对应商店货币，玩法商店里的商品基本上都是折扣价\n5.等级礼包商店，玩家达到对应等级后可白嫖一份等级奖励，对应等级的商店物品也是美丽动人更有超低价折扣福利，一定不要错过\n6.前期快速挂机次数尽量用完，等级越高，挂机产出的资源就越多，有能力建议多提升vip等级，可拥有的扫荡挂机次数也越多，可在起跑线稳稳开劳斯莱斯出发，升级越快！\n7.每日必买礼包一定不要错过，每天必买，每天进步一点点，超越其他人一大截，同时激活成长基金与投资理财才最赚钱，每天上线白嫖超多游戏福利\n8.游戏中购买各种礼包，都会赠送对应的vip经验，vip经验越高，可获得免费的特权礼包，一定不要错过vip的特权礼包内容"
+            ],
+            [
+                "如何快速成长",
+                "1.每天必做日常任务，将任务做完之后，可以多研究各种副本的攻略和玩法，历练界面的所有副本可以尝试多叠关卡进度，可获得意想不到的奖励惊喜\n2.如果想在pvp占一席之地，那就多看看战斗回放内容，多尝试搭配不同阵容的英雄，或许有不同的技能效果，别忘记世界聊天分享给其他玩家\n3.外卖订单每天也是建议多刷新，刷到高级订单可以毫不手软接下\n4.向排行榜进行膜拜也能获得金币基础资源相关奖励，同时排行榜宝箱不要忘记关注对应的榜单大佬，大佬达成成就后可以获得超多奖励内容\n5.最重要的事，多留意游戏公告内容，有超多超划算活动，及开服福利，公告内容攻略好比尚方宝剑，直接一键毕业！"
+            ],
+            [
+                "战斗中的出手顺序",
+                "1.每回合开始时，根据场中英雄速度搞定，决定本回合的出手顺序，过程中若有辅助型英雄改变速度，也会影响出手顺序"
+            ]
+        ]
+    },
+    "FIRSTRECHARGE_6": {
+        "value": [
+            400010
+        ]
+    },
+    "FIRSTRECHARGE_98": {
+        "value": [
+            400037
+        ]
+    },
+    "FIRSTRECHARGE_648": {
+        "value": [
+            300408
+        ]
+    },
+    "FIRSTRECHARGE_ACHIEVE": {
+        "value": {
+            "2": [
+                800011,
+                "50万"
+            ],
+            "3": [
+                800011,
+                "200万"
+            ],
+            "4": [
+                800011,
+                "1000万"
+            ]
+        }
+    },
+    "ELITECHALLENGE_ID": {
+        "value": 1052.0
+    },
+    "ELITEREQUIREMENT6": {
+        "value": [
+            "缺省",
+            "前排",
+            "后排"
+        ]
+    },
+    "NEW_ACTIVITY_BATTLE": {
+        "value": 1430.0
+    },
+    "BATTLE_REFRESH_FREE": {
+        "value": [
+            0,
+            50
+        ]
+    },
+    "BATTLE_REFRESH": {
+        "value": [
+            0,
+            0,
+            50,
+            100,
+            100,
+            200
+        ]
+    },
+    "RECRUIT_SOUND_LIMIT": {
+        "value": 10.0
+    },
+    "OPENBOX_COMPOUND_LIMIT": {
+        "value": [
+            25,
+            5
+        ]
+    },
+    "OPENBOX_BENEFIT_LIMIT": {
+        "value": [
+            10,
+            0
+        ]
+    },
+    "LORD_NEW_ATTRIBUTE": {
+        "value": 10.0
+    },
+    "LORD_NEW_POWERA": {
+        "value": 3.0
+    },
+    "KILL_GENERAL_ITEMID": {
+        "value": 54300.0
+    },
+    "AUTO_CLICK_COSTITEMS": {
+        "value": [
+            60001,
+            60002,
+            60003
+        ]
+    },
+    "AUTO_CLICK_SHOWCID": {
+        "value": [
+            200140,
+            200147,
+            200141
+        ]
+    },
+    "AUTO_CLICK_BATTLEMODEL": {
+        "value": {
+            "60001": "200140",
+            "60002": "200140_2",
+            "60003": "200140_3"
+        }
+    },
+    "ARMOR_LEVEL_LIMIT": {
+        "value": 10000.0
+    },
+    "ARMOR_INITIAL": {
+        "value": [
+            [
+                800001,
+                1
+            ],
+            [
+                800004,
+                2
+            ],
+            [
+                800005,
+                3
+            ],
+            [
+                800006,
+                4
+            ]
+        ]
+    },
+    "SHEN_SLOT_COUNT": {
+        "value": 2.0
+    },
+    "SHEN_SLOT_OPEN": {
+        "value": [
+            0,
+            12
+        ]
+    },
+    "STAGE_MAX": {
+        "value": 12000.0
+    },
+    "STAGE_BOSS_LOOP": {
+        "value": [
+            701000,
+            401010,
+            691000,
+            101010,
+            201010,
+            631000,
+            731000
+        ]
+    },
+    "STAGE_LOOP": {
+        "value": [
+            101,
+            200
+        ]
+    },
+    "OFFLINE_LIMIT": {
+        "value": 300.0
+    },
+    "OFFLINE_ENEMY": {
+        "value": 100160.0
+    },
+    "EMBATTLE_LOCK_NEW": {
+        "value": 5.0
+    },
+    "EMBATTLE_LOCK_NEW_GUIDE": {
+        "value": 3.0
+    },
+    "FAIL_SHOW_LVBU_STAGE": {
+        "value": 7.0
+    },
+    "FUNCTION_LOCK_NEW": {
+        "value": 4.0
+    },
+    "CHEST_INTERVAL_LIMIT": {
+        "value": 300.0
+    },
+    "OFFLINE_BUY": {
+        "value": [
+            800,
+            1000,
+            1500,
+            3000,
+            3000
+        ]
+    },
+    "OFFLINE_BUY_TIME": {
+        "value": [
+            3600,
+            3600,
+            3600,
+            3600,
+            14400
+        ]
+    },
+    "INIT_REWARD_MAIL": {
+        "value": [
+            [
+                2,
+                100
+            ],
+            [
+                1,
+                1000
+            ]
+        ]
+    },
+    "FIRM_BUILD_BATTLE_CNT": {
+        "value": 5.0
+    },
+    "FIRM_BUILD_REFRESH_COST": {
+        "value": 5.0
+    },
+    "FIRM_BUILD_ITEM": {
+        "value": 54400.0
+    },
+    "FREE_PRIVILEGE": {
+        "value": 0.05
+    },
+    "CARD_PRIVILEGE": {
+        "value": 0.3
+    },
+    "ONHOOK_PRIVILEGE": {
+        "value": 0.5
+    },
+    "FRIEND_STAFF_BATTLE_COST": {
+        "value": 10.0
+    },
+    "FRIEND_STAFF_INTERACT_CNT": {
+        "value": 5.0
+    },
+    "FRIEND_STAFF_COST": {
+        "value": 0.1
+    },
+    "LINGYG_GIFTBUY_COUNTDOWN": {
+        "value": 3.0
+    },
+    "SHEN_RECOVERY_OVERALLGOAL": {
+        "value": 10.0
+    },
+    "SHEN_RECOVERY_GIVEITEM": {
+        "value": 3601.0
+    },
+    "LEAD_SHOW_GRADECOLOR": {
+        "value": [
+            [
+                4,
+                500
+            ],
+            [
+                6,
+                1000
+            ],
+            [
+                7,
+                2000
+            ]
+        ]
+    },
+    "GGZJ_COMBATEFFECTIVENESS_MULTIPLE": {
+        "value": 5.0
+    },
+    "GGZJ_CONDITION_VIPLV": {
+        "value": 10.0
+    }
+}

@@ -15,12 +15,17 @@ class ParserTemplate(Parser):
         for fileName in writerList:
             if fileName == "__init__.py" or fileName[-3:] != ".py":
                 continue            
-            target = import_module(f"example.clazz.{fileName[:-3]}")
+            target = import_module(f"project.clazz.{fileName[:-3]}")
             if not target:
-                logfile("error writer file path")
+                logfile("parser", "error writer file path")
                 return
             if not hasattr(target, "Writer"):
-                logfile(f"file {fileName} no writer")
+                logfile("parser", f"file {fileName} no writer")
                 return
             Writer = getattr(target, "Writer")
             Writer(self.conf).write()
+
+
+if __name__ == "__main__":
+    parser = ParserTemplate()
+    parser.parser()

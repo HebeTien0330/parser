@@ -13,6 +13,12 @@ class ParserTool:
         if os.path.isdir(targetDir):
             raise "target path already exist!"
         os.mkdir(targetDir)
+        # ===================tools=====================
+        shutil.copytree(".\\tools", f"{targetDir}\\tools")
+
+        # ===================project=====================
+        targetDir = f"{targetDir}\\project"
+        os.mkdir(targetDir)
         open(f"{targetDir}\\__init__.py", "w", encoding="utf-8").close()
         shutil.copy(".\\template\\config.json", f"{targetDir}\\config.json")
         shutil.copy(".\\template\\parser.py", f"{targetDir}\\{self.name}Parser.py")
@@ -20,6 +26,7 @@ class ParserTool:
         os.mkdir(f"{targetDir}\\data\\excel")
         os.mkdir(f"{targetDir}\\data\\middleward")
         os.mkdir(f"{targetDir}\\data\\resource")
+        os.mkdir(f"{targetDir}\\data\\log")
         os.mkdir(f"{targetDir}\\clazz")
         shutil.copy(".\\template\\writer.py", f"{targetDir}\\clazz\\{self.name}Writer.py")
 
