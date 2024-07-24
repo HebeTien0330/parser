@@ -28,7 +28,7 @@ class Parser:
     def parser(self):
         middleWriter = MiddlewareWriter(self.conf)
         for fileName, workBook in ExcelReader(self.conf):
-            middleWriter.bindWorkBook(workBook)
+            middleWriter.bindWorkBook(workBook, fileName)
             middleWriter.writeMiddleware()
         self.doParser()
 
