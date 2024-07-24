@@ -2,7 +2,7 @@
 :@Author: tangchengqin
 :@Date: 2024/5/15 11:53:00
 :@LastEditors: tangchengqin
-:@LastEditTime: 2024/5/18 14:17:12
+:@LastEditTime: 2024/7/24 11:16:47
 :Description: 
 :Copyright: Copyright (©)}) 2024 Clarify. All rights reserved.
 '''
@@ -24,8 +24,9 @@ class MiddlewareWriter:
         self.workBook = None
 
     # 绑定要操作的workBook
-    def bindWorkBook(self, workBook):
+    def bindWorkBook(self, workBook, fileName):
         self.workBook = workBook
+        self.fileName = fileName
 
     # 写入中间件
     def writeMiddleware(self):
@@ -33,8 +34,9 @@ class MiddlewareWriter:
         for sheetName in sheetNames:
             names = sheetName.split("|")
             if len(names) != 2:
-                logfile("middleware", f"error sheet name {sheetName}")
+                logfile("middleware", f"incorrect sheet name {sheetName} in {self.fileName}")
                 continue
+            logfile("middleware", f"parsering {sheetName} in {self.fileName}")
             sheet = self.workBook.sheet_by_name(sheetName)
             name = names[0]
             jsonObj = self.tarnslate2Json(sheet)
@@ -44,10 +46,11 @@ class MiddlewareWriter:
             if os.path.exists(f"{dirPath}\\{name}.json"):
                 existFile = open(f"{dirPath}\\{name}.json", "r", encoding="utf-8")
                 existObj = json.load(existFile)
-                jsonObj = {**existObj, **jsonObj}
+                jsonObj = eval(jsonObj)
+                jsonObj = json.dumps({**existObj, **jsonObj}, indent=4, ensure_ascii=False)
                 existFile.close()
             with open(f"{dirPath}\\{name}.json", "w", encoding="utf-8") as file:
-                file.write(jsonObj)
+                file.write(f"{jsonObj}")
 
     def tarnslate2Json(self, sheet):
         self.keys = sheet.row_values(1)
@@ -94,7 +97,7 @@ class MiddlewareWriter:
                 for key in e:
                     value = dataMap[key]
                     keyType = self.getType(key)
-                    if value == "":
+                    if key == "" or value == "":
                         continue
                     elif keyType == "int":
                         data = int(value)

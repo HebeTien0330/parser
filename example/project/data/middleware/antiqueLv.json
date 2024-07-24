@@ -2,38 +2,32 @@
     "3": {
         "0": {
             "cost": 1000,
-            "scoreGrade": 1.0,
-            "": 0.0
+            "scoreGrade": 1.0
         },
         "1": {
             "cost": 2000,
             "scoreGrade": 10.0,
-            "totleExp": 1000,
-            "": 10.0
+            "totleExp": 1000
         },
         "2": {
             "cost": 4000,
             "scoreGrade": 30.0,
-            "totleExp": 3000,
-            "": 30.0
+            "totleExp": 3000
         },
         "3": {
             "cost": 8000,
             "scoreGrade": 70.0,
-            "totleExp": 7000,
-            "": 70.0
+            "totleExp": 7000
         },
         "4": {
             "cost": 16000,
             "scoreGrade": 150.0,
-            "totleExp": 15000,
-            "": 150.0
+            "totleExp": 15000
         },
         "5": {
             "cost": 32000,
             "scoreGrade": 310.0,
-            "totleExp": 31000,
-            "": 310.0
+            "totleExp": 31000
         },
         "6": {
             "scoreGrade": 630.0,
@@ -43,38 +37,32 @@
     "4": {
         "0": {
             "cost": 2000,
-            "scoreGrade": 1.0,
-            "": 0.0
+            "scoreGrade": 1.0
         },
         "1": {
             "cost": 4000,
             "scoreGrade": 20.0,
-            "totleExp": 2000,
-            "": 20.0
+            "totleExp": 2000
         },
         "2": {
             "cost": 8000,
             "scoreGrade": 60.0,
-            "totleExp": 6000,
-            "": 60.0
+            "totleExp": 6000
         },
         "3": {
             "cost": 16000,
             "scoreGrade": 140.0,
-            "totleExp": 14000,
-            "": 140.0
+            "totleExp": 14000
         },
         "4": {
             "cost": 32000,
             "scoreGrade": 300.0,
-            "totleExp": 30000,
-            "": 300.0
+            "totleExp": 30000
         },
         "5": {
             "cost": 64000,
             "scoreGrade": 620.0,
-            "totleExp": 62000,
-            "": 620.0
+            "totleExp": 62000
         },
         "6": {
             "scoreGrade": 1260.0,
@@ -84,50 +72,42 @@
     "6": {
         "0": {
             "cost": 3000,
-            "scoreGrade": 1.0,
-            "": 0.0
+            "scoreGrade": 1.0
         },
         "1": {
             "cost": 6000,
             "scoreGrade": 30.0,
-            "totleExp": 3000,
-            "": 30.0
+            "totleExp": 3000
         },
         "2": {
             "cost": 12000,
             "scoreGrade": 90.0,
-            "totleExp": 9000,
-            "": 90.0
+            "totleExp": 9000
         },
         "3": {
             "cost": 24000,
             "scoreGrade": 210.0,
-            "totleExp": 21000,
-            "": 210.0
+            "totleExp": 21000
         },
         "4": {
             "cost": 48000,
             "scoreGrade": 450.0,
-            "totleExp": 45000,
-            "": 450.0
+            "totleExp": 45000
         },
         "5": {
             "cost": 96000,
             "scoreGrade": 930.0,
-            "totleExp": 93000,
-            "": 930.0
+            "totleExp": 93000
         },
         "6": {
             "cost": 192000,
             "scoreGrade": 1890.0,
-            "totleExp": 189000,
-            "": 1890.0
+            "totleExp": 189000
         },
         "7": {
             "cost": 384000,
             "scoreGrade": 3810.0,
-            "totleExp": 381000,
-            "": 3810.0
+            "totleExp": 381000
         },
         "8": {
             "scoreGrade": 7650.0,
@@ -137,50 +117,42 @@
     "7": {
         "0": {
             "cost": 4500,
-            "scoreGrade": 1.0,
-            "": 0.0
+            "scoreGrade": 1.0
         },
         "1": {
             "cost": 9000,
             "scoreGrade": 45.0,
-            "totleExp": 4500,
-            "": 45.0
+            "totleExp": 4500
         },
         "2": {
             "cost": 18000,
             "scoreGrade": 135.0,
-            "totleExp": 13500,
-            "": 135.0
+            "totleExp": 13500
         },
         "3": {
             "cost": 36000,
             "scoreGrade": 315.0,
-            "totleExp": 31500,
-            "": 315.0
+            "totleExp": 31500
         },
         "4": {
             "cost": 72000,
             "scoreGrade": 675.0,
-            "totleExp": 67500,
-            "": 675.0
+            "totleExp": 67500
         },
         "5": {
             "cost": 144000,
             "scoreGrade": 1395.0,
-            "totleExp": 139500,
-            "": 1395.0
+            "totleExp": 139500
         },
         "6": {
             "cost": 288000,
             "scoreGrade": 2835.0,
-            "totleExp": 283500,
-            "": 2835.0
+            "totleExp": 283500
         },
         "7": {
             "cost": 576000,
             "scoreGrade": 5715.0,
-            "totleExp": 571500,
-            "": 5715.0
+            "totleExp": 571500
         },
         "8": {
             "scoreGrade": 11475.0,
@@ -190,62 +162,52 @@
     "10": {
         "0": {
             "cost": 9000,
-            "scoreGrade": 1.0,
-            "": 0.0
+            "scoreGrade": 1.0
         },
         "1": {
             "cost": 18000,
             "scoreGrade": 90.0,
-            "totleExp": 9000,
-            "": 90.0
+            "totleExp": 9000
         },
         "2": {
             "cost": 36000,
             "scoreGrade": 270.0,
-            "totleExp": 27000,
-            "": 270.0
+            "totleExp": 27000
         },
         "3": {
             "cost": 72000,
             "scoreGrade": 630.0,
-            "totleExp": 63000,
-            "": 630.0
+            "totleExp": 63000
         },
         "4": {
             "cost": 144000,
             "scoreGrade": 1350.0,
-            "totleExp": 135000,
-            "": 1350.0
+            "totleExp": 135000
         },
         "5": {
             "cost": 288000,
             "scoreGrade": 2790.0,
-            "totleExp": 279000,
-            "": 2790.0
+            "totleExp": 279000
         },
         "6": {
             "cost": 576000,
             "scoreGrade": 5670.0,
-            "totleExp": 567000,
-            "": 5670.0
+            "totleExp": 567000
         },
         "7": {
             "cost": 1152000,
             "scoreGrade": 11430.0,
-            "totleExp": 1143000,
-            "": 11430.0
+            "totleExp": 1143000
         },
         "8": {
             "cost": 2304000,
             "scoreGrade": 22950.0,
-            "totleExp": 2295000,
-            "": 22950.0
+            "totleExp": 2295000
         },
         "9": {
             "cost": 4608000,
             "scoreGrade": 45990.0,
-            "totleExp": 4599000,
-            "": 45990.0
+            "totleExp": 4599000
         },
         "10": {
             "scoreGrade": 92070.0,
@@ -255,62 +217,52 @@
     "11": {
         "0": {
             "cost": 18000,
-            "scoreGrade": 1.0,
-            "": 0.0
+            "scoreGrade": 1.0
         },
         "1": {
             "cost": 36000,
             "scoreGrade": 180.0,
-            "totleExp": 18000,
-            "": 180.0
+            "totleExp": 18000
         },
         "2": {
             "cost": 72000,
             "scoreGrade": 540.0,
-            "totleExp": 54000,
-            "": 540.0
+            "totleExp": 54000
         },
         "3": {
             "cost": 144000,
             "scoreGrade": 1260.0,
-            "totleExp": 126000,
-            "": 1260.0
+            "totleExp": 126000
         },
         "4": {
             "cost": 288000,
             "scoreGrade": 2700.0,
-            "totleExp": 270000,
-            "": 2700.0
+            "totleExp": 270000
         },
         "5": {
             "cost": 576000,
             "scoreGrade": 5580.0,
-            "totleExp": 558000,
-            "": 5580.0
+            "totleExp": 558000
         },
         "6": {
             "cost": 1152000,
             "scoreGrade": 11340.0,
-            "totleExp": 1134000,
-            "": 11340.0
+            "totleExp": 1134000
         },
         "7": {
             "cost": 2304000,
             "scoreGrade": 22860.0,
-            "totleExp": 2286000,
-            "": 22860.0
+            "totleExp": 2286000
         },
         "8": {
             "cost": 4608000,
             "scoreGrade": 45900.0,
-            "totleExp": 4590000,
-            "": 45900.0
+            "totleExp": 4590000
         },
         "9": {
             "cost": 9216000,
             "scoreGrade": 91980.0,
-            "totleExp": 9198000,
-            "": 91980.0
+            "totleExp": 9198000
         },
         "10": {
             "scoreGrade": 184140.0,

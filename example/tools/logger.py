@@ -31,7 +31,7 @@ class Logger:
 
     def logfile(self, src, text):
         logout = f"[{datetime.datetime.now()}]: {text}\n"
-        with open(f"{self.path}/{src}.log", 'a') as file:
+        with open(f"{self.path}/{src}.log", 'a', encoding="utf-8") as file:
             print(logout, end="")
             file.write(logout)
 

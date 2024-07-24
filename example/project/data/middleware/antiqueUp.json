@@ -21,7 +21,6 @@
             "prop": {
                 "atk": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -49,7 +48,6 @@
             "prop": {
                 "atk": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -77,7 +75,6 @@
             "prop": {
                 "atk": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -105,7 +102,6 @@
             "prop": {
                 "atk": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -133,7 +129,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -169,7 +164,6 @@
             "prop": {
                 "def": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -197,7 +191,6 @@
             "prop": {
                 "def": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -225,7 +218,6 @@
             "prop": {
                 "def": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -253,7 +245,6 @@
             "prop": {
                 "def": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -281,7 +272,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -317,7 +307,6 @@
             "prop": {
                 "hpMax": 80000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -345,7 +334,6 @@
             "prop": {
                 "hpMax": 160000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -373,7 +361,6 @@
             "prop": {
                 "hpMax": 240000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -401,7 +388,6 @@
             "prop": {
                 "hpMax": 320000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -429,7 +415,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -465,7 +450,6 @@
             "prop": {
                 "hitPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -493,7 +477,6 @@
             "prop": {
                 "hitPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -521,7 +504,6 @@
             "prop": {
                 "hitPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -549,7 +531,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -577,7 +558,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -613,7 +593,6 @@
             "prop": {
                 "evdPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -641,7 +620,6 @@
             "prop": {
                 "evdPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -669,7 +647,6 @@
             "prop": {
                 "evdPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -697,7 +674,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -725,7 +701,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -761,7 +736,6 @@
             "prop": {
                 "atcPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -789,7 +763,6 @@
             "prop": {
                 "atcPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -817,7 +790,6 @@
             "prop": {
                 "atcPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -845,7 +817,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -873,7 +844,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -909,7 +879,6 @@
             "prop": {
                 "crtPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -937,7 +906,6 @@
             "prop": {
                 "crtPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -965,7 +933,6 @@
             "prop": {
                 "crtPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -993,7 +960,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1021,7 +987,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -1057,7 +1022,6 @@
             "prop": {
                 "spd": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1085,7 +1049,6 @@
             "prop": {
                 "spd": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1113,7 +1076,6 @@
             "prop": {
                 "spd": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1141,7 +1103,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1169,7 +1130,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -1205,7 +1165,6 @@
             "prop": {
                 "mdef": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1233,7 +1192,6 @@
             "prop": {
                 "mdef": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1261,7 +1219,6 @@
             "prop": {
                 "mdef": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1289,7 +1246,6 @@
             "prop": {
                 "mdef": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1317,7 +1273,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -1353,7 +1308,6 @@
             "prop": {
                 "atk": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1381,7 +1335,6 @@
             "prop": {
                 "atk": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1409,7 +1362,6 @@
             "prop": {
                 "atk": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1437,7 +1389,6 @@
             "prop": {
                 "atk": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1465,7 +1416,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -1501,7 +1451,6 @@
             "prop": {
                 "def": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1529,7 +1478,6 @@
             "prop": {
                 "def": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1557,7 +1505,6 @@
             "prop": {
                 "def": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1585,7 +1532,6 @@
             "prop": {
                 "def": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1613,7 +1559,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -1649,7 +1594,6 @@
             "prop": {
                 "hpMax": 80000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1677,7 +1621,6 @@
             "prop": {
                 "hpMax": 160000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1705,7 +1648,6 @@
             "prop": {
                 "hpMax": 240000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1733,7 +1675,6 @@
             "prop": {
                 "hpMax": 320000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1761,7 +1702,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -1797,7 +1737,6 @@
             "prop": {
                 "hitPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1825,7 +1764,6 @@
             "prop": {
                 "hitPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1853,7 +1791,6 @@
             "prop": {
                 "hitPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1881,7 +1818,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1909,7 +1845,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -1945,7 +1880,6 @@
             "prop": {
                 "evdPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -1973,7 +1907,6 @@
             "prop": {
                 "evdPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2001,7 +1934,6 @@
             "prop": {
                 "evdPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2029,7 +1961,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2057,7 +1988,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -2093,7 +2023,6 @@
             "prop": {
                 "atcPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2121,7 +2050,6 @@
             "prop": {
                 "atcPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2149,7 +2077,6 @@
             "prop": {
                 "atcPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2177,7 +2104,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2205,7 +2131,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -2241,7 +2166,6 @@
             "prop": {
                 "crtPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2269,7 +2193,6 @@
             "prop": {
                 "crtPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2297,7 +2220,6 @@
             "prop": {
                 "crtPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2325,7 +2247,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2353,7 +2274,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -2389,7 +2309,6 @@
             "prop": {
                 "spd": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2417,7 +2336,6 @@
             "prop": {
                 "spd": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2445,7 +2363,6 @@
             "prop": {
                 "spd": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2473,7 +2390,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2501,7 +2417,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -2537,7 +2452,6 @@
             "prop": {
                 "mdef": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2565,7 +2479,6 @@
             "prop": {
                 "mdef": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2593,7 +2506,6 @@
             "prop": {
                 "mdef": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2621,7 +2533,6 @@
             "prop": {
                 "mdef": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2649,7 +2560,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -2685,7 +2595,6 @@
             "prop": {
                 "atk": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2713,7 +2622,6 @@
             "prop": {
                 "atk": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2741,7 +2649,6 @@
             "prop": {
                 "atk": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2769,7 +2676,6 @@
             "prop": {
                 "atk": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2797,7 +2703,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -2833,7 +2738,6 @@
             "prop": {
                 "def": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2861,7 +2765,6 @@
             "prop": {
                 "def": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2889,7 +2792,6 @@
             "prop": {
                 "def": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2917,7 +2819,6 @@
             "prop": {
                 "def": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -2945,7 +2846,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -2981,7 +2881,6 @@
             "prop": {
                 "hpMax": 80000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3009,7 +2908,6 @@
             "prop": {
                 "hpMax": 160000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3037,7 +2935,6 @@
             "prop": {
                 "hpMax": 240000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3065,7 +2962,6 @@
             "prop": {
                 "hpMax": 320000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3093,7 +2989,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -3129,7 +3024,6 @@
             "prop": {
                 "hitPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3157,7 +3051,6 @@
             "prop": {
                 "hitPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3185,7 +3078,6 @@
             "prop": {
                 "hitPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3213,7 +3105,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3241,7 +3132,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -3277,7 +3167,6 @@
             "prop": {
                 "evdPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3305,7 +3194,6 @@
             "prop": {
                 "evdPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3333,7 +3221,6 @@
             "prop": {
                 "evdPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3361,7 +3248,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3389,7 +3275,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -3425,7 +3310,6 @@
             "prop": {
                 "atcPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3453,7 +3337,6 @@
             "prop": {
                 "atcPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3481,7 +3364,6 @@
             "prop": {
                 "atcPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3509,7 +3391,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3537,7 +3418,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -3573,7 +3453,6 @@
             "prop": {
                 "crtPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3601,7 +3480,6 @@
             "prop": {
                 "crtPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3629,7 +3507,6 @@
             "prop": {
                 "crtPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3657,7 +3534,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3685,7 +3561,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -3721,7 +3596,6 @@
             "prop": {
                 "spd": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3749,7 +3623,6 @@
             "prop": {
                 "spd": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3777,7 +3650,6 @@
             "prop": {
                 "spd": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3805,7 +3677,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3833,7 +3704,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -3869,7 +3739,6 @@
             "prop": {
                 "mdef": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3897,7 +3766,6 @@
             "prop": {
                 "mdef": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3925,7 +3793,6 @@
             "prop": {
                 "mdef": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3953,7 +3820,6 @@
             "prop": {
                 "mdef": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -3981,7 +3847,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -4017,7 +3882,6 @@
             "prop": {
                 "atk": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4045,7 +3909,6 @@
             "prop": {
                 "atk": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4073,7 +3936,6 @@
             "prop": {
                 "atk": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4101,7 +3963,6 @@
             "prop": {
                 "atk": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4129,7 +3990,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -4165,7 +4025,6 @@
             "prop": {
                 "def": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4193,7 +4052,6 @@
             "prop": {
                 "def": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4221,7 +4079,6 @@
             "prop": {
                 "def": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4249,7 +4106,6 @@
             "prop": {
                 "def": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4277,7 +4133,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -4313,7 +4168,6 @@
             "prop": {
                 "hpMax": 80000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4341,7 +4195,6 @@
             "prop": {
                 "hpMax": 160000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4369,7 +4222,6 @@
             "prop": {
                 "hpMax": 240000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4397,7 +4249,6 @@
             "prop": {
                 "hpMax": 320000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4425,7 +4276,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -4461,7 +4311,6 @@
             "prop": {
                 "hitPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4489,7 +4338,6 @@
             "prop": {
                 "hitPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4517,7 +4365,6 @@
             "prop": {
                 "hitPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4545,7 +4392,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4573,7 +4419,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -4609,7 +4454,6 @@
             "prop": {
                 "evdPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4637,7 +4481,6 @@
             "prop": {
                 "evdPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4665,7 +4508,6 @@
             "prop": {
                 "evdPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4693,7 +4535,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4721,7 +4562,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -4757,7 +4597,6 @@
             "prop": {
                 "atcPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4785,7 +4624,6 @@
             "prop": {
                 "atcPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4813,7 +4651,6 @@
             "prop": {
                 "atcPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4841,7 +4678,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4869,7 +4705,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -4905,7 +4740,6 @@
             "prop": {
                 "crtPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4933,7 +4767,6 @@
             "prop": {
                 "crtPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4961,7 +4794,6 @@
             "prop": {
                 "crtPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -4989,7 +4821,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5017,7 +4848,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -5053,7 +4883,6 @@
             "prop": {
                 "spd": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5081,7 +4910,6 @@
             "prop": {
                 "spd": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5109,7 +4937,6 @@
             "prop": {
                 "spd": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5137,7 +4964,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5165,7 +4991,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -5201,7 +5026,6 @@
             "prop": {
                 "mdef": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5229,7 +5053,6 @@
             "prop": {
                 "mdef": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5257,7 +5080,6 @@
             "prop": {
                 "mdef": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5285,7 +5107,6 @@
             "prop": {
                 "mdef": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5313,7 +5134,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -5349,7 +5169,6 @@
             "prop": {
                 "atk": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5377,7 +5196,6 @@
             "prop": {
                 "atk": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5405,7 +5223,6 @@
             "prop": {
                 "atk": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5433,7 +5250,6 @@
             "prop": {
                 "atk": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5461,7 +5277,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -5497,7 +5312,6 @@
             "prop": {
                 "def": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5525,7 +5339,6 @@
             "prop": {
                 "def": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5553,7 +5366,6 @@
             "prop": {
                 "def": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5581,7 +5393,6 @@
             "prop": {
                 "def": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5609,7 +5420,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -5645,7 +5455,6 @@
             "prop": {
                 "hpMax": 80000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5673,7 +5482,6 @@
             "prop": {
                 "hpMax": 160000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5701,7 +5509,6 @@
             "prop": {
                 "hpMax": 240000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5729,7 +5536,6 @@
             "prop": {
                 "hpMax": 320000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5757,7 +5563,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -5793,7 +5598,6 @@
             "prop": {
                 "hitPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5821,7 +5625,6 @@
             "prop": {
                 "hitPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5849,7 +5652,6 @@
             "prop": {
                 "hitPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5877,7 +5679,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5905,7 +5706,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -5941,7 +5741,6 @@
             "prop": {
                 "evdPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5969,7 +5768,6 @@
             "prop": {
                 "evdPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -5997,7 +5795,6 @@
             "prop": {
                 "evdPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6025,7 +5822,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6053,7 +5849,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -6089,7 +5884,6 @@
             "prop": {
                 "atcPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6117,7 +5911,6 @@
             "prop": {
                 "atcPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6145,7 +5938,6 @@
             "prop": {
                 "atcPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6173,7 +5965,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6201,7 +5992,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -6237,7 +6027,6 @@
             "prop": {
                 "crtPoint": 72
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6265,7 +6054,6 @@
             "prop": {
                 "crtPoint": 144
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6293,7 +6081,6 @@
             "prop": {
                 "crtPoint": 216
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6321,7 +6108,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6349,7 +6135,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -6385,7 +6170,6 @@
             "prop": {
                 "spd": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6413,7 +6197,6 @@
             "prop": {
                 "spd": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6441,7 +6224,6 @@
             "prop": {
                 "spd": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6469,7 +6251,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6497,7 +6278,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -6533,7 +6313,6 @@
             "prop": {
                 "mdef": 8000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6561,7 +6340,6 @@
             "prop": {
                 "mdef": 16000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6589,7 +6367,6 @@
             "prop": {
                 "mdef": 24000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6617,7 +6394,6 @@
             "prop": {
                 "mdef": 32000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6645,7 +6421,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -6681,7 +6456,6 @@
             "prop": {
                 "atk": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6709,7 +6483,6 @@
             "prop": {
                 "atk": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6737,7 +6510,6 @@
             "prop": {
                 "atk": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6765,7 +6537,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6793,7 +6564,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -6829,7 +6599,6 @@
             "prop": {
                 "def": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6857,7 +6626,6 @@
             "prop": {
                 "def": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6885,7 +6653,6 @@
             "prop": {
                 "def": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6913,7 +6680,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -6941,7 +6707,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -6977,7 +6742,6 @@
             "prop": {
                 "hpMax": 100000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7005,7 +6769,6 @@
             "prop": {
                 "hpMax": 200000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7033,7 +6796,6 @@
             "prop": {
                 "hpMax": 300000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7061,7 +6823,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7089,7 +6850,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -7125,7 +6885,6 @@
             "prop": {
                 "hitPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7153,7 +6912,6 @@
             "prop": {
                 "hitPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7181,7 +6939,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7209,7 +6966,6 @@
             "prop": {
                 "hitPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7237,7 +6993,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -7273,7 +7028,6 @@
             "prop": {
                 "evdPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7301,7 +7055,6 @@
             "prop": {
                 "evdPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7329,7 +7082,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7357,7 +7109,6 @@
             "prop": {
                 "evdPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7385,7 +7136,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -7421,7 +7171,6 @@
             "prop": {
                 "atcPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7449,7 +7198,6 @@
             "prop": {
                 "atcPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7477,7 +7225,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7505,7 +7252,6 @@
             "prop": {
                 "atcPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7533,7 +7279,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -7569,7 +7314,6 @@
             "prop": {
                 "crtPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7597,7 +7341,6 @@
             "prop": {
                 "crtPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7625,7 +7368,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7653,7 +7395,6 @@
             "prop": {
                 "crtPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7681,7 +7422,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -7717,7 +7457,6 @@
             "prop": {
                 "spd": 128
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7745,7 +7484,6 @@
             "prop": {
                 "spd": 256
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7773,7 +7511,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7801,7 +7538,6 @@
             "prop": {
                 "spd": 512
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7829,7 +7565,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -7865,7 +7600,6 @@
             "prop": {
                 "mdef": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7893,7 +7627,6 @@
             "prop": {
                 "mdef": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7921,7 +7654,6 @@
             "prop": {
                 "mdef": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7949,7 +7681,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -7977,7 +7708,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -8013,7 +7743,6 @@
             "prop": {
                 "atk": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8041,7 +7770,6 @@
             "prop": {
                 "atk": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8069,7 +7797,6 @@
             "prop": {
                 "atk": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8097,7 +7824,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8125,7 +7851,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -8161,7 +7886,6 @@
             "prop": {
                 "def": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8189,7 +7913,6 @@
             "prop": {
                 "def": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8217,7 +7940,6 @@
             "prop": {
                 "def": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8245,7 +7967,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8273,7 +7994,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -8309,7 +8029,6 @@
             "prop": {
                 "hpMax": 100000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8337,7 +8056,6 @@
             "prop": {
                 "hpMax": 200000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8365,7 +8083,6 @@
             "prop": {
                 "hpMax": 300000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8393,7 +8110,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8421,7 +8137,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -8457,7 +8172,6 @@
             "prop": {
                 "hitPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8485,7 +8199,6 @@
             "prop": {
                 "hitPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8513,7 +8226,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8541,7 +8253,6 @@
             "prop": {
                 "hitPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8569,7 +8280,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -8605,7 +8315,6 @@
             "prop": {
                 "evdPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8633,7 +8342,6 @@
             "prop": {
                 "evdPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8661,7 +8369,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8689,7 +8396,6 @@
             "prop": {
                 "evdPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8717,7 +8423,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -8753,7 +8458,6 @@
             "prop": {
                 "atcPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8781,7 +8485,6 @@
             "prop": {
                 "atcPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8809,7 +8512,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8837,7 +8539,6 @@
             "prop": {
                 "atcPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8865,7 +8566,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -8901,7 +8601,6 @@
             "prop": {
                 "crtPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8929,7 +8628,6 @@
             "prop": {
                 "crtPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8957,7 +8655,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -8985,7 +8682,6 @@
             "prop": {
                 "crtPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9013,7 +8709,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -9049,7 +8744,6 @@
             "prop": {
                 "spd": 128
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9077,7 +8771,6 @@
             "prop": {
                 "spd": 256
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9105,7 +8798,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9133,7 +8825,6 @@
             "prop": {
                 "spd": 512
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9161,7 +8852,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -9197,7 +8887,6 @@
             "prop": {
                 "mdef": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9225,7 +8914,6 @@
             "prop": {
                 "mdef": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9253,7 +8941,6 @@
             "prop": {
                 "mdef": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9281,7 +8968,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9309,7 +8995,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -9345,7 +9030,6 @@
             "prop": {
                 "atk": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9373,7 +9057,6 @@
             "prop": {
                 "atk": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9401,7 +9084,6 @@
             "prop": {
                 "atk": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9429,7 +9111,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9457,7 +9138,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -9493,7 +9173,6 @@
             "prop": {
                 "def": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9521,7 +9200,6 @@
             "prop": {
                 "def": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9549,7 +9227,6 @@
             "prop": {
                 "def": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9577,7 +9254,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9605,7 +9281,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -9641,7 +9316,6 @@
             "prop": {
                 "hpMax": 100000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9669,7 +9343,6 @@
             "prop": {
                 "hpMax": 200000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9697,7 +9370,6 @@
             "prop": {
                 "hpMax": 300000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9725,7 +9397,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9753,7 +9424,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -9789,7 +9459,6 @@
             "prop": {
                 "hitPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9817,7 +9486,6 @@
             "prop": {
                 "hitPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9845,7 +9513,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9873,7 +9540,6 @@
             "prop": {
                 "hitPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9901,7 +9567,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -9937,7 +9602,6 @@
             "prop": {
                 "evdPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9965,7 +9629,6 @@
             "prop": {
                 "evdPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -9993,7 +9656,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10021,7 +9683,6 @@
             "prop": {
                 "evdPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10049,7 +9710,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -10085,7 +9745,6 @@
             "prop": {
                 "atcPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10113,7 +9772,6 @@
             "prop": {
                 "atcPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10141,7 +9799,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10169,7 +9826,6 @@
             "prop": {
                 "atcPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10197,7 +9853,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -10233,7 +9888,6 @@
             "prop": {
                 "crtPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10261,7 +9915,6 @@
             "prop": {
                 "crtPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10289,7 +9942,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10317,7 +9969,6 @@
             "prop": {
                 "crtPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10345,7 +9996,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -10381,7 +10031,6 @@
             "prop": {
                 "spd": 128
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10409,7 +10058,6 @@
             "prop": {
                 "spd": 256
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10437,7 +10085,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10465,7 +10112,6 @@
             "prop": {
                 "spd": 512
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10493,7 +10139,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -10529,7 +10174,6 @@
             "prop": {
                 "mdef": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10557,7 +10201,6 @@
             "prop": {
                 "mdef": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10585,7 +10228,6 @@
             "prop": {
                 "mdef": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10613,7 +10255,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10641,7 +10282,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -10677,7 +10317,6 @@
             "prop": {
                 "atk": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10705,7 +10344,6 @@
             "prop": {
                 "atk": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10733,7 +10371,6 @@
             "prop": {
                 "atk": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10761,7 +10398,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10789,7 +10425,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -10825,7 +10460,6 @@
             "prop": {
                 "def": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10853,7 +10487,6 @@
             "prop": {
                 "def": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10881,7 +10514,6 @@
             "prop": {
                 "def": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10909,7 +10541,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -10937,7 +10568,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -10973,7 +10603,6 @@
             "prop": {
                 "hpMax": 100000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11001,7 +10630,6 @@
             "prop": {
                 "hpMax": 200000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11029,7 +10657,6 @@
             "prop": {
                 "hpMax": 300000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11057,7 +10684,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11085,7 +10711,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -11121,7 +10746,6 @@
             "prop": {
                 "hitPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11149,7 +10773,6 @@
             "prop": {
                 "hitPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11177,7 +10800,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11205,7 +10827,6 @@
             "prop": {
                 "hitPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11233,7 +10854,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -11269,7 +10889,6 @@
             "prop": {
                 "evdPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11297,7 +10916,6 @@
             "prop": {
                 "evdPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11325,7 +10943,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11353,7 +10970,6 @@
             "prop": {
                 "evdPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11381,7 +10997,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -11417,7 +11032,6 @@
             "prop": {
                 "atcPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11445,7 +11059,6 @@
             "prop": {
                 "atcPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11473,7 +11086,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11501,7 +11113,6 @@
             "prop": {
                 "atcPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11529,7 +11140,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -11565,7 +11175,6 @@
             "prop": {
                 "crtPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11593,7 +11202,6 @@
             "prop": {
                 "crtPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11621,7 +11229,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11649,7 +11256,6 @@
             "prop": {
                 "crtPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11677,7 +11283,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -11713,7 +11318,6 @@
             "prop": {
                 "spd": 128
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11741,7 +11345,6 @@
             "prop": {
                 "spd": 256
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11769,7 +11372,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11797,7 +11399,6 @@
             "prop": {
                 "spd": 512
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11825,7 +11426,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -11861,7 +11461,6 @@
             "prop": {
                 "mdef": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11889,7 +11488,6 @@
             "prop": {
                 "mdef": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11917,7 +11515,6 @@
             "prop": {
                 "mdef": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11945,7 +11542,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -11973,7 +11569,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -12009,7 +11604,6 @@
             "prop": {
                 "atk": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12037,7 +11631,6 @@
             "prop": {
                 "atk": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12065,7 +11658,6 @@
             "prop": {
                 "atk": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12093,7 +11685,6 @@
             "prop": {
                 "atk": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12121,7 +11712,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -12157,7 +11747,6 @@
             "prop": {
                 "def": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12185,7 +11774,6 @@
             "prop": {
                 "def": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12213,7 +11801,6 @@
             "prop": {
                 "def": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12241,7 +11828,6 @@
             "prop": {
                 "def": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12269,7 +11855,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -12305,7 +11890,6 @@
             "prop": {
                 "hpMax": 100000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12333,7 +11917,6 @@
             "prop": {
                 "hpMax": 200000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12361,7 +11944,6 @@
             "prop": {
                 "hpMax": 300000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12389,7 +11971,6 @@
             "prop": {
                 "hpMax": 400000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12417,7 +11998,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -12453,7 +12033,6 @@
             "prop": {
                 "hitPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12481,7 +12060,6 @@
             "prop": {
                 "hitPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12509,7 +12087,6 @@
             "prop": {
                 "hitPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12537,7 +12114,6 @@
             "prop": {
                 "hitPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12565,7 +12141,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -12601,7 +12176,6 @@
             "prop": {
                 "evdPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12629,7 +12203,6 @@
             "prop": {
                 "evdPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12657,7 +12230,6 @@
             "prop": {
                 "evdPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12685,7 +12257,6 @@
             "prop": {
                 "evdPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12713,7 +12284,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -12749,7 +12319,6 @@
             "prop": {
                 "atcPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12777,7 +12346,6 @@
             "prop": {
                 "atcPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12805,7 +12373,6 @@
             "prop": {
                 "atcPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12833,7 +12400,6 @@
             "prop": {
                 "atcPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12861,7 +12427,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -12897,7 +12462,6 @@
             "prop": {
                 "crtPoint": 96
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12925,7 +12489,6 @@
             "prop": {
                 "crtPoint": 192
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12953,7 +12516,6 @@
             "prop": {
                 "crtPoint": 288
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -12981,7 +12543,6 @@
             "prop": {
                 "crtPoint": 384
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13009,7 +12570,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -13045,7 +12605,6 @@
             "prop": {
                 "spd": 128
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13073,7 +12632,6 @@
             "prop": {
                 "spd": 256
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13101,7 +12659,6 @@
             "prop": {
                 "spd": 384
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13129,7 +12686,6 @@
             "prop": {
                 "spd": 512
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13157,7 +12713,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -13193,7 +12748,6 @@
             "prop": {
                 "mdef": 10000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13221,7 +12775,6 @@
             "prop": {
                 "mdef": 20000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13249,7 +12802,6 @@
             "prop": {
                 "mdef": 30000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13277,7 +12829,6 @@
             "prop": {
                 "mdef": 40000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13305,7 +12856,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -13341,7 +12891,6 @@
             "prop": {
                 "atk": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13369,7 +12918,6 @@
             "prop": {
                 "atk": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13397,7 +12945,6 @@
             "prop": {
                 "atk": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13425,7 +12972,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13453,7 +12999,6 @@
             "prop": {
                 "atk": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -13489,7 +13034,6 @@
             "prop": {
                 "def": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13517,7 +13061,6 @@
             "prop": {
                 "def": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13545,7 +13088,6 @@
             "prop": {
                 "def": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13573,7 +13115,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13601,7 +13142,6 @@
             "prop": {
                 "def": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -13637,7 +13177,6 @@
             "prop": {
                 "hpMax": 125000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13665,7 +13204,6 @@
             "prop": {
                 "hpMax": 250000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13693,7 +13231,6 @@
             "prop": {
                 "hpMax": 375000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13721,7 +13258,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13749,7 +13285,6 @@
             "prop": {
                 "hpMax": 625000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -13785,7 +13320,6 @@
             "prop": {
                 "hitPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13813,7 +13347,6 @@
             "prop": {
                 "hitPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13841,7 +13374,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13869,7 +13401,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13897,7 +13428,6 @@
             "prop": {
                 "hitPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -13933,7 +13463,6 @@
             "prop": {
                 "evdPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13961,7 +13490,6 @@
             "prop": {
                 "evdPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -13989,7 +13517,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14017,7 +13544,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14045,7 +13571,6 @@
             "prop": {
                 "evdPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -14081,7 +13606,6 @@
             "prop": {
                 "atcPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14109,7 +13633,6 @@
             "prop": {
                 "atcPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14137,7 +13660,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14165,7 +13687,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14193,7 +13714,6 @@
             "prop": {
                 "atcPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -14229,7 +13749,6 @@
             "prop": {
                 "crtPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14257,7 +13776,6 @@
             "prop": {
                 "crtPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14285,7 +13803,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14313,7 +13830,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14341,7 +13857,6 @@
             "prop": {
                 "crtPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -14377,7 +13892,6 @@
             "prop": {
                 "spd": 160
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14405,7 +13919,6 @@
             "prop": {
                 "spd": 320
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14433,7 +13946,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14461,7 +13973,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14489,7 +14000,6 @@
             "prop": {
                 "spd": 800
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -14525,7 +14035,6 @@
             "prop": {
                 "mdef": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14553,7 +14062,6 @@
             "prop": {
                 "mdef": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14581,7 +14089,6 @@
             "prop": {
                 "mdef": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14609,7 +14116,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14637,7 +14143,6 @@
             "prop": {
                 "mdef": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -14673,7 +14178,6 @@
             "prop": {
                 "atk": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14701,7 +14205,6 @@
             "prop": {
                 "atk": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14729,7 +14232,6 @@
             "prop": {
                 "atk": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14757,7 +14259,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14785,7 +14286,6 @@
             "prop": {
                 "atk": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -14821,7 +14321,6 @@
             "prop": {
                 "def": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14849,7 +14348,6 @@
             "prop": {
                 "def": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14877,7 +14375,6 @@
             "prop": {
                 "def": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14905,7 +14402,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14933,7 +14429,6 @@
             "prop": {
                 "def": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -14969,7 +14464,6 @@
             "prop": {
                 "hpMax": 125000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -14997,7 +14491,6 @@
             "prop": {
                 "hpMax": 250000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15025,7 +14518,6 @@
             "prop": {
                 "hpMax": 375000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15053,7 +14545,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15081,7 +14572,6 @@
             "prop": {
                 "hpMax": 625000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -15117,7 +14607,6 @@
             "prop": {
                 "hitPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15145,7 +14634,6 @@
             "prop": {
                 "hitPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15173,7 +14661,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15201,7 +14688,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15229,7 +14715,6 @@
             "prop": {
                 "hitPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -15265,7 +14750,6 @@
             "prop": {
                 "evdPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15293,7 +14777,6 @@
             "prop": {
                 "evdPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15321,7 +14804,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15349,7 +14831,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15377,7 +14858,6 @@
             "prop": {
                 "evdPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -15413,7 +14893,6 @@
             "prop": {
                 "atcPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15441,7 +14920,6 @@
             "prop": {
                 "atcPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15469,7 +14947,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15497,7 +14974,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15525,7 +15001,6 @@
             "prop": {
                 "atcPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -15561,7 +15036,6 @@
             "prop": {
                 "crtPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15589,7 +15063,6 @@
             "prop": {
                 "crtPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15617,7 +15090,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15645,7 +15117,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15673,7 +15144,6 @@
             "prop": {
                 "crtPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -15709,7 +15179,6 @@
             "prop": {
                 "spd": 160
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15737,7 +15206,6 @@
             "prop": {
                 "spd": 320
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15765,7 +15233,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15793,7 +15260,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15821,7 +15287,6 @@
             "prop": {
                 "spd": 800
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -15857,7 +15322,6 @@
             "prop": {
                 "mdef": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15885,7 +15349,6 @@
             "prop": {
                 "mdef": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15913,7 +15376,6 @@
             "prop": {
                 "mdef": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15941,7 +15403,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -15969,7 +15430,6 @@
             "prop": {
                 "mdef": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -16005,7 +15465,6 @@
             "prop": {
                 "atk": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16033,7 +15492,6 @@
             "prop": {
                 "atk": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16061,7 +15519,6 @@
             "prop": {
                 "atk": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16089,7 +15546,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16117,7 +15573,6 @@
             "prop": {
                 "atk": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -16153,7 +15608,6 @@
             "prop": {
                 "def": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16181,7 +15635,6 @@
             "prop": {
                 "def": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16209,7 +15662,6 @@
             "prop": {
                 "def": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16237,7 +15689,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16265,7 +15716,6 @@
             "prop": {
                 "def": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -16301,7 +15751,6 @@
             "prop": {
                 "hpMax": 125000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16329,7 +15778,6 @@
             "prop": {
                 "hpMax": 250000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16357,7 +15805,6 @@
             "prop": {
                 "hpMax": 375000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16385,7 +15832,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16413,7 +15859,6 @@
             "prop": {
                 "hpMax": 625000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -16449,7 +15894,6 @@
             "prop": {
                 "hitPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16477,7 +15921,6 @@
             "prop": {
                 "hitPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16505,7 +15948,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16533,7 +15975,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16561,7 +16002,6 @@
             "prop": {
                 "hitPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -16597,7 +16037,6 @@
             "prop": {
                 "evdPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16625,7 +16064,6 @@
             "prop": {
                 "evdPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16653,7 +16091,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16681,7 +16118,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16709,7 +16145,6 @@
             "prop": {
                 "evdPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -16745,7 +16180,6 @@
             "prop": {
                 "atcPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16773,7 +16207,6 @@
             "prop": {
                 "atcPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16801,7 +16234,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16829,7 +16261,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16857,7 +16288,6 @@
             "prop": {
                 "atcPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -16893,7 +16323,6 @@
             "prop": {
                 "crtPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16921,7 +16350,6 @@
             "prop": {
                 "crtPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16949,7 +16377,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -16977,7 +16404,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17005,7 +16431,6 @@
             "prop": {
                 "crtPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -17041,7 +16466,6 @@
             "prop": {
                 "spd": 160
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17069,7 +16493,6 @@
             "prop": {
                 "spd": 320
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17097,7 +16520,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17125,7 +16547,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17153,7 +16574,6 @@
             "prop": {
                 "spd": 800
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -17189,7 +16609,6 @@
             "prop": {
                 "mdef": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17217,7 +16636,6 @@
             "prop": {
                 "mdef": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17245,7 +16663,6 @@
             "prop": {
                 "mdef": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17273,7 +16690,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17301,7 +16717,6 @@
             "prop": {
                 "mdef": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -17337,7 +16752,6 @@
             "prop": {
                 "atk": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17365,7 +16779,6 @@
             "prop": {
                 "atk": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17393,7 +16806,6 @@
             "prop": {
                 "atk": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17421,7 +16833,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17449,7 +16860,6 @@
             "prop": {
                 "atk": 62500
             },
-            "": 9.0,
             "selfCost": 2,
             "fuseReturn": [
                 [
@@ -17485,7 +16895,6 @@
             "prop": {
                 "def": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17513,7 +16922,6 @@
             "prop": {
                 "def": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17541,7 +16949,6 @@
             "prop": {
                 "def": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17569,7 +16976,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17597,7 +17003,6 @@
             "prop": {
                 "def": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -17633,7 +17038,6 @@
             "prop": {
                 "hpMax": 125000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17661,7 +17065,6 @@
             "prop": {
                 "hpMax": 250000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17689,7 +17092,6 @@
             "prop": {
                 "hpMax": 375000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17717,7 +17119,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17745,7 +17146,6 @@
             "prop": {
                 "hpMax": 625000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -17781,7 +17181,6 @@
             "prop": {
                 "hitPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17809,7 +17208,6 @@
             "prop": {
                 "hitPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17837,7 +17235,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17865,7 +17262,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17893,7 +17289,6 @@
             "prop": {
                 "hitPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -17929,7 +17324,6 @@
             "prop": {
                 "evdPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17957,7 +17351,6 @@
             "prop": {
                 "evdPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -17985,7 +17378,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18013,7 +17405,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18041,7 +17432,6 @@
             "prop": {
                 "evdPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -18077,7 +17467,6 @@
             "prop": {
                 "atcPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18105,7 +17494,6 @@
             "prop": {
                 "atcPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18133,7 +17521,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18161,7 +17548,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18189,7 +17575,6 @@
             "prop": {
                 "atcPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -18225,7 +17610,6 @@
             "prop": {
                 "crtPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18253,7 +17637,6 @@
             "prop": {
                 "crtPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18281,7 +17664,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18309,7 +17691,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18337,7 +17718,6 @@
             "prop": {
                 "crtPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -18373,7 +17753,6 @@
             "prop": {
                 "spd": 160
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18401,7 +17780,6 @@
             "prop": {
                 "spd": 320
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18429,7 +17807,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18457,7 +17834,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18485,7 +17861,6 @@
             "prop": {
                 "spd": 800
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -18521,7 +17896,6 @@
             "prop": {
                 "mdef": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18549,7 +17923,6 @@
             "prop": {
                 "mdef": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18577,7 +17950,6 @@
             "prop": {
                 "mdef": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18605,7 +17977,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18633,7 +18004,6 @@
             "prop": {
                 "mdef": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -18669,7 +18039,6 @@
             "prop": {
                 "atk": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18697,7 +18066,6 @@
             "prop": {
                 "atk": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18725,7 +18093,6 @@
             "prop": {
                 "atk": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18753,7 +18120,6 @@
             "prop": {
                 "atk": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18781,7 +18147,6 @@
             "prop": {
                 "atk": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -18817,7 +18182,6 @@
             "prop": {
                 "def": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18845,7 +18209,6 @@
             "prop": {
                 "def": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18873,7 +18236,6 @@
             "prop": {
                 "def": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18901,7 +18263,6 @@
             "prop": {
                 "def": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18929,7 +18290,6 @@
             "prop": {
                 "def": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -18965,7 +18325,6 @@
             "prop": {
                 "hpMax": 125000
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -18993,7 +18352,6 @@
             "prop": {
                 "hpMax": 250000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19021,7 +18379,6 @@
             "prop": {
                 "hpMax": 375000
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19049,7 +18406,6 @@
             "prop": {
                 "hpMax": 500000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19077,7 +18433,6 @@
             "prop": {
                 "hpMax": 625000
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -19113,7 +18468,6 @@
             "prop": {
                 "hitPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19141,7 +18495,6 @@
             "prop": {
                 "hitPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19169,7 +18522,6 @@
             "prop": {
                 "hitPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19197,7 +18549,6 @@
             "prop": {
                 "hitPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19225,7 +18576,6 @@
             "prop": {
                 "hitPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -19261,7 +18611,6 @@
             "prop": {
                 "evdPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19289,7 +18638,6 @@
             "prop": {
                 "evdPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19317,7 +18665,6 @@
             "prop": {
                 "evdPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19345,7 +18692,6 @@
             "prop": {
                 "evdPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19373,7 +18719,6 @@
             "prop": {
                 "evdPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -19409,7 +18754,6 @@
             "prop": {
                 "atcPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19437,7 +18781,6 @@
             "prop": {
                 "atcPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19465,7 +18808,6 @@
             "prop": {
                 "atcPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19493,7 +18835,6 @@
             "prop": {
                 "atcPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19521,7 +18862,6 @@
             "prop": {
                 "atcPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -19557,7 +18897,6 @@
             "prop": {
                 "crtPoint": 120
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19585,7 +18924,6 @@
             "prop": {
                 "crtPoint": 240
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19613,7 +18951,6 @@
             "prop": {
                 "crtPoint": 360
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19641,7 +18978,6 @@
             "prop": {
                 "crtPoint": 480
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19669,7 +19005,6 @@
             "prop": {
                 "crtPoint": 600
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -19705,7 +19040,6 @@
             "prop": {
                 "spd": 160
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19733,7 +19067,6 @@
             "prop": {
                 "spd": 320
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19761,7 +19094,6 @@
             "prop": {
                 "spd": 480
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19789,7 +19121,6 @@
             "prop": {
                 "spd": 640
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19817,7 +19148,6 @@
             "prop": {
                 "spd": 800
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,
@@ -19853,7 +19183,6 @@
             "prop": {
                 "mdef": 12500
             },
-            "": 1.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19881,7 +19210,6 @@
             "prop": {
                 "mdef": 25000
             },
-            "": 2.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19909,7 +19237,6 @@
             "prop": {
                 "mdef": 37500
             },
-            "": 4.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19937,7 +19264,6 @@
             "prop": {
                 "mdef": 50000
             },
-            "": 6.0,
             "selfCost": 1,
             "cost": [
                 [
@@ -19965,7 +19291,6 @@
             "prop": {
                 "mdef": 62500
             },
-            "": 9.0,
             "fuseReturn": [
                 [
                     84,

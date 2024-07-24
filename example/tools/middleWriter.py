@@ -24,8 +24,9 @@ class MiddlewareWriter:
         self.workBook = None
 
     # 绑定要操作的workBook
-    def bindWorkBook(self, workBook):
+    def bindWorkBook(self, workBook, fileName):
         self.workBook = workBook
+        self.fileName = fileName
 
     # 写入中间件
     def writeMiddleware(self):
@@ -33,8 +34,9 @@ class MiddlewareWriter:
         for sheetName in sheetNames:
             names = sheetName.split("|")
             if len(names) != 2:
-                logfile("middleware", f"error sheet name {sheetName}")
+                logfile("middleware", f"incorrect sheet name {sheetName} in {self.fileName}")
                 continue
+            logfile("middleware", f"parsering {sheetName} in {self.fileName}")
             sheet = self.workBook.sheet_by_name(sheetName)
             name = names[0]
             jsonObj = self.tarnslate2Json(sheet)
@@ -95,7 +97,7 @@ class MiddlewareWriter:
                 for key in e:
                     value = dataMap[key]
                     keyType = self.getType(key)
-                    if value == "":
+                    if key == "" or value == "":
                         continue
                     elif keyType == "int":
                         data = int(value)
