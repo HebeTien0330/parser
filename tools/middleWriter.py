@@ -97,7 +97,7 @@ class MiddlewareWriter:
                 for key in e:
                     value = dataMap[key]
                     keyType = self.getType(key)
-                    if value == "":
+                    if key == "" or value == "":
                         continue
                     elif keyType == "int":
                         data = int(value)

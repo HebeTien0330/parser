@@ -2244,7 +2244,6 @@
         ]
     },
     "ANTIQUE_ADVANCED": {
-        "": "第一个元素如果星期的数字为-1则无视星期，如果小时的数字为-1则无视小时",
         "value": []
     },
     "REGROUP_RECONFIRM": {
@@ -5474,7 +5473,6 @@
         "value": 6.0
     },
     "REALM_ARENA_CLOSE_TIME": {
-        "": "关闭时间",
         "value": [
             7,
             23,
@@ -5482,7 +5480,6 @@
         ]
     },
     "REALM_ARENA_OPEN_TIME": {
-        "": "开启时间",
         "value": [
             1,
             0,
@@ -5522,7 +5519,6 @@
         "value": 8.0
     },
     "REALM_BATTLECITY_CLOSE_TIME": {
-        "": "关闭时间",
         "value": [
             7,
             22,
@@ -5530,7 +5526,6 @@
         ]
     },
     "REALM_BATTLECITY_OPEN_TIME": {
-        "": "开启时间",
         "value": [
             1,
             0,
@@ -5552,7 +5547,6 @@
         ]
     },
     "REALM_BATTLECITY_PREPARE": {
-        "": "关闭时间",
         "value": [
             2,
             8,
@@ -5569,7 +5563,6 @@
         "value": 3.0
     },
     "ZHIZUN_CLOSE_TIME": {
-        "": "关闭时间",
         "value": [
             7,
             22,
@@ -5577,7 +5570,6 @@
         ]
     },
     "ZHIZUN_OPEN_TIME": {
-        "": "开启时间",
         "value": [
             1,
             0,
@@ -5585,7 +5577,6 @@
         ]
     },
     "ZHIZUN_TIAOZHAN_TIME": {
-        "": "开启时间",
         "value": [
             [
                 1,
@@ -5607,7 +5598,6 @@
         ]
     },
     "ZHIZUN_XUANREN": {
-        "": "关闭时间",
         "value": [
             1,
             2,

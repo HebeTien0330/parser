@@ -71,7 +71,6 @@
         "heroType": 0
     },
     "711000": {
-        "": 1.0,
         "name": "曹丕",
         "quality": 7,
         "icon": "char_head_710000_png",
@@ -121,7 +120,6 @@
         "heroType": 1
     },
     "301010": {
-        "": 2.0,
         "name": "诸葛亮",
         "quality": 7,
         "icon": "char_head_300010_png",
@@ -175,7 +173,6 @@
         "heroType": 1
     },
     "301300": {
-        "": 3.0,
         "name": "周瑜",
         "quality": 7,
         "icon": "char_head_300300_png",
@@ -228,7 +225,6 @@
         "heroType": 1
     },
     "401010": {
-        "": 4.0,
         "name": "吕布",
         "quality": 7,
         "icon": "char_head_400010_png",
@@ -3168,7 +3164,6 @@
     },
     "100020": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 100020,
@@ -3287,7 +3282,6 @@
     },
     "100030": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 100030,
@@ -3417,7 +3411,6 @@
     },
     "100050": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 100050,
@@ -3535,7 +3528,6 @@
     },
     "200020": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 200020,
@@ -3647,7 +3639,6 @@
     },
     "200040": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 200040,
@@ -3759,7 +3750,6 @@
     },
     "300050": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 300050,
@@ -3873,7 +3863,6 @@
     },
     "400020": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 400020,
@@ -3985,7 +3974,6 @@
     },
     "400030": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 400030,
@@ -4106,7 +4094,6 @@
     },
     "400050": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 400050,
@@ -4224,7 +4211,6 @@
     },
     "400070": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 400070,
@@ -4345,7 +4331,6 @@
     },
     "900050": {
         "quality": 7,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 900050,
@@ -4463,7 +4448,6 @@
     },
     "100010": {
         "quality": 7,
-        "": 11.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 100010,
@@ -4586,7 +4570,6 @@
     },
     "200010": {
         "quality": 7,
-        "": 11.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 200010,
@@ -4705,7 +4688,6 @@
     },
     "300400": {
         "quality": 7,
-        "": 11.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 300400,
@@ -4818,7 +4800,6 @@
     },
     "630000": {
         "quality": 7,
-        "": 11.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 630000,
@@ -4937,7 +4918,6 @@
     },
     "650000": {
         "quality": 7,
-        "": 11.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 650000,
@@ -5050,7 +5030,6 @@
     },
     "730000": {
         "quality": 7,
-        "": 11.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 730000,
@@ -5174,7 +5153,6 @@
     },
     "300010": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 300010,
@@ -5290,7 +5268,6 @@
     },
     "300300": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 300300,
@@ -5406,7 +5383,6 @@
     },
     "400010": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 400010,
@@ -5523,7 +5499,6 @@
     },
     "690000": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 690000,
@@ -5642,7 +5617,6 @@
     },
     "699000": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 690000,
@@ -5768,7 +5742,6 @@
     },
     "700000": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 700000,
@@ -5886,7 +5859,6 @@
     },
     "710000": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 710000,
@@ -6004,7 +5976,6 @@
     },
     "720000": {
         "quality": 7,
-        "": 12.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 720000,
@@ -6128,7 +6099,6 @@
     },
     "100040": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 100040,
@@ -6220,7 +6190,6 @@
     },
     "100100": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 100100,
@@ -6319,7 +6288,6 @@
     },
     "200120": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 200120,
@@ -6411,7 +6379,6 @@
     },
     "200140": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 200140,
@@ -6468,7 +6435,6 @@
     },
     "200141": {
         "quality": 6,
-        "": 5.0,
         "trueStar": 6,
         "fuseStage": 4,
         "heroSelf": 200140,
@@ -6526,7 +6492,6 @@
     },
     "200147": {
         "quality": 6,
-        "": 5.0,
         "trueStar": 6,
         "fuseStage": 1,
         "heroSelf": 200140,
@@ -6584,7 +6549,6 @@
     },
     "200160": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 200160,
@@ -6676,7 +6640,6 @@
     },
     "300080": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 300080,
@@ -6768,7 +6731,6 @@
     },
     "300110": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 300110,
@@ -6861,7 +6823,6 @@
     },
     "300120": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 300120,
@@ -6954,7 +6915,6 @@
     },
     "300160": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 300160,
@@ -7046,7 +7006,6 @@
     },
     "400100": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 400100,
@@ -7138,7 +7097,6 @@
     },
     "100070": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 100070,
@@ -7250,7 +7208,6 @@
     },
     "100120": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 100120,
@@ -7364,7 +7321,6 @@
     },
     "200060": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 200060,
@@ -7480,7 +7436,6 @@
     },
     "200070": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 200070,
@@ -7592,7 +7547,6 @@
     },
     "300030": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 300030,
@@ -7684,7 +7638,6 @@
     },
     "300060": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 300060,
@@ -7798,7 +7751,6 @@
     },
     "300070": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 300070,
@@ -7912,7 +7864,6 @@
     },
     "300090": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 300090,
@@ -8024,7 +7975,6 @@
     },
     "400060": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 400060,
@@ -8137,7 +8087,6 @@
     },
     "400120": {
         "quality": 6,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 400120,
@@ -8251,7 +8200,6 @@
     },
     "400290": {
         "quality": 6,
-        "": 6.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 400290,
@@ -8342,7 +8290,6 @@
     },
     "300040": {
         "quality": 6,
-        "": 10.0,
         "trueStar": 10,
         "fuseStage": 0,
         "heroSelf": 300040,
@@ -8453,7 +8400,6 @@
     },
     "200240": {
         "quality": 4,
-        "": 2.0,
         "trueStar": 2,
         "fuseStage": 0,
         "heroSelf": 200240,
@@ -8525,7 +8471,6 @@
     },
     "400230": {
         "quality": 4,
-        "": 2.0,
         "trueStar": 4,
         "fuseStage": 0,
         "heroSelf": 400230,
@@ -8597,7 +8542,6 @@
     },
     "400300": {
         "quality": 4,
-        "": 2.0,
         "trueStar": 2,
         "fuseStage": 0,
         "heroSelf": 400300,
@@ -8669,7 +8613,6 @@
     },
     "500000": {
         "quality": 4,
-        "": 2.0,
         "trueStar": 2,
         "fuseStage": 0,
         "heroSelf": 500000,
@@ -8733,7 +8676,6 @@
     },
     "100160": {
         "quality": 4,
-        "": 3.0,
         "trueStar": 3,
         "fuseStage": 0,
         "heroSelf": 100160,
@@ -8797,7 +8739,6 @@
     },
     "100200": {
         "quality": 4,
-        "": 3.0,
         "trueStar": 2,
         "fuseStage": 0,
         "heroSelf": 100200,
@@ -8869,7 +8810,6 @@
     },
     "200150": {
         "quality": 4,
-        "": 3.0,
         "trueStar": 4,
         "fuseStage": 0,
         "heroSelf": 200150,
@@ -8941,7 +8881,6 @@
     },
     "200200": {
         "quality": 4,
-        "": 3.0,
         "trueStar": 3,
         "fuseStage": 0,
         "heroSelf": 200200,
@@ -9013,7 +8952,6 @@
     },
     "100150": {
         "quality": 4,
-        "": 4.0,
         "trueStar": 4,
         "fuseStage": 0,
         "heroSelf": 100150,
@@ -9083,7 +9021,6 @@
     },
     "200130": {
         "quality": 4,
-        "": 4.0,
         "trueStar": 4,
         "fuseStage": 0,
         "heroSelf": 200130,
@@ -9155,7 +9092,6 @@
     },
     "300130": {
         "quality": 4,
-        "": 4.0,
         "trueStar": 4,
         "fuseStage": 0,
         "heroSelf": 300130,
@@ -9227,7 +9163,6 @@
     },
     "400040": {
         "quality": 4,
-        "": 4.0,
         "trueStar": 4,
         "fuseStage": 0,
         "heroSelf": 400040,
@@ -9299,7 +9234,6 @@
     },
     "100130": {
         "quality": 4,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 100130,
@@ -9385,7 +9319,6 @@
     },
     "200080": {
         "quality": 4,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 200080,
@@ -9474,7 +9407,6 @@
     },
     "200100": {
         "quality": 4,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 200100,
@@ -9560,7 +9492,6 @@
     },
     "400150": {
         "quality": 4,
-        "": 6.0,
         "trueStar": 6,
         "fuseStage": 0,
         "heroSelf": 400150,
@@ -9648,7 +9579,6 @@
     },
     "100090": {
         "quality": 4,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 100090,
@@ -9766,7 +9696,6 @@
     },
     "100110": {
         "quality": 4,
-        "": 7.0,
         "trueStar": 7,
         "fuseStage": 0,
         "heroSelf": 100110,
