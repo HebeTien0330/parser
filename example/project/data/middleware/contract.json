@@ -1,0 +1,142 @@
+{
+    "701": {
+        "type": "damage",
+        "relation": 2,
+        "distribution": 0.5,
+        "duration": 99,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "20840": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "20841": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "20843": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "30254": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 1,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "40115": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 99,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "40755": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "40756": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "40757": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "77799": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 1,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "66140": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "66141": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "66142": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    },
+    "66143": {
+        "type": "damage",
+        "relation": 1,
+        "distribution": 1.0,
+        "duration": 2,
+        "vfx": [
+            84,
+            85
+        ]
+    }
+}
