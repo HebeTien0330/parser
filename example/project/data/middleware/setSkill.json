@@ -1,0 +1,362 @@
+{
+    "1": {
+        "2": {
+            "skill": 6001,
+            "desc": "对战士伤害增加1%",
+            "skillICON": "Z_feature_ssx_png"
+        },
+        "4": {
+            "skill": 6031,
+            "desc": "对战士伤害增加1.5%",
+            "skillICON": "Z_feature_ssx_png"
+        }
+    },
+    "2": {
+        "2": {
+            "skill": 6002,
+            "desc": "对法师伤害增加1%",
+            "skillICON": "Z_feature_10stj01_png"
+        },
+        "4": {
+            "skill": 6032,
+            "desc": "对法师伤害增加1.5%",
+            "skillICON": "Z_feature_10stj01_png"
+        }
+    },
+    "3": {
+        "2": {
+            "skill": 6003,
+            "desc": "对刺客伤害增加1%",
+            "skillICON": "Z_feature_8cyy01_png"
+        },
+        "4": {
+            "skill": 6033,
+            "desc": "对刺客伤害增加1.5%",
+            "skillICON": "Z_feature_8cyy01_png"
+        }
+    },
+    "4": {
+        "2": {
+            "skill": 6004,
+            "desc": "对谋士伤害增加1%",
+            "skillICON": "Z_feature_15sgwe01_png"
+        },
+        "4": {
+            "skill": 6034,
+            "desc": "对谋士伤害增加1.5%",
+            "skillICON": "Z_feature_15sgwe01_png"
+        }
+    },
+    "5": {
+        "2": {
+            "skill": 6005,
+            "desc": "对任何PVP单位增加1%伤害",
+            "skillICON": "Z_feature_4dq01_png"
+        },
+        "4": {
+            "skill": 6035,
+            "desc": "对任何PVP单位增加1.5%伤害",
+            "skillICON": "Z_feature_4dq01_png"
+        }
+    },
+    "11": {
+        "2": {
+            "skill": 6006,
+            "desc": "对战士伤害增加2%",
+            "skillICON": "Z_feature_ssx_png"
+        },
+        "4": {
+            "skill": 6036,
+            "desc": "对战士伤害增加3%",
+            "skillICON": "Z_feature_ssx_png"
+        }
+    },
+    "12": {
+        "2": {
+            "skill": 6007,
+            "desc": "对法师伤害增加2%",
+            "skillICON": "Z_feature_10stj01_png"
+        },
+        "4": {
+            "skill": 6037,
+            "desc": "对法师伤害增加3%",
+            "skillICON": "Z_feature_10stj01_png"
+        }
+    },
+    "13": {
+        "2": {
+            "skill": 6008,
+            "desc": "对刺客伤害增加2%",
+            "skillICON": "Z_feature_8cyy01_png"
+        },
+        "4": {
+            "skill": 6038,
+            "desc": "对刺客伤害增加3%",
+            "skillICON": "Z_feature_8cyy01_png"
+        }
+    },
+    "14": {
+        "2": {
+            "skill": 6009,
+            "desc": "对谋士伤害增加2%",
+            "skillICON": "Z_feature_15sgwe01_png"
+        },
+        "4": {
+            "skill": 6039,
+            "desc": "对谋士伤害增加3%",
+            "skillICON": "Z_feature_15sgwe01_png"
+        }
+    },
+    "15": {
+        "2": {
+            "skill": 6010,
+            "desc": "对任何PVP单位增加1.5%伤害",
+            "skillICON": "Z_feature_4dq01_png"
+        },
+        "4": {
+            "skill": 6040,
+            "desc": "对任何PVP单位增加2.5%伤害",
+            "skillICON": "Z_feature_4dq01_png"
+        }
+    },
+    "21": {
+        "2": {
+            "skill": 6011,
+            "desc": "对战士伤害增加3%",
+            "skillICON": "Z_feature_ssx_png"
+        },
+        "4": {
+            "skill": 6041,
+            "desc": "对战士伤害增加4.5%",
+            "skillICON": "Z_feature_ssx_2_png"
+        }
+    },
+    "22": {
+        "2": {
+            "skill": 6012,
+            "desc": "对法师伤害增加3%",
+            "skillICON": "Z_feature_10stj01_png"
+        },
+        "4": {
+            "skill": 6042,
+            "desc": "对法师伤害增加4.5%",
+            "skillICON": "Z_feature_10stj02_png"
+        }
+    },
+    "23": {
+        "2": {
+            "skill": 6013,
+            "desc": "对刺客伤害增加3%",
+            "skillICON": "Z_feature_8cyy01_png"
+        },
+        "4": {
+            "skill": 6043,
+            "desc": "对刺客伤害增加4.5%",
+            "skillICON": "Z_feature_8cyy02_png"
+        }
+    },
+    "24": {
+        "2": {
+            "skill": 6014,
+            "desc": "对谋士伤害增加3%",
+            "skillICON": "Z_feature_15sgwe01_png"
+        },
+        "4": {
+            "skill": 6044,
+            "desc": "对谋士伤害增加4.5%",
+            "skillICON": "Z_feature_15sgwe02_png"
+        }
+    },
+    "25": {
+        "2": {
+            "skill": 6015,
+            "desc": "对任何PVP单位增加2%伤害",
+            "skillICON": "Z_feature_4dq01_png"
+        },
+        "4": {
+            "skill": 6045,
+            "desc": "对任何PVP单位增加3%伤害",
+            "skillICON": "Z_feature_4dq02_png"
+        }
+    },
+    "31": {
+        "2": {
+            "skill": 6016,
+            "desc": "对战士伤害增加5%",
+            "skillICON": "Z_feature_ssx_2_png"
+        },
+        "4": {
+            "skill": 6046,
+            "desc": "对战士伤害增加7.5%",
+            "skillICON": "Z_feature_ssx_2_png"
+        }
+    },
+    "32": {
+        "2": {
+            "skill": 6017,
+            "desc": "对法师伤害增加5%",
+            "skillICON": "Z_feature_10stj02_png"
+        },
+        "4": {
+            "skill": 6047,
+            "desc": "对法师伤害增加7.5%",
+            "skillICON": "Z_feature_10stj02_png"
+        }
+    },
+    "33": {
+        "2": {
+            "skill": 6018,
+            "desc": "对刺客伤害增加5%",
+            "skillICON": "Z_feature_8cyy02_png"
+        },
+        "4": {
+            "skill": 6048,
+            "desc": "对刺客伤害增加7.5%",
+            "skillICON": "Z_feature_8cyy02_png"
+        }
+    },
+    "34": {
+        "2": {
+            "skill": 6019,
+            "desc": "对谋士伤害增加5%",
+            "skillICON": "Z_feature_15sgwe02_png"
+        },
+        "4": {
+            "skill": 6049,
+            "desc": "对谋士伤害增加7.5%",
+            "skillICON": "Z_feature_15sgwe02_png"
+        }
+    },
+    "35": {
+        "2": {
+            "skill": 6020,
+            "desc": "对任何PVP单位增加3%伤害",
+            "skillICON": "Z_feature_4dq02_png"
+        },
+        "4": {
+            "skill": 6050,
+            "desc": "对任何PVP单位增加4.5%伤害",
+            "skillICON": "Z_feature_4dq02_png"
+        }
+    },
+    "41": {
+        "2": {
+            "skill": 6021,
+            "desc": "对战士伤害增加8%",
+            "skillICON": "Z_feature_ssx_2_png"
+        },
+        "4": {
+            "skill": 6051,
+            "desc": "对战士伤害增加12%",
+            "skillICON": "Z_feature_ssx_3_png"
+        }
+    },
+    "42": {
+        "2": {
+            "skill": 6022,
+            "desc": "对法师伤害增加8%",
+            "skillICON": "Z_feature_10stj02_png"
+        },
+        "4": {
+            "skill": 6052,
+            "desc": "对法师伤害增加12%",
+            "skillICON": "Z_feature_10stj03_png"
+        }
+    },
+    "43": {
+        "2": {
+            "skill": 6023,
+            "desc": "对刺客伤害增加8%",
+            "skillICON": "Z_feature_8cyy02_png"
+        },
+        "4": {
+            "skill": 6053,
+            "desc": "对刺客伤害增加12%",
+            "skillICON": "Z_feature_8cyy03_png"
+        }
+    },
+    "44": {
+        "2": {
+            "skill": 6024,
+            "desc": "对谋士伤害增加8%",
+            "skillICON": "Z_feature_15sgwe02_png"
+        },
+        "4": {
+            "skill": 6054,
+            "desc": "对谋士伤害增加12%",
+            "skillICON": "Z_feature_15sgwe03_png"
+        }
+    },
+    "45": {
+        "2": {
+            "skill": 6025,
+            "desc": "对任何PVP单位增加5%伤害",
+            "skillICON": "Z_feature_4dq02_png"
+        },
+        "4": {
+            "skill": 6055,
+            "desc": "对任何PVP单位增加7.5%伤害",
+            "skillICON": "Z_feature_4dq03_png"
+        }
+    },
+    "51": {
+        "2": {
+            "skill": 6026,
+            "desc": "对战士伤害增加12%",
+            "skillICON": "Z_feature_ssx_3_png"
+        },
+        "4": {
+            "skill": 6056,
+            "desc": "对战士伤害增加18%",
+            "skillICON": "Z_feature_ssx_3_png"
+        }
+    },
+    "52": {
+        "2": {
+            "skill": 6027,
+            "desc": "对法师伤害增加12%",
+            "skillICON": "Z_feature_10stj03_png"
+        },
+        "4": {
+            "skill": 6057,
+            "desc": "对法师伤害增加18%",
+            "skillICON": "Z_feature_10stj03_png"
+        }
+    },
+    "53": {
+        "2": {
+            "skill": 6028,
+            "desc": "对刺客伤害增加12%",
+            "skillICON": "Z_feature_8cyy03_png"
+        },
+        "4": {
+            "skill": 6058,
+            "desc": "对刺客伤害增加18%",
+            "skillICON": "Z_feature_8cyy03_png"
+        }
+    },
+    "54": {
+        "2": {
+            "skill": 6029,
+            "desc": "对谋士伤害增加12%",
+            "skillICON": "Z_feature_15sgwe03_png"
+        },
+        "4": {
+            "skill": 6059,
+            "desc": "对谋士伤害增加18%",
+            "skillICON": "Z_feature_15sgwe03_png"
+        }
+    },
+    "55": {
+        "2": {
+            "skill": 6030,
+            "desc": "对任何PVP单位增加8%伤害",
+            "skillICON": "Z_feature_4dq03_png"
+        },
+        "4": {
+            "skill": 6060,
+            "desc": "对任何PVP单位增加12%伤害",
+            "skillICON": "Z_feature_4dq03_png"
+        }
+    }
+}

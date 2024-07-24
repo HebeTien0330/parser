@@ -3,11 +3,13 @@ sys.path.append("../")
 from tools import Parser, logfile
 from importlib import import_module
 import os
+import shutil
 
 class ParserTemplate(Parser):
 
     def __init__(self):
         Parser.__init__(self)
+        self.clearExistFiles()
 
     def doParser(self):
         # your parser script
@@ -24,6 +26,11 @@ class ParserTemplate(Parser):
                 return
             Writer = getattr(target, "Writer")
             Writer(self.conf).write()
+
+    def clearExistFiles(self):
+        path = ".\\data\middleware"
+        shutil.rmtree(path)
+        os.mkdir(path)
 
 
 if __name__ == "__main__":

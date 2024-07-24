@@ -1,4 +1,3171 @@
 {
+    "671000": {
+        "name": "鲜血女王",
+        "quality": 7,
+        "icon": "char_head_990000_png",
+        "desc": "强力输出",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "990000_idle",
+        "model": 990000,
+        "country": 2,
+        "job": 2,
+        "skills": [
+            90101,
+            90110
+        ],
+        "skillGroup": [
+            [
+                90101,
+                90110
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "900007": {
+        "name": "测试英雄",
+        "quality": 7,
+        "icon": "char_head_400010_png",
+        "skillHeroIcon": "halfbody_4010_png",
+        "desc": "此地……便是白门楼吗？",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400010_idle",
+        "model": 400010,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            40101,
+            40110
+        ],
+        "skillGroup": [
+            [
+                40101,
+                40110
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "711000": {
+        "": 1.0,
+        "name": "曹丕",
+        "quality": 7,
+        "icon": "char_head_710000_png",
+        "skillHeroIcon": "halfbody_3010_png",
+        "desc": "大摆锤唱法第一人",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "710000_idle",
+        "model": 710000,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            71001,
+            71010
+        ],
+        "skillGroup": [
+            [
+                71001,
+                71010
+            ],
+            [
+                70001,
+                71020
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                71040
+            ],
+            [
+                500,
+                71030,
+                71040
+            ]
+        ],
+        "nation": 3,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "301010": {
+        "": 2.0,
+        "name": "诸葛亮",
+        "quality": 7,
+        "icon": "char_head_300010_png",
+        "skillHeroIcon": "halfbody_3010_png",
+        "desc": "有缘来算一卦，恋爱发财两不误",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "300010_idle",
+        "model": 300010,
+        "country": 1,
+        "job": 4,
+        "skills": [
+            30101,
+            30110
+        ],
+        "skillGroup": [
+            [
+                30101,
+                30110
+            ],
+            [
+                30171,
+                30110
+            ],
+            [
+                30171,
+                30122
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                30123
+            ],
+            [
+                30140,
+                30123,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 1
+    },
+    "301300": {
+        "": 3.0,
+        "name": "周瑜",
+        "quality": 7,
+        "icon": "char_head_300300_png",
+        "desc": "古典音乐大师",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "300300_idle",
+        "model": 300300,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            33001,
+            33010
+        ],
+        "skillGroup": [
+            [
+                33001,
+                33010
+            ],
+            [
+                33021,
+                33010
+            ],
+            [
+                33021,
+                33040
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                33031
+            ],
+            [
+                500,
+                33031,
+                33060
+            ]
+        ],
+        "nation": 2,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "401010": {
+        "": 4.0,
+        "name": "吕布",
+        "quality": 7,
+        "icon": "char_head_400010_png",
+        "skillHeroIcon": "halfbody_4010_png",
+        "desc": "摩中赤兔，人中吕布",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400010_idle",
+        "model": 400010,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            40101,
+            40110
+        ],
+        "skillGroup": [
+            [
+                40101,
+                40110
+            ],
+            [
+                40114,
+                40110
+            ],
+            [
+                40114,
+                40150
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                40115,
+                500
+            ],
+            [
+                40115,
+                40140,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "691000": {
+        "name": "关羽",
+        "quality": 7,
+        "icon": "char_head_690000_png",
+        "desc": "脸红脖子粗，看皇叔看的",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "690000_idle",
+        "model": 690000,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            69501,
+            69510
+        ],
+        "skillGroup": [
+            [
+                69501,
+                69510
+            ],
+            [
+                69550,
+                69510
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                69560,
+                500
+            ],
+            [
+                69560,
+                69590,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "701000": {
+        "name": "曹操",
+        "quality": 7,
+        "icon": "char_head_700000_png",
+        "skillHeroIcon": "halfbody_3010_png",
+        "desc": "千万别在睡觉时靠近他！！！",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "700000_idle",
+        "model": 700000,
+        "country": 2,
+        "job": 4,
+        "skills": [
+            70001,
+            70010
+        ],
+        "skillGroup": [
+            [
+                70001,
+                70010
+            ],
+            [
+                70001,
+                70020
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                70030
+            ],
+            [
+                500,
+                70030,
+                70040
+            ]
+        ],
+        "nation": 2,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 0
+    },
+    "101010": {
+        "name": "司马懿",
+        "quality": 7,
+        "icon": "char_head_100010_png",
+        "skillHeroIcon": "halfbody_1010_png",
+        "desc": "魔法？不！这只是一个小魔术",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100010_idle",
+        "model": 100010,
+        "country": 3,
+        "job": 3,
+        "skills": [
+            10101,
+            10110
+        ],
+        "skillGroup": [
+            [
+                10101,
+                10110
+            ],
+            [
+                10141,
+                10110
+            ],
+            [
+                10141,
+                10121
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                10150,
+                500
+            ],
+            [
+                10150,
+                10192,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "201010": {
+        "name": "貂蝉",
+        "quality": 7,
+        "icon": "char_head_200010_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "体若游龙,袖如素霓",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200010_idle",
+        "model": 200010,
+        "country": 3,
+        "job": 3,
+        "skills": [
+            20101,
+            20110
+        ],
+        "skillGroup": [
+            [
+                20101,
+                20110
+            ],
+            [
+                20140,
+                20110
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                20130
+            ],
+            [
+                20150,
+                500,
+                20130
+            ],
+            [
+                20150,
+                20160,
+                500,
+                20130
+            ]
+        ],
+        "nation": 1,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "301400": {
+        "name": "郭嘉",
+        "quality": 7,
+        "icon": "char_head_300300_png",
+        "desc": "一代赌神",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "300400_idle",
+        "model": 300400,
+        "country": 2,
+        "job": 3,
+        "skills": [
+            34001,
+            34010
+        ],
+        "skillGroup": [
+            [
+                34001,
+                34010
+            ],
+            [
+                34001,
+                34040
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                34030
+            ],
+            [
+                500,
+                34030,
+                34060
+            ]
+        ],
+        "nation": 4,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "631000": {
+        "name": "赵云",
+        "quality": 7,
+        "icon": "char_head_630000_png",
+        "desc": "kfc七进七出，只为老板儿子",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "630000_idle",
+        "model": 630000,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            60101,
+            60110
+        ],
+        "skillGroup": [
+            [
+                60101,
+                60110
+            ],
+            [
+                60101,
+                60111
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                60130
+            ],
+            [
+                500,
+                60130,
+                60140
+            ],
+            [
+                500,
+                60130,
+                60140,
+                60160
+            ]
+        ],
+        "nation": 4,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "651000": {
+        "name": "陆逊",
+        "quality": 7,
+        "icon": "char_head_650000_png",
+        "desc": "你有陆逊曲，我有收音机",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "650000_idle",
+        "model": 650000,
+        "country": 3,
+        "job": 3,
+        "skills": [
+            65101,
+            65111
+        ],
+        "skillGroup": [
+            [
+                65101,
+                65111
+            ],
+            [
+                65141,
+                65111
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                65131,
+                500
+            ],
+            [
+                65131,
+                65160,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "731000": {
+        "name": "孙权",
+        "quality": 7,
+        "icon": "char_head_730000_png",
+        "desc": "优秀的船长，就要开最好的船",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "730000_idle",
+        "model": 730000,
+        "country": 1,
+        "job": 1,
+        "skills": [
+            73001,
+            73010
+        ],
+        "skillGroup": [
+            [
+                73001,
+                73010
+            ],
+            [
+                73002,
+                73010
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                73020
+            ],
+            [
+                500,
+                73020,
+                73030
+            ],
+            [
+                500,
+                73020,
+                73030,
+                73040
+            ]
+        ],
+        "nation": 4,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 0
+    },
+    "101020": {
+        "name": "刘备",
+        "quality": 7,
+        "icon": "char_head_100020_png",
+        "skillHeroIcon": "halfbody_1020_png",
+        "desc": "全职奶爸",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100020_idle",
+        "model": 100020,
+        "country": 2,
+        "job": 3,
+        "skills": [
+            10201,
+            10210
+        ],
+        "skillGroup": [
+            [
+                10201,
+                10210
+            ],
+            [
+                10201,
+                10290
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                10274,
+                500
+            ],
+            [
+                10274,
+                10260,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 1
+    },
+    "101030": {
+        "name": "汉献帝",
+        "quality": 7,
+        "icon": "char_head_100030_png",
+        "skillHeroIcon": "halfbody_1030_png",
+        "desc": "酷酷的街头小子",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100030_idle",
+        "model": 100030,
+        "country": 2,
+        "job": 2,
+        "skills": [
+            10301,
+            10310
+        ],
+        "skillGroup": [
+            [
+                10301,
+                10310
+            ],
+            [
+                10301,
+                10350
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                10340,
+                500
+            ],
+            [
+                10340,
+                10361,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "101050": {
+        "name": "荀彧",
+        "quality": 7,
+        "icon": "char_head_100050_png",
+        "skillHeroIcon": "halfbody_1050_png",
+        "desc": "艺术杰作从未获得当时留意",
+        "growRate": [
+            3,
+            5,
+            5,
+            3
+        ],
+        "atlasDB": "100050_idle",
+        "model": 100050,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            10501,
+            10510
+        ],
+        "skillGroup": [
+            [
+                10501,
+                10510
+            ],
+            [
+                10501,
+                10540
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                10550,
+                500
+            ],
+            [
+                10550,
+                10560,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "201020": {
+        "name": "太史慈",
+        "quality": 7,
+        "icon": "char_head_200020_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "金属摇滚歌手",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200020_idle",
+        "model": 200020,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            20201,
+            20210
+        ],
+        "skillGroup": [
+            [
+                20201,
+                20210
+            ],
+            [
+                20201,
+                20230
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                20240
+            ],
+            [
+                20240,
+                500,
+                20250
+            ]
+        ],
+        "nation": 1,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "201040": {
+        "name": "夏侯惇",
+        "quality": 7,
+        "icon": "char_head_200040_png",
+        "skillHeroIcon": "halfbody_2040_png",
+        "desc": "抱对大腿的独眼杀手",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200040_idle",
+        "model": 200040,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            20401,
+            20410
+        ],
+        "skillGroup": [
+            [
+                20401,
+                20410
+            ],
+            [
+                20401,
+                20411
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                20460,
+                500
+            ],
+            [
+                20460,
+                500,
+                20450
+            ]
+        ],
+        "nation": 1,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 0
+    },
+    "301040": {
+        "name": "华雄",
+        "quality": 6,
+        "icon": "char_head_300040_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "注意，千万不要动他的狗",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "300040_idle",
+        "model": 300040,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            30401,
+            30410
+        ],
+        "skillGroup": [
+            [
+                30401,
+                30410
+            ],
+            [
+                30431,
+                30410
+            ],
+            [
+                30431,
+                30420
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                30460,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "301050": {
+        "name": "公孙瓒",
+        "quality": 7,
+        "icon": "char_head_300050_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "汗血羊驼配英雄，天下谁人不识君",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "300050_idle",
+        "model": 300050,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            30501,
+            30510
+        ],
+        "skillGroup": [
+            [
+                30501,
+                30510
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                30570
+            ],
+            [
+                30570,
+                30520,
+                500
+            ],
+            [
+                30570,
+                30520,
+                30540,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "401020": {
+        "name": "刘禅",
+        "quality": 7,
+        "icon": "char_head_400020_png",
+        "skillHeroIcon": "halfbody_4020_png",
+        "desc": "kfc多快乐，为啥要回家",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400020_idle",
+        "model": 400020,
+        "country": 2,
+        "job": 3,
+        "skills": [
+            40201,
+            40210
+        ],
+        "skillGroup": [
+            [
+                40201,
+                40210
+            ],
+            [
+                40201,
+                40220
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                40240,
+                500
+            ],
+            [
+                40240,
+                40250,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 1
+    },
+    "401030": {
+        "name": "黄忠",
+        "quality": 7,
+        "icon": "char_head_400030_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "大爷永不服老，犹可再战",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400030_idle",
+        "model": 400030,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            40301,
+            40310
+        ],
+        "skillGroup": [
+            [
+                40301,
+                40310
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                40350,
+                500
+            ],
+            [
+                40350,
+                40340,
+                500
+            ],
+            [
+                40350,
+                40340,
+                40360,
+                500
+            ],
+            [
+                40320,
+                40350,
+                40340,
+                40360,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "401050": {
+        "name": "大乔",
+        "quality": 7,
+        "icon": "char_head_400050_png",
+        "skillHeroIcon": "halfbody_4050_png",
+        "desc": "面冷心热包租婆",
+        "growRate": [
+            3,
+            5,
+            5,
+            3
+        ],
+        "atlasDB": "400050_idle",
+        "model": 400050,
+        "country": 2,
+        "job": 3,
+        "skills": [
+            40501,
+            40510
+        ],
+        "skillGroup": [
+            [
+                40501,
+                40510
+            ],
+            [
+                40550,
+                40510
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                40540,
+                500
+            ],
+            [
+                40540,
+                40520,
+                500
+            ],
+            [
+                40540,
+                40520,
+                40560,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "401070": {
+        "name": "周泰",
+        "quality": 4,
+        "icon": "char_head_400070_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "禁止暴动",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400070_idle",
+        "model": 400070,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            40701,
+            40710
+        ],
+        "skillGroup": [
+            [
+                40701,
+                40710
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                40740,
+                500
+            ],
+            [
+                40740,
+                40755,
+                500
+            ],
+            [
+                40740,
+                40755,
+                40750,
+                500
+            ],
+            [
+                40740,
+                40750,
+                40755,
+                40756,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 0
+    },
+    "901050": {
+        "name": "董卓",
+        "quality": 7,
+        "icon": "char_head_900050_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "一把杀猪刀，宰猪屠狗如饮水",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "900050_idle",
+        "model": 900050,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            90502,
+            90510
+        ],
+        "skillGroup": [
+            [
+                90501,
+                90510
+            ],
+            [
+                90501,
+                90510
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                90560
+            ],
+            [
+                90560,
+                90530,
+                500
+            ],
+            [
+                90560,
+                90520,
+                90530,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "101070": {
+        "name": "张角",
+        "quality": 6,
+        "icon": "char_head_100070_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "拿钱办事，替人消灾",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100070_idle",
+        "model": 100070,
+        "country": 3,
+        "job": 2,
+        "skills": [
+            10701,
+            10710
+        ],
+        "skillGroup": [
+            [
+                10701,
+                10710
+            ],
+            [
+                10701,
+                10711
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                10720,
+                500
+            ],
+            [
+                10720,
+                10730,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "101090": {
+        "name": "步练师",
+        "quality": 4,
+        "icon": "char_head_100090_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "谁说女子不如男",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100090_idle",
+        "model": 100090,
+        "country": 3,
+        "job": 1,
+        "skills": [
+            80301,
+            80309
+        ],
+        "skillGroup": [
+            [
+                80301,
+                80309
+            ],
+            [
+                80321,
+                80309
+            ],
+            [
+                80321,
+                80329
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                80330,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 0
+    },
+    "101110": {
+        "name": "孙尚香",
+        "quality": 4,
+        "icon": "char_head_100110_png",
+        "skillHeroIcon": "halfbody_1110_png",
+        "desc": "富家豪门的千金大小姐",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "100110_idle",
+        "model": 100110,
+        "country": 3,
+        "job": 3,
+        "skills": [
+            80401,
+            80409
+        ],
+        "skillGroup": [
+            [
+                80401,
+                80409
+            ],
+            [
+                80420,
+                80409
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                80430
+            ],
+            [
+                500,
+                80430,
+                80440
+            ]
+        ],
+        "nation": 3,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "101120": {
+        "name": "程普",
+        "quality": 6,
+        "icon": "char_head_100120_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "搞钱，搞钱，搞钱",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100120_idle",
+        "model": 100120,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            80501,
+            80509
+        ],
+        "skillGroup": [
+            [
+                80501,
+                80509
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                80520
+            ],
+            [
+                500,
+                80520,
+                80530
+            ],
+            [
+                500,
+                80520,
+                80530,
+                80540
+            ]
+        ],
+        "nation": 3,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "201060": {
+        "name": "孙坚",
+        "quality": 6,
+        "icon": "char_head_200060_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "清仓大甩卖，走过路过不要错过",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200060_idle",
+        "model": 200060,
+        "country": 1,
+        "job": 1,
+        "skills": [
+            81301,
+            81309
+        ],
+        "skillGroup": [
+            [
+                81301,
+                81309
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                81320
+            ],
+            [
+                500,
+                81320,
+                81330
+            ],
+            [
+                500,
+                81330,
+                81340
+            ]
+        ],
+        "nation": 1,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 0
+    },
+    "201070": {
+        "name": "张飞",
+        "quality": 6,
+        "icon": "char_head_200070_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "一口雪白牙，一声退千军",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200070_idle",
+        "model": 200070,
+        "country": 1,
+        "job": 1,
+        "skills": [
+            81401,
+            81409
+        ],
+        "skillGroup": [
+            [
+                81401,
+                81409
+            ],
+            [
+                81401,
+                81429
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                81420
+            ],
+            [
+                500,
+                81450,
+                81420
+            ]
+        ],
+        "nation": 1,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "301030": {
+        "name": "戏志才",
+        "quality": 6,
+        "icon": "char_head_300030_png",
+        "skillHeroIcon": "halfbody_3060_png",
+        "desc": "想想有没有认真工作",
+        "growRate": [
+            5,
+            5,
+            5,
+            4
+        ],
+        "atlasDB": "300030_idle",
+        "model": 300030,
+        "country": 4,
+        "job": 3,
+        "skills": [
+            30301,
+            30310
+        ],
+        "skillGroup": [
+            [
+                30301,
+                30310
+            ],
+            [
+                30301,
+                30311
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                30360,
+                500
+            ],
+            [
+                30330,
+                30360,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "301060": {
+        "name": "司马昭",
+        "quality": 6,
+        "icon": "char_head_300060_png",
+        "skillHeroIcon": "halfbody_3060_png",
+        "desc": "他还只是个孩子啊，怎么会犯错",
+        "growRate": [
+            5,
+            5,
+            5,
+            4
+        ],
+        "atlasDB": "300060_idle",
+        "model": 300060,
+        "country": 2,
+        "job": 3,
+        "skills": [
+            80601,
+            80609
+        ],
+        "skillGroup": [
+            [
+                80601,
+                80609
+            ],
+            [
+                80620,
+                80609
+            ],
+            [
+                80620,
+                80639
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                80630
+            ]
+        ],
+        "nation": 2,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "301070": {
+        "name": "庞统",
+        "quality": 6,
+        "icon": "char_head_300070_png",
+        "skillHeroIcon": "halfbody_3070_png",
+        "desc": "葫芦型飞行器，必要时还能当吸尘器",
+        "growRate": [
+            4,
+            5,
+            5,
+            4
+        ],
+        "atlasDB": "300070_idle",
+        "model": 300070,
+        "country": 2,
+        "job": 3,
+        "skills": [
+            80801,
+            80809
+        ],
+        "skillGroup": [
+            [
+                80801,
+                80809
+            ],
+            [
+                80820,
+                80809
+            ],
+            [
+                80820,
+                80829
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                80840,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 1
+    },
+    "301090": {
+        "name": "荀攸",
+        "quality": 6,
+        "icon": "char_head_300090_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "人生自古谁无死",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "300090_idle",
+        "model": 300090,
+        "country": 2,
+        "job": 4,
+        "skills": [
+            80701,
+            80709
+        ],
+        "skillGroup": [
+            [
+                80701,
+                80709
+            ],
+            [
+                80701,
+                80739
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                80730,
+                500
+            ],
+            [
+                80720,
+                80730,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "401060": {
+        "name": "华佗",
+        "quality": 6,
+        "icon": "char_head_400060_png",
+        "skillHeroIcon": "halfbody_4060_png",
+        "desc": "没有药治不好的病，如果有，再来一颗",
+        "growRate": [
+            5,
+            5,
+            5,
+            4
+        ],
+        "atlasDB": "400060_idle",
+        "model": 400060,
+        "country": 4,
+        "job": 4,
+        "skills": [
+            80901,
+            80909
+        ],
+        "skillGroup": [
+            [
+                80901,
+                80909
+            ],
+            [
+                80920,
+                80909
+            ],
+            [
+                80920,
+                80939
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                80930,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "401120": {
+        "name": "姜维",
+        "quality": 6,
+        "icon": "char_head_400120_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "青春没有售价，徒步直奔拉萨",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400120_idle",
+        "model": 400120,
+        "country": 4,
+        "job": 4,
+        "skills": [
+            81101,
+            81109
+        ],
+        "skillGroup": [
+            [
+                81101,
+                81109
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                81120,
+                500
+            ],
+            [
+                81130,
+                81120,
+                500
+            ],
+            [
+                81130,
+                81120,
+                81140,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 1
+    },
+    "401290": {
+        "name": "孙策",
+        "quality": 6,
+        "icon": "char_head_400290_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "一手雷电疗法出神入化",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400290_idle",
+        "model": 400290,
+        "country": 4,
+        "job": 4,
+        "skills": [
+            42940,
+            42910
+        ],
+        "skillGroup": [
+            [
+                42901,
+                42910
+            ],
+            [
+                42940,
+                42910
+            ],
+            [
+                42940,
+                42920
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                42950,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "101100": {
+        "name": "何进",
+        "quality": 6,
+        "icon": "char_head_100100_png",
+        "skillHeroIcon": "halfbody_1100_png",
+        "desc": "黑白两道通吃",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "100100_idle",
+        "model": 100100,
+        "country": 2,
+        "job": 2,
+        "skills": [
+            11001,
+            11010
+        ],
+        "skillGroup": [
+            [
+                11001,
+                11010
+            ],
+            [
+                11001,
+                11030
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                11040,
+                500
+            ],
+            [
+                11050,
+                11040,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "101130": {
+        "name": "魏延",
+        "quality": 4,
+        "icon": "char_head_100130_png",
+        "skillHeroIcon": "halfbody_1130_png",
+        "desc": "棒球界的明星选手",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "100130_idle",
+        "model": 100130,
+        "country": 3,
+        "job": 1,
+        "skills": [
+            11301,
+            11310
+        ],
+        "skillGroup": [
+            [
+                11301,
+                11310
+            ],
+            [
+                11340,
+                11310
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                11360,
+                500
+            ]
+        ],
+        "nation": 3,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "201080": {
+        "name": "曹洪",
+        "quality": 4,
+        "icon": "char_head_200080_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "追求极致美味的美食",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200080_idle",
+        "model": 200080,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            20801,
+            20810
+        ],
+        "skillGroup": [
+            [
+                20801,
+                20810
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                20840,
+                500
+            ],
+            [
+                20840,
+                20841,
+                500
+            ]
+        ],
+        "nation": 1,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 0
+    },
+    "201100": {
+        "name": "吕蒙",
+        "quality": 4,
+        "icon": "char_head_200100_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "靠着气球，占据制高点",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200100_idle",
+        "model": 200100,
+        "country": 1,
+        "job": 3,
+        "skills": [
+            21001,
+            21010
+        ],
+        "skillGroup": [
+            [
+                21001,
+                21010
+            ],
+            [
+                21001,
+                21020
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                21050,
+                500
+            ]
+        ],
+        "nation": 1,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "201120": {
+        "name": "黄月英",
+        "quality": 6,
+        "icon": "char_head_200120_png",
+        "skillHeroIcon": "halfbody_2120_png",
+        "desc": "一曲身摇摆，沉醉夜场中",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "200120_idle",
+        "model": 200120,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            21201,
+            21210
+        ],
+        "skillGroup": [
+            [
+                21201,
+                21210
+            ],
+            [
+                21201,
+                21260
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                21250,
+                500
+            ],
+            [
+                21250,
+                21270,
+                500
+            ]
+        ],
+        "nation": 1,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 1
+    },
+    "201160": {
+        "name": "张昭",
+        "quality": 6,
+        "icon": "char_head_200160_png",
+        "skillHeroIcon": "halfbody_2160_png",
+        "desc": "使得一手好茶艺，饮者如梦烂柯人",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "200160_idle",
+        "model": 200160,
+        "country": 1,
+        "job": 4,
+        "skills": [
+            21601,
+            21610
+        ],
+        "skillGroup": [
+            [
+                21601,
+                21610
+            ],
+            [
+                21601,
+                21660
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                21640,
+                500
+            ],
+            [
+                21640,
+                21650,
+                500
+            ]
+        ],
+        "nation": 1,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 1
+    },
+    "301080": {
+        "name": "曹彰",
+        "quality": 6,
+        "icon": "char_head_300080_png",
+        "skillHeroIcon": "halfbody_3080_png",
+        "desc": "在蓝翔深造十年，能用挖机来炒菜",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "300080_idle",
+        "model": 300080,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            30801,
+            30810
+        ],
+        "skillGroup": [
+            [
+                30801,
+                30810
+            ],
+            [
+                30840,
+                30810
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                30850,
+                500
+            ],
+            [
+                30860,
+                30850,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 0
+    },
+    "301110": {
+        "name": "甘宁",
+        "quality": 6,
+        "icon": "char_head_300110_png",
+        "skillHeroIcon": "halfbody_3110_png",
+        "desc": "葬爱家族首席理发师",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "300110_idle",
+        "model": 300110,
+        "country": 4,
+        "job": 2,
+        "skills": [
+            31101,
+            31110
+        ],
+        "skillGroup": [
+            [
+                31101,
+                31110
+            ],
+            [
+                31101,
+                31120
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                31150,
+                500
+            ],
+            [
+                31150,
+                31160,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 0
+    },
+    "301120": {
+        "name": "许褚",
+        "quality": 6,
+        "icon": "char_head_300120_png",
+        "skillHeroIcon": "halfbody_3120_png",
+        "desc": "八十、八十、八十",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "300120_idle",
+        "model": 300120,
+        "country": 2,
+        "job": 1,
+        "skills": [
+            31201,
+            31210
+        ],
+        "skillGroup": [
+            [
+                31201,
+                31210
+            ],
+            [
+                31220,
+                31210
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                31250,
+                500
+            ],
+            [
+                31250,
+                31240,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 0
+    },
+    "301160": {
+        "name": "孟获",
+        "quality": 6,
+        "icon": "char_head_300160_png",
+        "skillHeroIcon": "halfbody_4140_png",
+        "desc": "宇宙计生办主任",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "300160_idle",
+        "model": 300160,
+        "country": 2,
+        "job": 1,
+        "skills": [
+            31601,
+            31610
+        ],
+        "skillGroup": [
+            [
+                31601,
+                31610
+            ],
+            [
+                31601,
+                31640
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                31660,
+                500
+            ],
+            [
+                31660,
+                31670,
+                500
+            ]
+        ],
+        "nation": 2,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "401100": {
+        "name": "袁绍",
+        "quality": 6,
+        "icon": "char_head_400100_png",
+        "skillHeroIcon": "halfbody_4100_png",
+        "desc": "西部牛仔cos中",
+        "growRate": [
+            5,
+            5,
+            5,
+            5
+        ],
+        "atlasDB": "400100_idle",
+        "model": 400100,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            41001,
+            41010
+        ],
+        "skillGroup": [
+            [
+                41001,
+                41010
+            ],
+            [
+                41040,
+                41010
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                41060,
+                500
+            ],
+            [
+                41060,
+                41050,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "401150": {
+        "name": "轲比能",
+        "quality": 4,
+        "icon": "char_head_400150_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "没标热量就是没有热量，我吃吃吃",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400150_idle",
+        "model": 400150,
+        "country": 2,
+        "job": 1,
+        "skills": [
+            41501,
+            41510
+        ],
+        "skillGroup": [
+            [
+                41501,
+                41510
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                41540,
+                500
+            ],
+            [
+                41540,
+                41560,
+                500
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "101150": {
+        "name": "陈群",
+        "quality": 4,
+        "icon": "char_head_100150_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "练习两年半，喜欢唱跳、rap、篮球",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100150_idle",
+        "model": 100150,
+        "country": 3,
+        "job": 1,
+        "skills": [
+            11501,
+            11511
+        ],
+        "skillGroup": [
+            [
+                11501,
+                11511
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                706
+            ],
+            [
+                500,
+                11521,
+                706
+            ]
+        ],
+        "nation": 3,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 0
+    },
+    "201130": {
+        "name": "蔡文姬",
+        "quality": 4,
+        "icon": "char_head_200130_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "公主病不算病",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200130_idle",
+        "model": 200130,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            21301,
+            21311
+        ],
+        "skillGroup": [
+            [
+                21301,
+                21311
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                701
+            ],
+            [
+                500,
+                21321,
+                701
+            ]
+        ],
+        "nation": 1,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 1
+    },
+    "301130": {
+        "name": "陈宫",
+        "quality": 4,
+        "icon": "char_head_300130_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "鹰要熬，人要训，不打不成才",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "300130_idle",
+        "model": 300130,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            31301,
+            31311
+        ],
+        "skillGroup": [
+            [
+                31301,
+                31311
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                703
+            ],
+            [
+                500,
+                31321,
+                703
+            ]
+        ],
+        "nation": 2,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "401040": {
+        "name": "周泰",
+        "quality": 4,
+        "icon": "char_head_400040_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "后厨打杂小伙计",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400040_idle",
+        "model": 400040,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            40401,
+            40411
+        ],
+        "skillGroup": [
+            [
+                40401,
+                40411
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                703
+            ],
+            [
+                500,
+                40421,
+                703
+            ]
+        ],
+        "nation": 4,
+        "countryName": "吴",
+        "camp": 3,
+        "heroType": 0
+    },
+    "101160": {
+        "name": "李傕",
+        "quality": 4,
+        "icon": "char_head_100160_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "一手喇叭喊天下",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100160_idle",
+        "model": 100160,
+        "country": 4,
+        "job": 2,
+        "skills": [
+            11601
+        ],
+        "skillGroup": [
+            [
+                11601
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                706
+            ]
+        ],
+        "nation": 3,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "101200": {
+        "name": "廖化",
+        "quality": 4,
+        "icon": "char_head_100200_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "挖坑，埋人，填土，送葬一条龙",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100200_idle",
+        "model": 100200,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            41101,
+            41111
+        ],
+        "skillGroup": [
+            [
+                41101,
+                41111
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                701
+            ],
+            [
+                500,
+                41121,
+                701
+            ]
+        ],
+        "nation": 3,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "201150": {
+        "name": "乐进",
+        "quality": 4,
+        "icon": "char_head_200150_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "真理就在炮弹射程范围之中",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200150_idle",
+        "model": 200150,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            21501,
+            21511
+        ],
+        "skillGroup": [
+            [
+                21501,
+                21511
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                703
+            ],
+            [
+                500,
+                21521,
+                703
+            ]
+        ],
+        "nation": 1,
+        "countryName": "魏",
+        "camp": 1,
+        "heroType": 0
+    },
+    "201200": {
+        "name": "周仓",
+        "quality": 4,
+        "icon": "char_head_200200_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "洪兴第一打手",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200200_idle",
+        "model": 200200,
+        "country": 4,
+        "job": 1,
+        "skills": [
+            22001,
+            22011
+        ],
+        "skillGroup": [
+            [
+                22001,
+                22011
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                703
+            ],
+            [
+                500,
+                22021,
+                703
+            ]
+        ],
+        "nation": 1,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 0
+    },
+    "201240": {
+        "name": "简雍",
+        "quality": 4,
+        "icon": "char_head_200240_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "靠着一手手风琴，在西方过得滋滋润润",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "200240_idle",
+        "model": 200240,
+        "country": 3,
+        "job": 4,
+        "skills": [
+            22401,
+            22411
+        ],
+        "skillGroup": [
+            [
+                22401,
+                22411
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                706
+            ],
+            [
+                500,
+                22421,
+                706
+            ]
+        ],
+        "nation": 1,
+        "countryName": "蜀",
+        "camp": 2,
+        "heroType": 1
+    },
+    "401230": {
+        "name": "张宝",
+        "quality": 4,
+        "icon": "char_head_400230_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "人在狗在",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400230_idle",
+        "model": 400230,
+        "country": 1,
+        "job": 2,
+        "skills": [
+            42301,
+            42311
+        ],
+        "skillGroup": [
+            [
+                42301,
+                42311
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                701
+            ],
+            [
+                500,
+                42321,
+                701
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "401300": {
+        "name": "郭汜",
+        "quality": 4,
+        "icon": "char_head_400300_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "身骑白马，手持鸡",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "400300_idle",
+        "model": 400300,
+        "country": 2,
+        "job": 2,
+        "skills": [
+            41301,
+            41311
+        ],
+        "skillGroup": [
+            [
+                41301,
+                41311
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                500,
+                703
+            ],
+            [
+                500,
+                41321,
+                703
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 0
+    },
+    "501000": {
+        "name": "关银屏",
+        "quality": 4,
+        "icon": "char_head_500000_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "desc": "别看主管闲，有事下属做",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "500000_idle",
+        "model": 500000,
+        "country": 4,
+        "job": 3,
+        "skills": [
+            21101
+        ],
+        "skillGroup": [
+            [
+                21101
+            ]
+        ],
+        "skillPassiveGroup": [
+            [
+                500
+            ],
+            [
+                703
+            ]
+        ],
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "100000": {
+        "name": "木质宝箱",
+        "quality": 2,
+        "icon": "char_head_500000_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "100000_idle",
+        "model": 100000,
+        "country": 4,
+        "job": 3,
+        "skillPassiveGroup": 0.0,
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "110000": {
+        "name": "青铜宝箱",
+        "quality": 3,
+        "icon": "char_head_500000_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "110000_idle",
+        "model": 110000,
+        "country": 4,
+        "job": 3,
+        "skillPassiveGroup": 0.0,
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "120000": {
+        "name": "白银宝箱",
+        "quality": 4,
+        "icon": "char_head_500000_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "120000_idle",
+        "model": 120000,
+        "country": 4,
+        "job": 3,
+        "skillPassiveGroup": 0.0,
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "130000": {
+        "name": "铂金宝箱",
+        "quality": 6,
+        "icon": "char_head_500000_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "130000_idle",
+        "model": 130000,
+        "country": 4,
+        "job": 3,
+        "skillPassiveGroup": 0.0,
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "140000": {
+        "name": "钻石宝箱",
+        "quality": 7,
+        "icon": "char_head_500000_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "140000_idle",
+        "model": 140000,
+        "country": 4,
+        "job": 3,
+        "skillPassiveGroup": 0.0,
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
+    "150000": {
+        "name": "王者宝箱",
+        "quality": 10,
+        "icon": "char_head_500000_png",
+        "skillHeroIcon": "halfbody_2010_png",
+        "growRate": [
+            4,
+            4,
+            4,
+            3
+        ],
+        "atlasDB": "150000_idle",
+        "model": 150000,
+        "country": 4,
+        "job": 3,
+        "skillPassiveGroup": 0.0,
+        "nation": 4,
+        "countryName": "群",
+        "camp": 4,
+        "heroType": 1
+    },
     "100020": {
         "quality": 7,
         "": 10.0,

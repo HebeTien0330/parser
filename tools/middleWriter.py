@@ -41,8 +41,11 @@ class MiddlewareWriter:
             if not jsonObj:
                 continue
             dirPath = self.conf["basePath"] + self.conf["middleWare"]
-            if not os.path.isdir(dirPath):
-                os.mkdir(dirPath)
+            if os.path.exists(f"{dirPath}\\{name}.json"):
+                existFile = open(f"{dirPath}\\{name}.json", "r", encoding="utf-8")
+                existObj = json.load(existFile)
+                jsonObj = {**existObj, **jsonObj}
+                existFile.close()
             with open(f"{dirPath}\\{name}.json", "w", encoding="utf-8") as file:
                 file.write(jsonObj)
 
