@@ -24,7 +24,7 @@ class ParserTool:
         shutil.copy(".\\template\\parser.py", f"{targetDir}\\{self.name}Parser.py")
         os.mkdir(f"{targetDir}\\data")
         os.mkdir(f"{targetDir}\\data\\excel")
-        os.mkdir(f"{targetDir}\\data\\middleward")
+        os.mkdir(f"{targetDir}\\data\\middleware")
         os.mkdir(f"{targetDir}\\data\\resource")
         os.mkdir(f"{targetDir}\\data\\log")
         os.mkdir(f"{targetDir}\\clazz")
