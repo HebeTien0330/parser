@@ -1,0 +1,227 @@
+{
+    "atk": {
+        "name": "攻击",
+        "type": 1,
+        "display": 1
+    },
+    "matk": {
+        "name": "法攻",
+        "type": 1,
+        "display": 1
+    },
+    "def": {
+        "name": "物防",
+        "type": 1,
+        "display": 1
+    },
+    "mdef": {
+        "name": "法防",
+        "type": 1,
+        "display": 1
+    },
+    "hpMax": {
+        "name": "生命",
+        "type": 1,
+        "display": 1
+    },
+    "hitPoint": {
+        "name": "命中",
+        "type": 1,
+        "display": 1
+    },
+    "evdPoint": {
+        "name": "闪避",
+        "type": 1,
+        "display": 1
+    },
+    "crtPoint": {
+        "name": "暴击",
+        "type": 1,
+        "display": 1
+    },
+    "atcPoint": {
+        "name": "抗暴",
+        "type": 1,
+        "display": 1
+    },
+    "addDmgPoint": {
+        "name": "增伤",
+        "type": 1,
+        "display": 1
+    },
+    "subDmgPoint": {
+        "name": "免伤",
+        "type": 1,
+        "display": 1
+    },
+    "crtDmgPoint": {
+        "name": "暴伤",
+        "type": 1,
+        "display": 1
+    },
+    "hitRat": {
+        "name": "命中",
+        "type": 2,
+        "display": 2
+    },
+    "evdRat": {
+        "name": "闪避",
+        "type": 2,
+        "display": 2
+    },
+    "crtRat": {
+        "name": "暴击",
+        "type": 2,
+        "display": 2
+    },
+    "atcRat": {
+        "name": "抗暴",
+        "type": 2,
+        "display": 2
+    },
+    "addDmg": {
+        "name": "增伤",
+        "type": 2,
+        "display": 2
+    },
+    "subDmg": {
+        "name": "免伤",
+        "type": 2,
+        "display": 2
+    },
+    "crtDmg": {
+        "name": "暴伤",
+        "type": 2,
+        "display": 2
+    },
+    "level": {
+        "name": "等级",
+        "type": 4,
+        "display": 0
+    },
+    "job": {
+        "name": "兵种",
+        "type": 4,
+        "display": 0
+    },
+    "tpMax": {
+        "name": "兵力",
+        "type": 4,
+        "display": 0
+    },
+    "intSp": {
+        "name": "初始怒气",
+        "type": 4,
+        "display": 0
+    },
+    "sp": {
+        "name": "怒气",
+        "type": 1,
+        "display": 1
+    },
+    "power": {
+        "name": "战斗力",
+        "type": 4,
+        "display": 1
+    },
+    "atk_R": {
+        "name": "攻击",
+        "type": 4,
+        "display": 2
+    },
+    "def_R": {
+        "name": "物防",
+        "type": 4,
+        "display": 2
+    },
+    "hpMax_R": {
+        "name": "生命",
+        "type": 4,
+        "display": 2
+    },
+    "mdef_R": {
+        "name": "法防",
+        "type": 4,
+        "display": 2
+    },
+    "leech": {
+        "name": "吸血",
+        "type": 4,
+        "display": 2
+    },
+    "spd": {
+        "name": "速度",
+        "type": 1,
+        "display": 1
+    },
+    "spd_R": {
+        "name": "速度",
+        "type": 1,
+        "display": 2
+    },
+    "bounce": {
+        "name": "反伤",
+        "type": 4,
+        "display": 2
+    },
+    "shield": {
+        "name": "护盾",
+        "type": 4,
+        "display": 1
+    },
+    "hpMaxGrow": {
+        "name": "生命成长",
+        "type": 3,
+        "display": 1
+    },
+    "atkGrow": {
+        "name": "攻击成长",
+        "type": 3,
+        "display": 1
+    },
+    "defGrow": {
+        "name": "物防成长",
+        "type": 3,
+        "display": 1
+    },
+    "spdGrow": {
+        "name": "速度成长",
+        "type": 3,
+        "display": 1
+    },
+    "unstunRate": {
+        "name": "抵抗眩晕",
+        "type": 2,
+        "display": 2
+    },
+    "rebornRate": {
+        "name": "神佑概率",
+        "type": 3,
+        "display": 2
+    },
+    "rebornHp": {
+        "name": "神佑回血量",
+        "type": 3,
+        "display": 2
+    },
+    "rebornNum": {
+        "name": "神佑次数",
+        "type": 3,
+        "display": 1
+    },
+    "stunRate": {
+        "name": "技能眩晕概率",
+        "type": 2,
+        "display": 2
+    },
+    "atkCorrect": {
+        "name": "伤害加深",
+        "type": 2,
+        "display": 2
+    },
+    "defCorrect": {
+        "name": "伤害减免",
+        "type": 2,
+        "display": 2
+    }
+}

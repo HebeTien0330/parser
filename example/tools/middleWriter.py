@@ -2,7 +2,7 @@
 :@Author: tangchengqin
 :@Date: 2024/5/15 11:53:00
 :@LastEditors: tangchengqin
-:@LastEditTime: 2024/5/18 14:17:12
+:@LastEditTime: 2024/7/24 14:49:06
 :Description: 
 :Copyright: Copyright (©)}) 2024 Clarify. All rights reserved.
 '''
@@ -39,7 +39,7 @@ class MiddlewareWriter:
             logfile("middleware", f"parsering {sheetName} in {self.fileName}")
             sheet = self.workBook.sheet_by_name(sheetName)
             name = names[0]
-            jsonObj = self.tarnslate2Json(sheet)
+            jsonObj = self.tarnslate2Json(sheet, sheetName)
             if not jsonObj:
                 continue
             dirPath = self.conf["basePath"] + self.conf["middleWare"]
@@ -52,7 +52,7 @@ class MiddlewareWriter:
             with open(f"{dirPath}\\{name}.json", "w", encoding="utf-8") as file:
                 file.write(f"{jsonObj}")
 
-    def tarnslate2Json(self, sheet):
+    def tarnslate2Json(self, sheet, sheetName):
         self.keys = sheet.row_values(1)
         self.types = sheet.row_values(2)
         stack = self.recursionGenStructure(deepcopy(self.keys))
@@ -65,10 +65,13 @@ class MiddlewareWriter:
                 continue
             dataMap = dict(zip(self.keys, values))
             jsonObj = self.fillWithData(deepcopy(stack), dataMap)
-            final = self.merge(final, jsonObj)
+            try:
+                final = self.merge(final, jsonObj)
+            except:
+                logfile("middleware", f"something wrong in {self.fileName} -> {sheetName} -> row {row}")
+                continue
         return json.dumps(final, indent=4, ensure_ascii=False)
             
-
     def recursionGenStructure(self, keys, stack = None):      # 递归生成数据结构
         if not len(keys):
             return stack
