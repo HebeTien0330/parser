@@ -28,7 +28,7 @@ class BaseWriter:
             os.mkdir(dirPath)
 
     def getOutputName(self):
-        return self.conf["basePath"] + self.conf["output"] + f"\\{self.fileName}.json"
+        return self.conf["basePath"] + self.conf["output"] + f"\\{self.fileName}.go"
 
     def write(self):
         middleWareDir = self.conf["basePath"] + self.conf["middleWare"]
