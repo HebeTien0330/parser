@@ -55,7 +55,7 @@ class MiddlewareWriter:
     def tarnslate2Json(self, sheet):
         self.keys = sheet.row_values(1)
         self.types = sheet.row_values(2)
-        stack = self.recursionGenStructure(deepcopy(self.keys))
+        stack = self.recursivelyGenStructure(deepcopy(self.keys))
         final = {}
         for row in range(sheet.nrows):
             if row in [0, 1, 2]:        # 跳过前三行
@@ -69,21 +69,21 @@ class MiddlewareWriter:
         return json.dumps(final, indent=4, ensure_ascii=False)
             
 
-    def recursionGenStructure(self, keys, stack = None):      # 递归生成数据结构
+    def recursivelyGenStructure(self, keys, stack = None):      # 递归生成数据结构
         if not len(keys):
             return stack
         if not stack:
             stack = []        # 数据结构栈
         key = keys.pop(0)
         if key == "export":
-            return self.recursionGenStructure(keys, stack)
+            return self.recursivelyGenStructure(keys, stack)
         reObj = re.match("^#+", key)
         if not reObj:
             keys.insert(0, key)
             stack.append(keys)
-            return self.recursionGenStructure([], stack)
+            return self.recursivelyGenStructure([], stack)
         stack.append(key)
-        return self.recursionGenStructure(keys, stack)
+        return self.recursivelyGenStructure(keys, stack)
 
     def getType(self, key):
         idx = self.keys.index(key)
