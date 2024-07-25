@@ -20,10 +20,10 @@ class ParserTemplate(Parser):
             target = import_module(f"project.clazz.{fileName[:-3]}")
             if not target:
                 logfile("parser", "error writer file path")
-                return
+                continue
             if not hasattr(target, "Writer"):
                 logfile("parser", f"file {fileName} no writer")
-                return
+                continue
             Writer = getattr(target, "Writer")
             Writer(self.conf).write()
 
