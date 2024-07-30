@@ -74,12 +74,12 @@ func (slf *Skill_%d) GetConfig() SkillConfig {
                 Name: "%s",
                 Desc: "%s",
                 Influence: "%s",
-                Effect: %s,
+                Effect: []int{%s},
                 Stats: %d,
             },
         }
     })
-""" % (idx, idx, idx, name, desc, influence, effect, stats)
+""" % (idx, idx, idx, name, desc, influence, *tuple(effect), stats)
             
             outputFile.write(defineTarget)
             outputFile.write("""
