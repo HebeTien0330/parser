@@ -1,5 +1,4 @@
 from tools import BaseWriter
-import json
 
 class WriterTemplete(BaseWriter):
 
