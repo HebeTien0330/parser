@@ -67,23 +67,24 @@ class MiddlewareWriter:
             jsonObj = self.fillWithData(deepcopy(stack), dataMap)
             final = self.merge(final, jsonObj)
         return json.dumps(final, indent=4, ensure_ascii=False)
-            
 
-    def recursivelyGenStructure(self, keys, stack = None):      # 递归生成数据结构
-        if not len(keys):
+    def recursivelyGenStructure(self, keys, idx = 0, stack = None):      # 递归生成数据结构
+        if idx == len(keys) - 1:
             return stack
         if not stack:
-            stack = []        # 数据结构栈
-        key = keys.pop(0)
+            stack = []          # 数据结构栈
+        key = keys[idx]
         if key == "export":
-            return self.recursivelyGenStructure(keys, stack)
+            idx += 1
+            return self.recursivelyGenStructure(keys, idx, stack)
         reObj = re.match("^#+", key)
         if not reObj:
-            keys.insert(0, key)
             stack.append(keys)
-            return self.recursivelyGenStructure([], stack)
+            idx = len(keys) - 1
+            return self.recursivelyGenStructure(keys, idx, stack)
         stack.append(key)
-        return self.recursivelyGenStructure(keys, stack)
+        idx += 1
+        return self.recursivelyGenStructure(keys, idx, stack)
 
     def getType(self, key):
         idx = self.keys.index(key)
@@ -95,6 +96,8 @@ class MiddlewareWriter:
             e = stack.pop()
             if type(e) == list:
                 for key in e:
+                    if key == "export":
+                        continue
                     value = dataMap[key]
                     keyType = self.getType(key)
                     if key == "" or value == "":
@@ -113,6 +116,7 @@ class MiddlewareWriter:
                                 data = eval(str(value))
                             except:
                                 data = str(value)
+                    key = re.sub("^#+", "", key)
                     ret[key] = data
             else:
                 try:

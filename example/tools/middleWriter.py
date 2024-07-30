@@ -2,7 +2,7 @@
 :@Author: tangchengqin
 :@Date: 2024/5/15 11:53:00
 :@LastEditors: tangchengqin
-:@LastEditTime: 2024/7/24 14:49:06
+:@LastEditTime: 2024/7/24 14:49:25
 :Description: 
 :Copyright: Copyright (©)}) 2024 Clarify. All rights reserved.
 '''
@@ -39,7 +39,7 @@ class MiddlewareWriter:
             logfile("middleware", f"parsering {sheetName} in {self.fileName}")
             sheet = self.workBook.sheet_by_name(sheetName)
             name = names[0]
-            jsonObj = self.tarnslate2Json(sheet, sheetName)
+            jsonObj = self.tarnslate2Json(sheet)
             if not jsonObj:
                 continue
             dirPath = self.conf["basePath"] + self.conf["middleWare"]
@@ -52,7 +52,7 @@ class MiddlewareWriter:
             with open(f"{dirPath}\\{name}.json", "w", encoding="utf-8") as file:
                 file.write(f"{jsonObj}")
 
-    def tarnslate2Json(self, sheet, sheetName):
+    def tarnslate2Json(self, sheet):
         self.keys = sheet.row_values(1)
         self.types = sheet.row_values(2)
         stack = self.recursivelyGenStructure(deepcopy(self.keys))
@@ -65,28 +65,26 @@ class MiddlewareWriter:
                 continue
             dataMap = dict(zip(self.keys, values))
             jsonObj = self.fillWithData(deepcopy(stack), dataMap)
-            try:
-                final = self.merge(final, jsonObj)
-            except:
-                logfile("middleware", f"something wrong in {self.fileName} -> {sheetName} -> row {row}")
-                continue
+            final = self.merge(final, jsonObj)
         return json.dumps(final, indent=4, ensure_ascii=False)
-            
-    def recursivelyGenStructure(self, keys, stack = None):      # 递归生成数据结构
-        if not len(keys):
+
+    def recursivelyGenStructure(self, keys, idx = 0, stack = None):      # 递归生成数据结构
+        if idx == len(keys) - 1:
             return stack
         if not stack:
-            stack = []        # 数据结构栈
-        key = keys.pop(0)
+            stack = []          # 数据结构栈
+        key = keys[idx]
         if key == "export":
-            return self.recursivelyGenStructure(keys, stack)
+            idx += 1
+            return self.recursivelyGenStructure(keys, idx, stack)
         reObj = re.match("^#+", key)
         if not reObj:
-            keys.insert(0, key)
             stack.append(keys)
-            return self.recursivelyGenStructure([], stack)
+            idx = len(keys) - 1
+            return self.recursivelyGenStructure(keys, idx, stack)
         stack.append(key)
-        return self.recursivelyGenStructure(keys, stack)
+        idx += 1
+        return self.recursivelyGenStructure(keys, idx, stack)
 
     def getType(self, key):
         idx = self.keys.index(key)
@@ -98,6 +96,8 @@ class MiddlewareWriter:
             e = stack.pop()
             if type(e) == list:
                 for key in e:
+                    if key == "export":
+                        continue
                     value = dataMap[key]
                     keyType = self.getType(key)
                     if key == "" or value == "":
@@ -116,6 +116,7 @@ class MiddlewareWriter:
                                 data = eval(str(value))
                             except:
                                 data = str(value)
+                    key = re.sub("^#+", "", key)
                     ret[key] = data
             else:
                 try:

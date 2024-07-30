@@ -1,13 +1,136 @@
 {
+    "600001": {
+        "id": 600001,
+        "name": "狌",
+        "desc": "兽类，形状像猿猴但有白耳朵，据说吃了它的肉可以让人跑得更快。",
+        "icon": "Hero_600001.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 1,
+        "maxStack": 99
+    },
+    "600002": {
+        "id": 600002,
+        "name": "鹿蜀",
+        "desc": "形状像马，有白色的头，身上的花纹像老虎，尾巴是红色的，叫声像唱歌，佩戴它的皮毛可以带来子孙繁衍。",
+        "icon": "Hero_600002.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 1,
+        "maxStack": 99
+    },
+    "600003": {
+        "id": 600003,
+        "name": "旋龟",
+        "desc": "形状像乌龟但有鸟的头。",
+        "icon": "Hero_600003.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 2,
+        "maxStack": 99
+    },
+    "600004": {
+        "id": 600004,
+        "name": "钦丕 ",
+        "desc": "鸟类，能变成大鹗，有黑色的羽毛和红色的喙，脚像虎爪，叫声像晨鹄，出现预示战争。",
+        "icon": "Hero_600004.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 2,
+        "maxStack": 99
+    },
+    "600005": {
+        "id": 600005,
+        "name": "文鳐鱼",
+        "desc": " 鱼类，形状像鲤鱼，有鸟的翅膀，身体呈青色。",
+        "icon": "Hero_600005.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 3,
+        "maxStack": 99
+    },
+    "600006": {
+        "id": 600006,
+        "name": "九尾狐",
+        "desc": "拥有九条尾巴的狐狸，能够变化成人形。",
+        "icon": "Hero_600006.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 3,
+        "maxStack": 99
+    },
+    "600007": {
+        "id": 600007,
+        "name": "穷奇",
+        "desc": "形状像虎，长有一对翅膀，喜欢吃人。",
+        "icon": "Hero_600007.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 4,
+        "maxStack": 99
+    },
+    "600008": {
+        "id": 600008,
+        "name": "梼杌",
+        "desc": " 传说中的四大凶兽之一，样子像熊，非常凶残。",
+        "icon": "Hero_600008.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 4,
+        "maxStack": 99
+    },
+    "600009": {
+        "id": 600009,
+        "name": "混沌",
+        "desc": "没有七窍的怪物，后来被开窍而死。",
+        "icon": "Hero_600009.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 5,
+        "maxStack": 99
+    },
+    "600010": {
+        "id": 600010,
+        "name": "烛龙",
+        "desc": "能够控制日夜更替的神兽，眼睛像火炬一样明亮。",
+        "icon": "Hero_600010.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 5,
+        "maxStack": 99
+    },
+    "600011": {
+        "id": 600011,
+        "name": "相柳",
+        "desc": "有九个头的蛇，被禹王所杀",
+        "icon": "Hero_600011.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 6,
+        "maxStack": 99
+    },
+    "600012": {
+        "id": 600012,
+        "name": "精卫",
+        "desc": "原是炎帝的女儿，死后化为鸟，不断填海。",
+        "icon": "Hero_600012.png",
+        "bag": 3,
+        "class": 9,
+        "quality": 6,
+        "maxStack": 99
+    },
     "1": {
+        "id": 1,
         "name": "铜币",
         "desc": "游戏内的基础货币",
         "icon": "coin.png",
         "bag": 1,
         "class": 1,
-        "quality": 1
+        "quality": 1,
+        "onUse": 9999
     },
     "2": {
+        "id": 2,
         "name": "元宝",
         "desc": "游戏内的进阶货币",
         "icon": "diamond.png",
