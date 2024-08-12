@@ -57,6 +57,23 @@ func NewItem(id int) ItemIns {
 
 // ======================================================================
 
+type Item_1 struct { ItemConfig }
+
+func (slf *Item_1) GetConfig() ItemConfig {
+    return slf.ItemConfig
+}
+
+// 道具使用回调
+func (slf *Item_1) OnUse (player interface{}, count int) {
+    println("ItemIns_1 count OnUse Callback")
+}
+
+type Item_2 struct { ItemConfig }
+
+func (slf *Item_2) GetConfig() ItemConfig {
+    return slf.ItemConfig
+}
+
 type Item_600001 struct { ItemConfig }
 
 func (slf *Item_600001) GetConfig() ItemConfig {
@@ -129,24 +146,37 @@ func (slf *Item_600012) GetConfig() ItemConfig {
     return slf.ItemConfig
 }
 
-type Item_1 struct { ItemConfig }
-
-func (slf *Item_1) GetConfig() ItemConfig {
-    return slf.ItemConfig
-}
-
-// 道具使用回调
-func (slf *Item_1) OnUse (player interface{}, count int) {
-    println("ItemIns_1 count OnUse Callback")
-}
-
-type Item_2 struct { ItemConfig }
-
-func (slf *Item_2) GetConfig() ItemConfig {
-    return slf.ItemConfig
-}
-
 func init() {	
+    RegisterItem(1, func() ItemIns {
+        return &Item_1{
+            ItemConfig: ItemConfig {
+                Id: 1,
+                Name: "铜币",
+                Desc: "游戏内的基础货币",
+                Icon: "coin.png",
+                Bag: 1,
+                Class: 1,
+                Quality: 1,
+                MaxStack: -1,
+            },
+        }
+    })
+
+    RegisterItem(2, func() ItemIns {
+        return &Item_2{
+            ItemConfig: ItemConfig {
+                Id: 2,
+                Name: "元宝",
+                Desc: "游戏内的进阶货币",
+                Icon: "diamond.png",
+                Bag: 1,
+                Class: 2,
+                Quality: 1,
+                MaxStack: -1,
+            },
+        }
+    })
+
     RegisterItem(600001, func() ItemIns {
         return &Item_600001{
             ItemConfig: ItemConfig {
@@ -323,36 +353,6 @@ func init() {
                 Class: 9,
                 Quality: 6,
                 MaxStack: 99,
-            },
-        }
-    })
-
-    RegisterItem(1, func() ItemIns {
-        return &Item_1{
-            ItemConfig: ItemConfig {
-                Id: 1,
-                Name: "铜币",
-                Desc: "游戏内的基础货币",
-                Icon: "coin.png",
-                Bag: 1,
-                Class: 1,
-                Quality: 1,
-                MaxStack: -1,
-            },
-        }
-    })
-
-    RegisterItem(2, func() ItemIns {
-        return &Item_2{
-            ItemConfig: ItemConfig {
-                Id: 2,
-                Name: "元宝",
-                Desc: "游戏内的进阶货币",
-                Icon: "diamond.png",
-                Bag: 1,
-                Class: 2,
-                Quality: 1,
-                MaxStack: -1,
             },
         }
     })
