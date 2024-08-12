@@ -36,7 +36,7 @@ class ParserTemplate(Parser):
                 continue
             with open(path + "\\" + fileName, "r", encoding="utf-8") as file1:
                 jsonObj = json.loads(file1.read())
-                jsonObj = sorted(jsonObj.items())
+                jsonObj = sorted(jsonObj.items(), key = lambda x:int(x[0]))
                 jsonObj = dict(jsonObj)
                 with open(path + "\\" + fileName, "w", encoding="utf-8") as file2:
                     file2.write(json.dumps(jsonObj, indent=4, ensure_ascii=False))
