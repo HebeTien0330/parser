@@ -1,4 +1,23 @@
 {
+    "1": {
+        "id": 1,
+        "name": "铜币",
+        "desc": "游戏内的基础货币",
+        "icon": "coin.png",
+        "bag": 1,
+        "class": 1,
+        "quality": 1,
+        "onUse": 9999
+    },
+    "2": {
+        "id": 2,
+        "name": "元宝",
+        "desc": "游戏内的进阶货币",
+        "icon": "diamond.png",
+        "bag": 1,
+        "class": 2,
+        "quality": 1
+    },
     "600001": {
         "id": 600001,
         "name": "狌",
@@ -118,24 +137,5 @@
         "class": 9,
         "quality": 6,
         "maxStack": 99
-    },
-    "1": {
-        "id": 1,
-        "name": "铜币",
-        "desc": "游戏内的基础货币",
-        "icon": "coin.png",
-        "bag": 1,
-        "class": 1,
-        "quality": 1,
-        "onUse": 9999
-    },
-    "2": {
-        "id": 2,
-        "name": "元宝",
-        "desc": "游戏内的进阶货币",
-        "icon": "diamond.png",
-        "bag": 1,
-        "class": 2,
-        "quality": 1
     }
 }

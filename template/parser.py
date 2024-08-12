@@ -4,6 +4,7 @@ from tools import Parser, logfile
 from importlib import import_module
 import os
 import shutil
+import json
 
 class ParserTemplate(Parser):
 
@@ -12,6 +13,7 @@ class ParserTemplate(Parser):
         self.clearExistFiles()
 
     def doParser(self):
+        self.tidy()
         # your parser script
         writerList = os.listdir(".\\clazz")
         for fileName in writerList:
@@ -26,6 +28,18 @@ class ParserTemplate(Parser):
                 continue
             Writer = getattr(target, "Writer")
             Writer(self.conf).write()
+
+    def tidy(self):
+        path = ".\\data\middleware"
+        for fileName in os.listdir(path):
+            if fileName[-5:] != ".json":
+                continue
+            with open(path + "\\" + fileName, "r", encoding="utf-8") as file1:
+                jsonObj = json.loads(file1.read())
+                jsonObj = sorted(jsonObj.items())
+                jsonObj = dict(jsonObj)
+                with open(path + "\\" + fileName, "w", encoding="utf-8") as file2:
+                    file2.write(json.dumps(jsonObj, indent=4, ensure_ascii=False))
 
     def clearExistFiles(self):
         path = ".\\data\middleware"
