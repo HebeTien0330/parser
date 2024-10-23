@@ -108,6 +108,11 @@ class MiddlewareWriter:
                         data = float(value)
                     elif keyType == "str":
                         data = str(value)
+                    elif keyType == "bool":
+                        if value == "是":
+                            data = True
+                        else:
+                            data = False
                     else:
                         try:
                             data = eval(int(value))
