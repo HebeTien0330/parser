@@ -15,8 +15,7 @@ class Writer(BaseWriter):
         BaseWriter.__init__(self, conf)
         self.fileName = "item"
 
-    def doWrite(self, jsonObj):
-        outputPath = self.getOutputName()
+    def doWrite(self, jsonObj, outputPath):
         define = """
 package tables
 
