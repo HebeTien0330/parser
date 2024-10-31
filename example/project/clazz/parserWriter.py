@@ -6,8 +6,7 @@ class WriterTemplete(BaseWriter):
         BaseWriter.__init__(self, conf)
         self.fileName = "const"
 
-    def doWrite(self, jsonObj):
-        outputPath = self.getOutputName()
+    def doWrite(self, jsonObj, outputPath):
         with open(outputPath, "w", encoding="utf-8") as outputFile:
             # your writer script
             pass

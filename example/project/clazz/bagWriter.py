@@ -6,8 +6,7 @@ class Writer(BaseWriter):
         BaseWriter.__init__(self, conf)
         self.fileName = "bag"
 
-    def doWrite(self, jsonObj):
-        outputPath = self.getOutputName()
+    def doWrite(self, jsonObj, outputPath):
         with open(outputPath, "w", encoding="utf-8") as outputFile:
             baseTarget = """
 package tables

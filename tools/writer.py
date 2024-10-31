@@ -27,15 +27,18 @@ class BaseWriter:
         if not os.path.isdir(dirPath):
             os.mkdir(dirPath)
 
-    def getOutputName(self):
-        return self.conf["basePath"] + self.conf["output"] + f"\\{self.fileName}.json"
-
     def write(self):
-        middleWareDir = self.conf["basePath"] + self.conf["middleWare"]
-        filePath = f"{middleWareDir}\\{self.fileName}.json"
-        with open(filePath, "r", encoding="utf-8") as file:
-            jsonObj = json.loads(file.read())
-            self.doWrite(jsonObj)
+        fileNames = self.fileName
+        if isinstance(self.fileName, str):
+            fileNames = [self.fileName]
+        for fileName in fileNames:
+            middleWareDir = self.conf["basePath"] + self.conf["middleWare"]
+            filePath = f"{middleWareDir}/{fileName}.json"
+            with open(filePath, "r", encoding="utf-8") as file:
+                jsonObj = json.loads(file.read())
+                outputPath = self.conf["basePath"] + self.conf["output"] + f"\\{fileName}.json"
+                print(self)
+                self.doWrite(jsonObj, outputPath)
 
-    def doWrite(self, jsonObj):
+    def doWrite(self, jsonObj, outputPath):
         raise Exception("doWrite is waiting to be overrided")
