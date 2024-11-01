@@ -37,7 +37,6 @@ class BaseWriter:
             with open(filePath, "r", encoding="utf-8") as file:
                 jsonObj = json.loads(file.read())
                 outputPath = self.conf["basePath"] + self.conf["output"] + f"\\{fileName}.json"
-                print(self)
                 self.doWrite(jsonObj, outputPath)
 
     def doWrite(self, jsonObj, outputPath):
