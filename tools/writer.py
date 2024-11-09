@@ -8,6 +8,7 @@
 '''
 import os
 import json
+import collections
 
 """
 目标文件生成器
@@ -37,6 +38,10 @@ class BaseWriter:
             with open(filePath, "r", encoding="utf-8") as file:
                 jsonObj = json.loads(file.read())
                 outputPath = self.conf["basePath"] + self.conf["output"] + f"\\{fileName}.json"
+                try:
+                    jsonObj = collections.OrderedDict(sorted(jsonObj.items(), key=lambda item: int(item[0])))
+                except:
+                    pass
                 self.doWrite(jsonObj, outputPath)
 
     def doWrite(self, jsonObj, outputPath):
