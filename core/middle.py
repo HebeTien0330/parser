@@ -1,74 +1,83 @@
+'''FileHeader
+: @Author: tangchengqin
+: @Date: 2026/3/19 17:33:27
+: @LastEditors: tangchengqin
+: @LastEditTime: 2026/3/19 17:47:47
+: @Description: 
+: @Copyright: Copyright (©)}) 2026 Clarify. All rights reserved.
+: @Email: 527094604@qq.com
 '''
-:@Author: tangchengqin
-:@Date: 2024/5/15 11:53:00
-:@LastEditors: tangchengqin
-:@LastEditTime: 2024/7/24 14:49:25
-:Description: 
-:Copyright: Copyright (©)}) 2024 Clarify. All rights reserved.
-'''
-from .logger import logfile
+from core.config import ConfigManager
+from utils.logger import logfile, LogLevel
+from utils.box import Box
 from copy import deepcopy
-import re
-import json
 import os
+import json
+import re
 
 """
 中间件生成器
 生成Excel文件 -> json文件/脚本 的中间文件
 格式为json
 """
-class MiddlewareWriter:
+class MiddleWriter:
 
-    def __init__(self, conf):
-        self.conf = conf
-        self.workBook = None
+    def __init__(self):
+        self.workbook = None
+        self.filename = None
 
-    # 绑定要操作的workBook
-    def bindWorkBook(self, workBook, fileName):
-        self.workBook = workBook
-        self.fileName = fileName
+    # 绑定要操作的workbook
+    def bindWorkbook(self, workbook, filename):
+        self.workbook = workbook
+        self.filename = filename
 
-    # 写入中间件
-    def writeMiddleware(self):
-        sheetNames = self.workBook.sheet_names()
-        for sheetName in sheetNames:
-            names = sheetName.split("|")
+    # 写入中间文件
+    def writeMiddleFile(self):
+        sheetnames = self.workbook.sheetnames
+        for sheetname in sheetnames:
+            names = sheetname.split("|")
             if len(names) != 2:
-                logfile("middleware", f"incorrect sheet name {sheetName} in {self.fileName}")
+                logfile(LogLevel.ERROR, f"incorrect sheet name {sheetname} in {self.filename}")
                 continue
-            logfile("middleware", f"parsering {sheetName} in {self.fileName}")
-            sheet = self.workBook.sheet_by_name(sheetName)
+            logfile(LogLevel.INFO, f"parsering {sheetname} in {self.filename}")
+            sheet = self.workbook.get_sheet_by_name(sheetname)
             name = names[0]
             jsonObj = self.tarnslate2Json(sheet)
             if not jsonObj:
+                logfile(LogLevel.INFO, f"{sheetname} in {self.filename} is empty")
                 continue
-            dirPath = self.conf["basePath"] + self.conf["middleWare"]
-            if os.path.exists(f"{dirPath}\\{name}.json"):
-                existFile = open(f"{dirPath}\\{name}.json", "r", encoding="utf-8")
+            configManager = Box.get(ConfigManager)
+            middleFilePath = configManager.get("MiddleFile") + name + ".json"
+            if os.path.exists(middleFilePath):
+                existFile = open(middleFilePath, "r", encoding="utf-8")
                 existObj = json.load(existFile)
                 jsonObj = eval(jsonObj)
                 jsonObj = json.dumps({**existObj, **jsonObj}, indent=4, ensure_ascii=False)
                 existFile.close()
-            with open(f"{dirPath}\\{name}.json", "w", encoding="utf-8") as file:
+            with open(middleFilePath, "w", encoding="utf-8") as file:
                 file.write(f"{jsonObj}")
 
+    def getRowValues(self, sheet, row):
+        return [cell.value for cell in sheet[row]]
+
     def tarnslate2Json(self, sheet):
-        self.keys = sheet.row_values(1)
-        self.types = sheet.row_values(2)
+        self.keys = self.getRowValues(sheet, 1)
+        self.types = self.getRowValues(sheet, 2)
         stack = self.recursivelyGenStructure(deepcopy(self.keys))
         final = {}
-        for row in range(sheet.nrows):
+        row = 0
+        for data in sheet.iter_rows(values_only=True):
             if row in [0, 1, 2]:        # 跳过前三行
                 continue
-            values = sheet.row_values(row)
-            if not values[0] or values[0] == "否":       # 过滤掉export为否的行
+            if not data[0] or data[0] == "否":       # 过滤掉export为否的行
                 continue
-            dataMap = dict(zip(self.keys, values))
+            dataMap = dict(zip(self.keys, data))
             jsonObj = self.fillWithData(deepcopy(stack), dataMap)
             final = self.merge(final, jsonObj)
         return json.dumps(final, indent=4, ensure_ascii=False)
 
-    def recursivelyGenStructure(self, keys, idx = 0, stack = None):      # 递归生成数据结构
+    # 递归生成数据结构
+    def recursivelyGenStructure(self, keys, idx = 0, stack = None):
         if idx == len(keys) - 1:
             return stack
         if not stack:

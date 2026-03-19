@@ -1,10 +1,11 @@
-import sys
-sys.path.append("../")
-from tools import Parser, logfile
+from utils.logger import logfile, LogLevel
+from utils.box import Box
+from core.config import ConfigManager
+from core.parser import Parser
 from importlib import import_module
-import os
-import shutil
 import json
+import shutil
+import os
 
 class ParserTemplate(Parser):
 
@@ -12,25 +13,28 @@ class ParserTemplate(Parser):
         Parser.__init__(self)
         self.clearExistFiles()
 
-    def doParser(self):
+    def doParse(self):
         self.tidy()
-        # your parser script
-        writerList = os.listdir(".\\clazz")
+        clazzPath = Box.get(ConfigManager).get("Clazz")
+        if not clazzPath:
+            logfile(LogLevel.ERROR, "no clazz path")
+            return
+        writerList = os.listdir(clazzPath)
         for fileName in writerList:
             if fileName == "__init__.py" or fileName[-3:] != ".py":
                 continue            
             target = import_module(f"project.clazz.{fileName[:-3]}")
             if not target:
-                logfile("parser", "error writer file path")
+                logfile(LogLevel.ERROR, "error writer file path")
                 continue
             if not hasattr(target, "Writer"):
-                logfile("parser", f"file {fileName} no writer")
+                logfile(LogLevel.ERROR, f"file {fileName} no writer")
                 continue
             Writer = getattr(target, "Writer")
-            Writer(self.conf).write()
+            Writer().write()
 
     def tidy(self):
-        path = ".\\data\middleware"
+        path = Box.get(ConfigManager).get("MiddleFile")
         for fileName in os.listdir(path):
             if fileName[-5:] != ".json":
                 continue
@@ -42,11 +46,6 @@ class ParserTemplate(Parser):
                     file2.write(json.dumps(jsonObj, indent=4, ensure_ascii=False))
 
     def clearExistFiles(self):
-        path = ".\\data\middleware"
+        path = Box.get(ConfigManager).get("MiddleFile")
         shutil.rmtree(path)
         os.mkdir(path)
-
-
-if __name__ == "__main__":
-    parser = ParserTemplate()
-    parser.parser()
