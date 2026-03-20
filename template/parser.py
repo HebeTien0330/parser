@@ -49,3 +49,7 @@ class ParserTemplate(Parser):
         path = Box.get(ConfigManager).get("MiddleFile")
         shutil.rmtree(path)
         os.mkdir(path)
+
+
+if __name__ == "__main__":
+    ParserTemplate().parse()

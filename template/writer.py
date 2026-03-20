@@ -1,6 +1,4 @@
 from core.writer import BaseWriter
-from core.config import ConfigManager
-from utils.box import Box
 
 class WriterTemplete(BaseWriter):
 
@@ -8,8 +6,7 @@ class WriterTemplete(BaseWriter):
         BaseWriter.__init__(self)
         self.filename = "const"
 
-    def doWrite(self, jsonObj):
-        outputPath = Box.get(ConfigManager).get("Output")
+    def doWrite(self, jsonObj, outputPath):
         with open(outputPath, "w", encoding="utf-8") as outputFile:
             # your writer script
             pass
