@@ -71,7 +71,7 @@ class MiddleWriter:
         return final[::-1]
 
     def tarnslate2Json(self, sheet):
-        self.keys = self.getRowValues(sheet, 1)
+        self.keys = self.getRowValues(sheet, 2)
         # 清除末尾的None值
         self.keys = self.clearNoneValues(self.keys)
         # 每行数据取多少个值取决于key有多少个
