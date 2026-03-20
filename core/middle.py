@@ -65,9 +65,10 @@ class MiddleWriter:
         self.types = self.getRowValues(sheet, 2)
         stack = self.recursivelyGenStructure(deepcopy(self.keys))
         final = {}
-        row = 0
+        row = 1
         for data in sheet.iter_rows(values_only=True):
-            if row in [0, 1, 2]:        # 跳过前三行
+            row += 1
+            if row in [1, 2, 3]:        # 跳过前三行
                 continue
             if not data[0] or data[0] == "否":       # 过滤掉export为否的行
                 continue
