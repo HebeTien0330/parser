@@ -60,18 +60,36 @@ class MiddleWriter:
     def getRowValues(self, sheet, row):
         return [cell.value for cell in sheet[row]]
 
+    def clearNoneValues(self, rowValues):
+        final = []
+        marked = False
+        for value in rowValues[::-1]:
+            if not marked and value is None:
+                continue
+            marked = True
+            final.append(value)
+        return final[::-1]
+
     def tarnslate2Json(self, sheet):
         self.keys = self.getRowValues(sheet, 1)
-        self.types = self.getRowValues(sheet, 2)
+        # 清除末尾的None值
+        self.keys = self.clearNoneValues(self.keys)
+        # 每行数据取多少个值取决于key有多少个
+        count = len(self.keys)
+        self.types = self.getRowValues(sheet, 2)[:count]
         stack = self.recursivelyGenStructure(deepcopy(self.keys))
         final = {}
-        row = 1
+        row = 0
         for data in sheet.iter_rows(values_only=True):
             row += 1
-            if row in [1, 2, 3]:        # 跳过前三行
+            # 跳过前三行
+            if row in [1, 2, 3]:
                 continue
-            if not data[0] or data[0] == "否":       # 过滤掉export为否的行
+            # 过滤掉export为否的行
+            if not data[0] or data[0] == "否":
                 continue
+            # 取对应key数量的前n个数据
+            data = list(data)[:count]
             dataMap = dict(zip(self.keys, data))
             jsonObj = self.fillWithData(deepcopy(stack), dataMap)
             final = self.merge(final, jsonObj)
@@ -82,7 +100,8 @@ class MiddleWriter:
         if idx == len(keys) - 1:
             return stack
         if not stack:
-            stack = []          # 数据结构栈
+            # 数据结构栈
+            stack = []
         key = keys[idx]
         if key == "export":
             idx += 1
