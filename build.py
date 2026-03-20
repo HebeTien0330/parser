@@ -14,6 +14,7 @@ class Builder:
         os.mkdir(targetPath)
         # 复制核心文件和导表模板
         shutil.copytree("./core", os.path.join(targetPath, "core"))
+        shutil.copytree("./utils", os.path.join(targetPath, "utils"))
         os.mkdir(os.path.join(targetPath, "data"))
         os.mkdir(os.path.join(targetPath, "data", "excel"))
         os.mkdir(os.path.join(targetPath, "data", "log"))
