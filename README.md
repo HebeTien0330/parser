@@ -1,82 +1,138 @@
-# 游戏导表工具
+# parser
 
-### 简介
+一个基于 Excel 的配置导出工具。
 
-    可以将Excel表格解析成json文件或其他你需要的脚本
-    版本要求：Python3.8或以上
-    安装依赖库：pip install xlrd
+核心流程：读取 Excel → 生成中间 JSON（`data/middle`）→ 由自定义 Writer 生成目标文件（默认输出到 `data/output`）。
 
-### 运行原理
+## 功能概览
 
-#### 文件目录结构
+- 批量读取配置目录下的 Excel 文件
+- 将工作表按约定结构转换为 JSON 中间文件
+- 支持通过继承 `BaseWriter` 自定义导出逻辑（JSON / 脚本 / 其他格式）
+- 提供模板工程一键生成脚本（`build.py`）
 
-    ├─example                   项目根目录
-    │  ├─clazz                  用户需要具体实现的writer
-    │  └─data                   存放输入输出数据的目录
-    │      ├─excel              需要解析的Excel表格
-    │      ├─log                日志
-    │      ├─middleware         生成的中间文件
-    │      └─resource           最终输出结果
+## 目录结构
 
-#### 执行顺序
+```text
+.
+├── build.py                # 生成导表模板项目
+├── core/                   # 核心流程（读取/中间件/写出）
+├── template/               # 模板 parser / writer / config
+├── utils/                  # 日志、依赖注入容器
+└── data/
+    ├── excel/              # 放置待解析 Excel
+    ├── middle/             # 中间 JSON
+    └── log/                # 日志
+```
 
-    1、通过xlrd读取Excel表格，解析每一行数据
-    2、根据配置的不同等级键值生成中间json文件，存放在./data/resourece中
-    3、根据用户实现的parser和writer生成目标json或脚本
+## 环境要求
 
-### 使用方法：
+- Python 3.9+
+- 依赖：
+  - `openpyxl`
 
-    1、执行 python .\parserTool.py param1 param2，其中param1为目标路径，param2为项目名
-    例：python .\parserTool.py . test
-    在当前目录下生成test项目，其中包含了config、parser和writer的模板
-    ├─test
-    │  ├─clazz
-    │  └─data
-    │      ├─excel
-    │      ├─middleward
-    │      └─resource
+安装依赖：
 
-    2、根据实际项目填写config参数
+```bash
+pip install openpyxl
+```
+
+## 快速开始
+
+### 1、生成一个模板项目
+
+在仓库根目录执行：
+
+```bash
+python build.py
+```
+
+默认会在当前目录创建 `test/`，包含：
+
+- `core/`、`utils/`
+- `parser.py`
+- `clazz/`（放置你的 Writer）
+- `config/config.json`
+- `data/excel`、`data/middle`、`data/log`
+
+### 2、准备配置
+
+编辑 `config/config.json`（模板默认如下）：
 
 ```json
 {
-    "basePath": "xxx",
-    "excelPath": "xxx",
-    "middleWare": "xxx",
-    "output": "xxx",
-    "log": "xxx"
+  "ExcelPath": "./data/excel/",
+  "MiddleFile": "./data/middle/",
+  "Output": "./data/output/",
+  "Clazz": "./clazz/"
 }
 ```
 
-    3、编写clazz中的writer类，每个Excel表格对应一个的类
+### 3、放置 Excel 文件
+
+把需要导出的 `.xlsx` 文件放到配置中ExcelPath对应的路径下。
+
+### 4、编写 Writer
+
+在 `clazz/` 下新建一个 Python 文件（例如 `my_writer.py`），并定义 `Writer` 类。
+
+最小示例：
 
 ```python
-from tools import BaseWriter
+from core.writer import BaseWriter
 import json
 
-class WriterTemplete(BaseWriter):
+class Writer(BaseWriter):
+    def __init__(self):
+        super().__init__()
+        self.filename = "const"  # 对应读取 data/middle/const.json
 
-    def __init__(self, conf):
-        BaseWriter.__init__(self, conf)
-        self.fileName = "const"
-
-    def doWrite(self, jsonObj):
-        outputPath = self.getOutputName()
+    def doWrite(self, jsonObj, outputPath):
         with open(outputPath, "w", encoding="utf-8") as outputFile:
-            # your writer script
-            pass
+            outputFile.write(json.dumps(jsonObj, ensure_ascii=False, indent=4))
 ```
 
-    4、执行项目根目录的xxxParser.py进行导表，可在config设置中的对应output路径下看到导表结果
+### 5、执行解析
 
-### 自定义
+在模板项目根目录运行：
 
-    如果需要对不同项目定义不同的输出路径、导表逻辑，自定义template中的模板即可
-    具体参考example文件夹
+```bash
+python parser.py
+```
 
-### TODO:
+执行后会：
 
-    1、增加导表错误提示，帮助定位问题
-    2、实现多进程版本，加速导表过程
-    3、支持中间文件分发到不同服务器进行导表，适用于多项目开发
-    4、拆分导表指令为生成中间文件、生成目标文件
+1. 读取 `data/excel/` 下的 Excel
+2. 生成中间文件到 `data/middle/`
+3. 自动加载 `clazz/` 下每个包含 `Writer` 类的文件并执行导出
+
+## Excel 约定
+
+`MiddleWriter` 对工作表有以下约定：
+
+- 工作表名称格式：`<中间文件名>|<任意后缀>`
+  - 示例：`const|server`
+  - 生成中间文件：`data/middle/const.json`
+- 第 2 行：字段名（key）
+- 第 3 行：字段类型（`int` / `float` / `str` / `bool` 等）
+- 从第 4 行开始：数据行
+- 第 1 列通常为 `export`，当值为空或“否”时该行会被跳过
+- 以 `#` 开头的 key 表示层级结构键（用于构建嵌套 JSON）
+
+## 常见问题
+
+- `no clazz path`
+  - 检查 `config/config.json` 的 `Clazz` 路径是否存在且正确。
+
+- `ExcelPath is None` 或读不到文件
+  - 检查 `ExcelPath` 路径与 Excel 文件是否存在。
+
+- 没有生成输出文件
+  - 确认 `clazz/` 下的脚本包含名为 `Writer` 的类。
+  - 确认 `Writer.filename` 对应的中间文件名存在（如 `const` → `const.json`）。
+
+## 开发说明
+
+- 容器初始化在 `core/__init__.py` 中完成：`ConfigManager`、`ExcelReader` 会注册到 `Box`。
+- 解析主入口在模板 `parser.py`：继承 `core.parser.Parser`，默认实现 `ParserTemplate`。
+- 自定义导出请继承 `core.writer.BaseWriter` 并实现 `doWrite`。
