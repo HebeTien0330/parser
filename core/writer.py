@@ -45,13 +45,14 @@ class BaseWriter:
             os.mkdir(middleFileDir)
         if isinstance(self.filename, str):
             filenames = [self.filename]
+        else:
+            filenames = self.filename
         output = Box.get(ConfigManager).get("Output")
         for filename in filenames:
             filepath = os.path.join(middleFileDir, f"{filename}.json")
             with open(filepath, "r", encoding="utf-8") as file:
                 jsonObj = json.loads(file.read())
-                output = f"{output}/{filename}.json"
-                self.doWrite(jsonObj, output)
+                self.doWrite(jsonObj, os.path.join(output, f"{filename}.json"))
 
     def doWrite(self, jsonObj, outputPath):
         errInfo = "doWrite is waiting to be overrided"
