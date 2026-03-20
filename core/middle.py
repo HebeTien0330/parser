@@ -127,6 +127,8 @@ class MiddleWriter:
                 for key in e:
                     if key == "export":
                         continue
+                    if value is None:
+                        continue
                     value = dataMap[key]
                     keyType = self.getType(key)
                     if key == "" or value == "":
