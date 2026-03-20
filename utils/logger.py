@@ -55,6 +55,7 @@ def _getLogger():
         _initLogger("./data/log")  # 提供默认路径
     return g_Logger
 
-def logfile(path, logLevel, text):
+def logfile(logLevel, text):
+    path = "./data/log/log.log"
     g_Logger = _getLogger()
     g_Logger.logfile(path, logLevel, text)

@@ -23,7 +23,7 @@ class ParserTemplate(Parser):
         for filename in writerList:
             if filename == "__init__.py" or filename[-3:] != ".py":
                 continue            
-            target = import_module(f"project.clazz.{filename[:-3]}")
+            target = import_module(f"clazz.{filename[:-3]}")
             if not target:
                 logfile(LogLevel.ERROR, "error writer file path")
                 continue

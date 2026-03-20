@@ -2,5 +2,5 @@
     "ExcelPath": "./data/excel/",
     "MiddleFile": "./data/middle/",
     "Output": "./data/output/",
-    "Clazz": "./data/clazz/"
+    "Clazz": "./clazz/"
 }

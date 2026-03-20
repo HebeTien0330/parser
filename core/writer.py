@@ -37,7 +37,7 @@ class BaseWriter:
 
     def write(self):
         if not self.filename:
-            logfile(LogLevel.ERROR, "fileName is not set")
+            logfile(LogLevel.ERROR, "filename is not set")
             return
         middleFileDir = Box.get(ConfigManager).get("MiddleFile")
         if not os.path.isdir(middleFileDir):
@@ -47,7 +47,7 @@ class BaseWriter:
             filenames = [self.filename]
         output = Box.get(ConfigManager).get("Output")
         for filename in filenames:
-            filepath = f"{middleFileDir}/{filename}.json"
+            filepath = os.path.join(middleFileDir, f"{filename}.json")
             with open(filepath, "r", encoding="utf-8") as file:
                 jsonObj = json.loads(file.read())
                 output = f"{output}/{filename}.json"
