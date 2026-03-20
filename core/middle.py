@@ -76,7 +76,7 @@ class MiddleWriter:
         self.keys = self.clearNoneValues(self.keys)
         # 每行数据取多少个值取决于key有多少个
         count = len(self.keys)
-        self.types = self.getRowValues(sheet, 2)[:count]
+        self.types = self.getRowValues(sheet, 3)[:count]
         stack = self.recursivelyGenStructure(deepcopy(self.keys))
         final = {}
         row = 0

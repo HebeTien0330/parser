@@ -47,7 +47,8 @@ class ParserTemplate(Parser):
 
     def clearExistFiles(self):
         path = Box.get(ConfigManager).get("MiddleFile")
-        shutil.rmtree(path)
+        if os.path.exists(path):
+            shutil.rmtree(path)
         os.mkdir(path)
 
 
