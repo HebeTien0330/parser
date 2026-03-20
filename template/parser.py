@@ -42,7 +42,7 @@ class ParserTemplate(Parser):
                 jsonObj = json.loads(file1.read())
                 jsonObj = sorted(jsonObj.items(), key = lambda x:int(x[0]) if isinstance(x[0], int) else x[0])
                 jsonObj = dict(jsonObj)
-                with open(path + "\\" + filename, "w", encoding="utf-8") as file2:
+                with open(os.path.join(path, filename), "w", encoding="utf-8") as file2:
                     file2.write(json.dumps(jsonObj, indent=4, ensure_ascii=False))
 
     def clearExistFiles(self):
